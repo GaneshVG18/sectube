@@ -10,7 +10,10 @@
 <meta name="color-scheme" content="dark light">
 <meta name="theme-color" content="#0b0b0c">
 <link rel="icon" href="icon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" href="icons/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="icons/favicon-16.png" sizes="16x16" type="image/png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png" sizes="180x180">
+<meta name="apple-mobile-web-app-title" content="SecTube">
 <link rel="manifest" href="manifest.webmanifest">
 <script>try{var t=JSON.parse(localStorage.getItem("sectube:theme"));if(t==="light"){document.documentElement.setAttribute("data-theme","light");document.querySelector('meta[name="theme-color"]').setAttribute("content","#ffffff");}}catch(e){}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,7 +27,7 @@
 
 <header class="top">
   <button class="logo" id="home" type="button" title="SecTube home" aria-label="SecTube home">
-    <span class="mark" aria-hidden="true"></span><span class="word">Sec<b>Tube</b></span><span class="caret" aria-hidden="true"></span>
+    <svg class="mark" viewBox="90 56 332 408" aria-hidden="true" focusable="false"><defs><linearGradient id="markG" x1="0.15" y1="0" x2="0.85" y2="1"><stop offset="0" stop-color="#ff6b74"/><stop offset="1" stop-color="#b0101b"/></linearGradient></defs><path d="M256 64 L414 120 V246 C414 350 346 420 256 456 C166 420 98 350 98 246 V120 Z" fill="url(#markG)"/><path d="M214 182 L326 254 L214 326 Z" fill="#fff" stroke="#fff" stroke-width="22" stroke-linejoin="round"/><rect x="282" y="334" width="66" height="24" rx="6" fill="#ffc4c9"/></svg><span class="word">Sec<b>Tube</b></span><span class="caret" aria-hidden="true"></span>
   </button>
   <form class="search" id="searchForm" role="search">
     <span data-icon="search"></span>
@@ -35,6 +38,7 @@
   <div class="top-actions">
     <button class="icon-btn" id="helpBtn" type="button" aria-label="Keyboard shortcuts" title="Keyboard shortcuts (?)"><span data-icon="keyboard"></span></button>
     <button class="icon-btn" id="themeBtn" type="button" aria-label="Switch to light theme" title="Switch theme"><span data-icon="sun"></span></button>
+    <button class="icon-btn" id="setBtn" type="button" data-action="settings" aria-label="Settings" title="Settings"><span data-icon="sliders"></span></button>
     <button class="btn primary" id="addBtn" type="button"><span data-icon="plus"></span><span class="lbl">Add</span></button>
   </div>
 </header>
@@ -56,7 +60,8 @@
           <div class="actions">
             <button class="btn" id="pPin" type="button">☆ Pin</button>
             <button class="btn" id="pSave" type="button">Save</button>
-            <a class="btn" id="pOpen" target="_blank" rel="noopener">Open on YouTube <span data-icon="external"></span></a>
+            <button class="btn" id="pShare" type="button"><span data-icon="share"></span>Share</button>
+            <a class="btn" id="pOpen" target="_blank" rel="noopener"><span class="hide-sm">Open on&nbsp;</span>YouTube <span data-icon="external"></span></a>
             <button class="btn" id="pClose" type="button">Close <span data-icon="close"></span></button>
           </div>
         </div>
@@ -141,7 +146,54 @@
       <div><dt>Show this panel</dt><dd><kbd class="kbd">?</kbd></dd></div>
       <div><dt>Close dialog or player</dt><dd><kbd class="kbd">Esc</kbd></dd></div>
       <div><dt>Toggle light / dark theme</dt><dd><kbd class="kbd">t</kbd></dd></div>
+      <div><dt>Open settings</dt><dd><kbd class="kbd">,</kbd></dd></div>
     </dl>
+  </div>
+</div>
+<div class="scrim sheet-host" id="settingsScrim" hidden>
+  <div class="dialog" id="settingsDlg" role="dialog" aria-modal="true" aria-labelledby="setTitle">
+    <div class="grabber" aria-hidden="true"></div>
+    <div class="dlg-head">
+      <h2 id="setTitle">Settings</h2>
+      <button type="button" class="icon-btn" id="setX" aria-label="Close"><span data-icon="close"></span></button>
+    </div>
+
+    <section class="set-group" aria-labelledby="setFeedH">
+      <h3 id="setFeedH">Feed</h3>
+      <label class="set-row">
+        <span class="set-txt"><b>Hide Shorts</b><small>Keep vertical clips out of Latest, shelves and Up next.</small></span>
+        <input type="checkbox" class="switch" id="setShorts" role="switch">
+      </label>
+      <div class="set-row">
+        <span class="set-txt"><b>New badges</b><small id="setNewInfo"></small></span>
+        <button type="button" class="btn sm" data-action="mark-seen">Mark all seen</button>
+      </div>
+      <p class="set-info" id="setFeedInfo"></p>
+    </section>
+
+    <section class="set-group" aria-labelledby="setLookH">
+      <h3 id="setLookH">Appearance</h3>
+      <div class="set-row">
+        <span class="set-txt"><b>Theme</b><small>Also <kbd class="kbd">t</kbd> on a keyboard.</small></span>
+        <div class="seg" role="group" aria-label="Theme">
+          <button type="button" data-theme-set="dark">Dark</button><button type="button" data-theme-set="light">Light</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="set-group" aria-labelledby="setDataH">
+      <h3 id="setDataH">Your data</h3>
+      <p class="note">Pins, saved videos, history and channels you added live only in this browser. Export a backup to move them between your phone and computer — importing merges, it never deletes.</p>
+      <div class="set-actions">
+        <button type="button" class="btn" data-action="export"><span data-icon="download"></span>Export backup</button>
+        <button type="button" class="btn" data-action="import"><span data-icon="upload"></span>Import backup</button>
+        <input type="file" id="importFile" accept="application/json,.json" hidden>
+      </div>
+      <div class="set-row">
+        <span class="set-txt"><b>Watch history</b><small id="setHistInfo"></small></span>
+        <button type="button" class="btn sm" data-action="clear-watched">Clear</button>
+      </div>
+    </section>
   </div>
 </div>
 </body>

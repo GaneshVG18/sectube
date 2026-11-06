@@ -81,10 +81,13 @@
     recent: arr(store.get("recent", [])).filter(isEntry),                          // entries
     custom: arr(store.get("customChannels", [])).filter((c) => c && typeof c.id === "string" && ID_RE.test(c.id) && typeof c.name === "string"),
     queue: arr(store.get("queue", [])).filter(isEntry),                            // saved videos / playlists
+    watched: new Set(arr(store.get("watched", [])).filter((x) => typeof x === "string" && VID_RE.test(x))),  // video ids you opened
+    hideShorts: store.get("hideShorts", false) === true,
     current: null,
     latestLimit: 0,
     overlay: null
   };
+  const WATCHED_MAX = 1000;
 
   // "New since last visit": the baseline is fixed for the whole tab session,
   // so reloading doesn't wipe the badges; lastVisit itself moves forward.
@@ -99,7 +102,8 @@
     }
     store.set("lastVisit", Date.now());
   }
-  const isNew = (v) => baseline > 0 && Date.parse(v.published) > baseline;
+  const isNew = (v) => baseline > 0 && !state.watched.has(v.id) && Date.parse(v.published) > baseline;
+  const showV = (v) => !(state.hideShorts && v.short);
 
   const $ = (sel) => document.querySelector(sel);
   const $$ = (sel, root) => Array.from((root || document).querySelectorAll(sel));
@@ -149,6 +153,10 @@
     check: '<path d="m5 12.5 4.5 4.5L19 7.5"/>',
     bolt: '<path d="M13 2.5 5 13.5h6.5l-1 8 8-11H12z"/>',
     list: '<path d="M4 6.5h11M4 12h11M4 17.5h7"/><path fill="currentColor" stroke="none" d="M17 14.5v6l4.5-3z"/>',
+    share: '<path d="M12 3.5v11.5"/><path d="M7.5 8 12 3.5 16.5 8"/><path d="M5 12.5v6a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-6"/>',
+    sliders: '<path d="M4 7h9.5M18.5 7H20M4 17h3.5M12.5 17H20"/><circle cx="16" cy="7" r="2.5"/><circle cx="10" cy="17" r="2.5"/>',
+    download: '<path d="M12 4v11M7.5 10.5 12 15l4.5-4.5M5 19.5h14"/>',
+    upload: '<path d="M12 15V4M7.5 8.5 12 4l4.5 4.5M5 19.5h14"/>',
     link: '<path d="M10 14a4.5 4.5 0 0 0 6.4 0l3-3a4.5 4.5 0 0 0-6.4-6.4l-1 1"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3 3a4.5 4.5 0 0 0 6.4 6.4l1-1"/>'
   };
   const icon = (name, cls) => `<svg class="ico${cls ? " " + cls : ""}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">${P[name] || P.terminal}</svg>`;
@@ -270,7 +278,9 @@
     return true;
   }
   const hasFeed = () => VIDEOS.length > 0;
-  const videosInCat = (k) => VIDEOS.filter((v) => { const c = channelById(v.channelId); return c && c.cat === k; });
+  const feed = () => VIDEOS.filter(showV);
+  const chanVideos = (id) => (videosByChannel.get(id) || []).filter(showV);
+  const videosInCat = (k) => VIDEOS.filter((v) => { if (!showV(v)) return false; const c = channelById(v.channelId); return c && c.cat === k; });
 
   // ---------- toast ----------
   let toastTimer = 0;
@@ -327,6 +337,7 @@
     if (!isChannel && cid) rec.channelId = cid;
     state.recent = [rec].concat(state.recent.filter((e) => entryKey(e) !== entryKey(rec))).slice(0, RECENT_MAX);
     store.set("recent", state.recent);
+    if (entry.vid && VID_RE.test(entry.vid)) { state.watched.delete(entry.vid); state.watched.add(entry.vid); saveWatched(); }
 
     const hs = { sectube: 1, player: true, overlay: null };
     try { if (wasOpen) history.replaceState(hs, ""); else history.pushState(hs, ""); } catch (e) { /* ignore */ }
@@ -334,6 +345,25 @@
     render();
     renderUpNext();
     window.scrollTo({ top: 0, behavior: scrollBehavior() });
+  }
+  function saveWatched() {
+    while (state.watched.size > WATCHED_MAX) state.watched.delete(state.watched.values().next().value);  // oldest first
+    store.set("watched", Array.from(state.watched));
+  }
+  async function copyLink(url) {
+    try { await navigator.clipboard.writeText(url); toast("Link copied", "link"); }
+    catch (e) { toast("Couldn't copy the link — use Open on YouTube", "close"); }
+  }
+  async function shareCurrent() {
+    const e = state.current; if (!e) return;
+    const url = youtubeUrl(e);
+    const title = $("#pTitle").textContent || "SecTube";
+    if (typeof navigator.share === "function") {
+      try { await navigator.share({ title, url }); }
+      catch (err) { if (!err || err.name !== "AbortError") copyLink(url); }
+      return;
+    }
+    copyLink(url);
   }
   function closePlayer() {
     setFrame(null);
@@ -388,9 +418,10 @@
   function videoCard(v) {
     const ch = channelById(v.channelId);
     const saved = isSavedVid(v.id);
-    const badges = (isNew(v) ? '<span class="badge new">New</span>' : "") + (v.short ? '<span class="badge short">Short</span>' : "");
+    const seen = state.watched.has(v.id);
+    const badges = (seen ? '<span class="badge seen">Watched</span>' : isNew(v) ? '<span class="badge new">New</span>' : "") + (v.short ? '<span class="badge short">Short</span>' : "");
     return `<article class="vcard">
-      <button type="button" class="thumb" data-play-vid="${esc(v.id)}" aria-label="Play ${esc(v.title)}">
+      <button type="button" class="thumb${seen ? " seen" : ""}" data-play-vid="${esc(v.id)}" aria-label="Play ${esc(v.title)}${seen ? " (watched)" : ""}">
         <img loading="lazy" decoding="async" src="${thumbUrl(v.id)}" alt="">
         ${badges ? `<span class="badges">${badges}</span>` : ""}
         <span class="play-ov"><span>${icon("play")}</span></span>
@@ -415,7 +446,7 @@
     const vidOk = e.vid && VID_RE.test(e.vid);
     const sub = [ch ? ch.name : (e.kind === "playlist" ? "Playlist" : (e.list ? "Video · playlist" : "Video")), fv ? timeAgo(fv.published) : ""].filter(Boolean);
     return `<article class="vcard">
-      <button type="button" class="thumb" data-play-video="${idx}" data-src="${src}" aria-label="Play ${esc(title)}">
+      <button type="button" class="thumb${vidOk && state.watched.has(e.vid) ? " seen" : ""}" data-play-video="${idx}" data-src="${src}" aria-label="Play ${esc(title)}">
         ${vidOk ? `<img loading="lazy" decoding="async" src="${thumbUrl(e.vid)}" alt="">` : `<span class="thumb-ph">${icon("list", "lg")}<span>Playlist</span></span>`}
         <span class="play-ov"><span>${icon("play")}</span></span>
       </button>
@@ -431,7 +462,7 @@
   }
   function channelCard(c) {
     const pinned = state.pinned.includes(c.id);
-    const latest = (videosByChannel.get(c.id) || [])[0];
+    const latest = chanVideos(c.id)[0];
     return `<article class="ccard">
       <button type="button" class="chead" data-play-channel="${esc(c.id)}" aria-label="Watch ${esc(c.name)}">
         ${avatar(c.name, "lg", pinned)}
@@ -488,7 +519,8 @@
     const item = (k, label, ic, short, n) => `<button type="button" class="side-item${state.cat === k ? " active" : ""}" data-cat="${esc(k)}"${state.cat === k ? ' aria-current="page"' : ""} title="${esc(label)}">
       ${ic}<span class="lbl">${esc(label)}</span><span class="short">${esc(short)}</span>${n ? `<span class="n">${n}</span>` : ""}</button>`;
     $("#side").innerHTML =
-      `<div class="side-group">${NAV_MAIN.map(([k, l, ic, s]) => item(k, l, icon(ic), s, count[k])).join("")}</div>
+      `<div class="side-group">${NAV_MAIN.map(([k, l, ic, s]) => item(k, l, icon(ic), s, count[k])).join("")}
+         <button type="button" class="side-item" data-action="settings" title="Settings">${icon("sliders")}<span class="lbl">Settings</span><span class="short">Settings</span></button></div>
        <div class="side-group"><p class="side-label">Categories</p>${visibleCats().map((k) => item(k, CATS[k], catIcon(k), shortLabel(k), allChannels().filter((c) => c.cat === k).length)).join("")}</div>
        <p class="side-foot">Press <kbd class="kbd">?</kbd> for shortcuts.<br>Pins, history and saves live in this browser only.</p>`;
 
@@ -509,11 +541,17 @@
   function renderHome() {
     let html = "";
     if (hasFeed()) {
+      const all = feed();
       const lim = state.latestLimit || (mqMobile.matches ? 6 : 12);
-      const nNew = VIDEOS.filter(isNew).length;
-      const more = VIDEOS.length > lim ? `<div class="more-row"><button type="button" class="btn" data-action="more-latest">Show more</button></div>` : "";
-      html += gridSection("Latest", "latest", VIDEOS.slice(0, lim).map(videoCard), {
-        extra: nNew ? ` <span class="pill-new">${nNew} new</span>` : countBadge(VIDEOS.length), after: more
+      const nNew = all.filter(isNew).length;
+      const age = FEED_UPDATED ? Date.now() - Date.parse(FEED_UPDATED) : 0;
+      if (age > 36 * 3600e3) {
+        html += `<div class="notice" role="note">${icon("bolt")}<p><b>The video feed last changed ${esc(timeAgo(FEED_UPDATED))}.</b>
+          YouTube's RSS feeds may be having trouble, so newer uploads can be missing here — tap any channel's <b>Watch</b> to play its live uploads list.</p></div>`;
+      }
+      const more = all.length > lim ? `<div class="more-row"><button type="button" class="btn" data-action="more-latest">Show more</button></div>` : "";
+      html += gridSection("Latest", "latest", all.slice(0, lim).map(videoCard), {
+        extra: nNew ? ` <span class="pill-new">${nNew} new</span>` : countBadge(all.length), after: more
       });
     }
     const pinned = state.pinned.map(channelById).filter(Boolean);
@@ -536,7 +574,7 @@
     if (!hasFeed() || k === "mine") return gridSection(CATS[k], kickerFor(k), chans.map(channelCard), { channels: true });
     let html = `<section class="section">${head(CATS[k], kickerFor(k), countBadge(chans.length))}</section>`;
     for (const c of chans) {
-      const vids = videosByChannel.get(c.id) || [];
+      const vids = chanVideos(c.id);
       const pinned = state.pinned.includes(c.id);
       html += `<section class="chan-block">
         <div class="chan-row">${avatar(c.name, "lg", pinned)}
@@ -569,7 +607,7 @@
     let html = gridSection("Pinned", "pinned", pinned.map(channelCard), { channels: true });
     if (hasFeed()) {
       const ids = new Set(pinned.map((c) => c.id));
-      const vids = VIDEOS.filter((v) => ids.has(v.channelId) && matchVideo(v, q)).slice(0, 24);
+      const vids = feed().filter((v) => ids.has(v.channelId) && matchVideo(v, q)).slice(0, 24);
       if (vids.length) html += gridSection("Latest from pinned", "pinned/latest", vids.map(videoCard));
     }
     return html;
@@ -599,7 +637,7 @@
     if (CATS[state.cat]) base = base.filter((c) => c.cat === state.cat);
     const chans = base.filter((c) => matchChannel(c, q));
     const baseIds = new Set(base.map((c) => c.id));
-    const vids = VIDEOS.filter((v) => baseIds.has(v.channelId) && matchVideo(v, q)).slice(0, 60);
+    const vids = feed().filter((v) => baseIds.has(v.channelId) && matchVideo(v, q)).slice(0, 60);
     if (!chans.length && !vids.length) return noResults();
     let html = "";
     if (chans.length) html += gridSection("Channels", "search/channels", chans.map(channelCard), { channels: true });
@@ -640,7 +678,7 @@
   function unVideo(v) {
     const c = channelById(v.channelId);
     return `<button type="button" class="un-item" data-play-vid="${esc(v.id)}">
-      <span class="un-thumb"><img loading="lazy" decoding="async" src="${thumbUrl(v.id)}" alt="">${isNew(v) ? '<span class="badge new">New</span>' : ""}</span>
+      <span class="un-thumb${state.watched.has(v.id) ? " seen" : ""}"><img loading="lazy" decoding="async" src="${thumbUrl(v.id)}" alt="">${isNew(v) ? '<span class="badge new">New</span>' : ""}</span>
       <span class="un-text"><span class="un-title">${esc(v.title)}</span><span class="un-sub">${esc(c ? c.name : "")} · ${esc(timeAgo(v.published))}</span></span></button>`;
   }
   function unChannel(c) {
@@ -667,7 +705,7 @@
         return `<button type="button" class="un-item" data-play-video="${i}" data-src="queue"><span class="un-thumb">${q.vid && VID_RE.test(q.vid) ? `<img loading="lazy" src="${thumbUrl(q.vid)}" alt="">` : `<span class="thumb-ph">${icon("list")}</span>`}</span>
           <span class="un-text"><span class="un-title">${esc(t)}</span><span class="un-sub">${q.kind === "playlist" ? "Playlist" : "Video"}</span></span></button>`;
       }).join("")}</div>`;
-      if (hasFeed()) html += `<h3>Latest</h3><div class="un-list">${VIDEOS.filter((v) => v.id !== e.vid).slice(0, 8).map(unVideo).join("")}</div>`;
+      if (hasFeed()) html += `<h3>Latest</h3><div class="un-list">${feed().filter((v) => v.id !== e.vid).slice(0, 8).map(unVideo).join("")}</div>`;
       else html += `<h3>Channels</h3><div class="un-list">${allChannels().slice(0, 8).map(unChannel).join("")}</div>`;
     }
     $("#upnext").innerHTML = html || `<p class="empty-inline">Nothing queued.</p>`;
@@ -692,7 +730,7 @@
   window.addEventListener("resize", () => requestAnimationFrame(updateAllShelfNavs), { passive: true });
 
   // ---------- overlays (add dialog, help) with Android-back support ----------
-  const OVERLAYS = { add: "#scrim", help: "#helpScrim" };
+  const OVERLAYS = { add: "#scrim", help: "#helpScrim", settings: "#settingsScrim" };
   let lastFocus = null;
   function showOverlay(name) {
     if (state.overlay && state.overlay !== name) hideOverlay(state.overlay);
@@ -835,14 +873,100 @@
     b.innerHTML = icon(light ? "moon" : "sun");
     b.setAttribute("aria-label", light ? "Switch to dark theme" : "Switch to light theme");
     b.title = light ? "Dark theme (t)" : "Light theme (t)";
+    $$("[data-theme-set]").forEach((x) => x.setAttribute("aria-pressed", String(x.dataset.themeSet === (light ? "light" : "dark"))));
   }
-  function toggleTheme() {
-    const next = document.documentElement.getAttribute("data-theme") === "light" ? "dark" : "light";
+  function toggleTheme(force) {
+    const cur = document.documentElement.getAttribute("data-theme") === "light" ? "light" : "dark";
+    const next = force === "light" || force === "dark" ? force : (cur === "light" ? "dark" : "light");
+    if (next === cur) return;
     store.set("theme", next);
     applyTheme(next);
     toast(next === "light" ? "Light theme" : "Dark theme", next === "light" ? "sun" : "moon");
   }
-  $("#themeBtn").addEventListener("click", toggleTheme);
+  $("#themeBtn").addEventListener("click", () => toggleTheme());
+
+  // ---------- settings ----------
+  function fillSettings() {
+    $("#setShorts").checked = state.hideShorts;
+    const nNew = feed().filter(isNew).length;
+    $("#setNewInfo").textContent = !hasFeed() ? "Needs the video feed." : nNew ? nNew + " new since your last visit." : "You're all caught up.";
+    const shorts = VIDEOS.filter((v) => v.short).length;
+    $("#setFeedInfo").textContent = hasFeed()
+      ? `feed · ${VIDEOS.length} videos (${shorts} Shorts) · last changed ${FEED_UPDATED ? timeAgo(FEED_UPDATED) : "unknown"}`
+      : "feed · videos.json not available — channels play their uploads list";
+    $("#setHistInfo").textContent = `${state.watched.size} video${state.watched.size === 1 ? "" : "s"} marked watched · ${state.recent.length} in Recently watched.`;
+  }
+  function openSettings() { fillSettings(); showOverlay("settings"); setTimeout(() => $("#setX").focus(), 0); }
+  $("#setX").addEventListener("click", () => closeOverlay("settings"));
+  $("#settingsScrim").addEventListener("click", (ev) => { if (ev.target === $("#settingsScrim")) closeOverlay("settings"); });
+  $("#setShorts").addEventListener("change", (ev) => {
+    state.hideShorts = ev.target.checked;
+    store.set("hideShorts", state.hideShorts);
+    state.latestLimit = 0;
+    render(); fillSettings();
+    toast(state.hideShorts ? "Shorts hidden" : "Shorts shown", "check");
+  });
+
+  // Backup / restore. Import merges into what's here and never deletes anything.
+  function exportBackup() {
+    const data = {
+      app: "sectube", version: 1, exported_at: new Date().toISOString(),
+      pinned: state.pinned, recent: state.recent, customChannels: state.custom, queue: state.queue,
+      watched: Array.from(state.watched), hideShorts: state.hideShorts
+    };
+    const url = URL.createObjectURL(new Blob([JSON.stringify(data, null, 2) + "\n"], { type: "application/json" }));
+    const a = document.createElement("a");
+    a.href = url; a.download = "sectube-backup-" + new Date().toISOString().slice(0, 10) + ".json";
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 2000);
+    toast("Backup exported", "download");
+  }
+  const clip = (v, n) => (typeof v === "string" ? v.slice(0, n) : "");
+  function cleanEntry(e) {
+    if (!e || typeof e !== "object") return null;
+    if (e.kind === "channel") return typeof e.id === "string" && ID_RE.test(e.id) ? { kind: "channel", id: e.id } : null;
+    const vid = typeof e.vid === "string" && VID_RE.test(e.vid) ? e.vid : null;
+    const list = typeof e.list === "string" && /^[\w-]{2,100}$/.test(e.list) ? e.list : null;
+    if (!vid && !list) return null;
+    const out = { kind: vid ? "video" : "playlist", vid, list, title: clip(e.title, 300) };
+    if (typeof e.channelId === "string" && ID_RE.test(e.channelId)) out.channelId = e.channelId;
+    return out;
+  }
+  function importBackup(d) {
+    if (!d || typeof d !== "object" || d.app !== "sectube") return null;
+    const n = { pins: 0, saved: 0, channels: 0 };
+    for (const c of arr(d.customChannels)) {
+      if (!c || typeof c.id !== "string" || !ID_RE.test(c.id) || typeof c.name !== "string" || !c.name.trim() || channelById(c.id)) continue;
+      state.custom.push({ id: c.id, name: clip(c.name.trim(), 100), handle: clip(c.handle, 60), cat: CATS[c.cat] ? c.cat : "mine", desc: clip(c.desc, 300) || "Added by you." });
+      n.channels++;
+    }
+    for (const id of arr(d.pinned)) if (typeof id === "string" && ID_RE.test(id) && !state.pinned.includes(id)) { state.pinned.push(id); n.pins++; }
+    for (const raw of arr(d.queue)) {
+      const e = cleanEntry(raw);
+      if (e && e.kind !== "channel" && !state.queue.some((q) => entryKey(q) === entryKey(e))) { state.queue.push(e); n.saved++; }
+    }
+    for (const raw of arr(d.recent)) {
+      const e = cleanEntry(raw);
+      if (e && !state.recent.some((q) => entryKey(q) === entryKey(e))) state.recent.push(e);
+    }
+    state.recent = state.recent.slice(0, RECENT_MAX);
+    for (const v of arr(d.watched)) if (typeof v === "string" && VID_RE.test(v)) state.watched.add(v);
+    store.set("customChannels", state.custom); store.set("pinned", state.pinned); store.set("queue", state.queue); store.set("recent", state.recent);
+    saveWatched();
+    render(); fillSettings();
+    return n;
+  }
+  $("#importFile").addEventListener("change", async (ev) => {
+    const f = ev.target.files && ev.target.files[0];
+    ev.target.value = "";
+    if (!f) return;
+    if (f.size > 2 * 1024 * 1024) { toast("That file is too large to be a SecTube backup", "close"); return; }
+    let data;
+    try { data = JSON.parse(await f.text()); } catch (e) { toast("That isn't a valid backup file", "close"); return; }
+    const r = importBackup(data);
+    if (!r) { toast("That isn't a SecTube backup", "close"); return; }
+    toast(`Imported ${r.pins} pin${r.pins === 1 ? "" : "s"}, ${r.saved} saved, ${r.channels} channel${r.channels === 1 ? "" : "s"}`, "upload");
+  });
 
   // ---------- navigation ----------
   function navigate(cat) {
@@ -857,9 +981,10 @@
 
   // ---------- events ----------
   document.addEventListener("click", (ev) => {
-    const t = ev.target.closest("[data-cat],[data-play-channel],[data-pin],[data-play-video],[data-play-vid],[data-save-vid],[data-remove-video],[data-remove-channel],[data-action],[data-shelf-dir]");
+    const t = ev.target.closest("[data-cat],[data-play-channel],[data-pin],[data-play-video],[data-play-vid],[data-save-vid],[data-remove-video],[data-remove-channel],[data-action],[data-shelf-dir],[data-theme-set]");
     if (!t) return;
     const d = t.dataset;
+    if (d.themeSet) { toggleTheme(d.themeSet); return; }
     if (d.cat) { navigate(d.cat); return; }
     if (d.playChannel) { play({ kind: "channel", id: d.playChannel }); return; }
     if (d.pin) { togglePin(d.pin); return; }
@@ -910,6 +1035,15 @@
       case "more-latest": state.latestLimit = (state.latestLimit || (mqMobile.matches ? 6 : 12)) + (mqMobile.matches ? 6 : 12); render(); break;
       case "clear-search": state.q = ""; $("#q").value = ""; render(); break;
       case "clear-recent": state.recent = []; store.set("recent", state.recent); render(); toast("History cleared", "trash"); break;
+      case "settings": openSettings(); break;
+      case "mark-seen":
+        baseline = Date.now(); session.set("visitBaseline", String(baseline));
+        render(); fillSettings(); toast("All caught up", "check"); break;
+      case "export": exportBackup(); break;
+      case "import": $("#importFile").click(); break;
+      case "clear-watched":
+        state.watched.clear(); state.recent = []; saveWatched(); store.set("recent", state.recent);
+        render(); fillSettings(); toast("Watch history cleared", "trash"); break;
     }
   });
   $("#pPin").addEventListener("click", () => { const cid = entryChannelId(state.current); if (cid) togglePin(cid); });
@@ -920,6 +1054,7 @@
     toggleSaveEntry(entry);
   });
   $("#pClose").addEventListener("click", requestClosePlayer);
+  $("#pShare").addEventListener("click", shareCurrent);
   $("#home").addEventListener("click", () => {
     state.cat = "all"; state.q = ""; $("#q").value = ""; state.latestLimit = 0;
     requestClosePlayer(); render(); window.scrollTo({ top: 0, behavior: "auto" });
@@ -933,6 +1068,7 @@
     if (ev.key === "/" && !typing && !state.overlay) { ev.preventDefault(); $("#q").focus(); return; }
     if (ev.key === "?" && !typing) { ev.preventDefault(); if (state.overlay === "help") closeOverlay("help"); else if (!state.overlay) openHelp(); return; }
     if ((ev.key === "t" || ev.key === "T") && !typing && !state.overlay) { toggleTheme(); return; }
+    if (ev.key === "," && !typing && !state.overlay) { ev.preventDefault(); openSettings(); return; }
     if (ev.key === "Escape") {
       if (state.overlay) { closeOverlay(state.overlay); return; }
       if (typing) { if (ae === $("#q")) ae.blur(); return; }
