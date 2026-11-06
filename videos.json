@@ -1,7 +1,35 @@
 {
- "updated_at": "2026-11-05T22:17:11Z",
+ "updated_at": "2026-11-06T14:26:02Z",
  "source": "YouTube channel RSS feeds",
  "videos": [
+  {
+   "id": "ErB1SRcksDc",
+   "title": "SSH situation is insane",
+   "published": "2026-11-06T14:09:43Z",
+   "channelId": "UC6biysICWOJ-C3P4Tyeggzg",
+   "short": false
+  },
+  {
+   "id": "xGpIgLJ9ZIM",
+   "title": "A Database of Malware (in Minecraft)",
+   "published": "2026-11-06T14:00:18Z",
+   "channelId": "UCVeW9qkBjo3zosnqUbG7CFw",
+   "short": false
+  },
+  {
+   "id": "IsQ-OuoxlUk",
+   "title": "How an Image Causes a Heap Buffer Overflow // libheif",
+   "published": "2026-11-06T13:51:53Z",
+   "channelId": "UClcE-kVhqyiHCcjYwcpfj9w",
+   "short": false
+  },
+  {
+   "id": "mCP6fU8OrDc",
+   "title": "Off By One Security: Open Session!",
+   "published": "2026-11-06T03:05:20Z",
+   "channelId": "UCc8gr33-DyCZ6gAmqdcyzgA",
+   "short": false
+  },
   {
    "id": "KdMdEwLbQ8M",
    "title": "Dissecting PHP Vulnerabilities with AI",
@@ -421,13 +449,6 @@
    "published": "2026-10-26T18:49:46Z",
    "channelId": "UClcE-kVhqyiHCcjYwcpfj9w",
    "short": false
-  },
-  {
-   "id": "oLzo-yUZRyQ",
-   "title": "AI Meets Minecraft",
-   "published": "2026-10-26T18:01:31Z",
-   "channelId": "UCVeW9qkBjo3zosnqUbG7CFw",
-   "short": true
   },
   {
    "id": "Kn0th6JK_Ag",
@@ -1151,20 +1172,6 @@
    "short": true
   },
   {
-   "id": "d1pYS_6KJDg",
-   "title": "OpenAI and Slack got hacked with the same vulnerability! #short",
-   "published": "2026-09-25T13:58:34Z",
-   "channelId": "UClcE-kVhqyiHCcjYwcpfj9w",
-   "short": true
-  },
-  {
-   "id": "zBRQR_XOsEE",
-   "title": "government hack situation is absolutely insane",
-   "published": "2026-09-24T16:07:34Z",
-   "channelId": "UC6biysICWOJ-C3P4Tyeggzg",
-   "short": false
-  },
-  {
    "id": "v1KblKrtVb8",
    "title": "Is AppSec a Realistic First Cybersecurity Job?",
    "published": "2026-09-22T17:00:18Z",
@@ -1337,13 +1344,6 @@
    "title": "HackTheBox - DevArea",
    "published": "2026-07-04T15:00:08Z",
    "channelId": "UCa6eh7gCkpPo5XXUDfygQQA",
-   "short": false
-  },
-  {
-   "id": "tSUYkRB6qwg",
-   "title": "AI Agents as Confused Deputies ...with Niki Aimable Niyikiza",
-   "published": "2026-07-02T19:08:13Z",
-   "channelId": "UCc8gr33-DyCZ6gAmqdcyzgA",
    "short": false
   },
   {
