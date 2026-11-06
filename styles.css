@@ -447,7 +447,7 @@ code { font-size: .92em; color: var(--pink); }
   .logo { font-size: 18px; gap: 8px; }
   .logo .caret { display: none; }
   .search input { height: 40px; padding-right: 14px; font-size: 16px; } /* 16px stops iOS/Android zoom */
-  .search .kbd, #helpBtn, #addBtn { display: none; }
+  .search .kbd, #helpBtn, #addBtn, #themeBtn { display: none; }  /* theme lives in Settings on phones */
   .search input { height: 44px; }
   .icon-btn { width: 44px; height: 44px; }
   .btn, .btn.sm { min-height: 44px; }
@@ -567,3 +567,11 @@ label.set-row { cursor: pointer; }
   .switch:checked::before { transform: translateX(20px); }
   #settingsScrim .dialog { gap: 10px; }
 }
+
+/* ---------- search ---------- */
+.search-scope { color: var(--muted); font-size: var(--fs-sm); margin-top: -4px; }
+.search-more { margin: 36px 0 8px; padding: 18px; border-radius: var(--r-lg); border: 1px dashed var(--line-2); background: var(--s1);
+  display: grid; justify-items: center; gap: 10px; text-align: center; }
+.search-more p { color: var(--muted); font-size: var(--fs-sm); max-width: 52ch; }
+.em-cta .btn .ico.sm { width: 14px; height: 14px; opacity: .8; }
+@media (max-width: 759px) { .em-cta .btn { min-height: 44px; } .empty .em-cta, .search-more .em-cta { width: 100%; } .empty .em-cta .btn, .search-more .em-cta .btn { flex: 1 1 100%; } }

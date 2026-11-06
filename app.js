@@ -527,8 +527,11 @@
     const chips = [["all", "All"], ["pinned", "★ Pinned"]].concat(visibleCats().map((k) => [k, CATS[k]]));
     if (state.queue.length) chips.push(["queue", "Saved videos"]);
     if (state.recent.length) chips.push(["recent", "History"]);
-    $("#chips").innerHTML = chips.map(([k, label]) =>
-      `<button type="button" class="chip${state.cat === k ? " active" : ""}" data-cat="${esc(k)}" aria-pressed="${state.cat === k}">${esc(label)}</button>`).join("");
+    const searching = !!state.q.trim();   // search covers everything, so no chip is "the" scope
+    $("#chips").innerHTML = chips.map(([k, label]) => {
+      const on = !searching && state.cat === k;
+      return `<button type="button" class="chip${on ? " active" : ""}" data-cat="${esc(k)}" aria-pressed="${on}">${esc(label)}</button>`;
+    }).join("");
 
     $$(".tab[data-cat]").forEach((t) => {
       const on = t.dataset.cat === state.cat;
@@ -632,40 +635,59 @@
       tools: `<button type="button" class="link-btn" data-action="clear-recent">${icon("trash", "sm")}Clear history</button>`
     });
   }
+  const ytSearchUrl = () => "https://www.youtube.com/results?search_query=" + encodeURIComponent(state.q.trim());
+  function searchElsewhere(primary) {
+    return `<a class="btn${primary ? " primary" : ""}" href="${esc(ytSearchUrl())}" target="_blank" rel="noopener">${icon("search")}Search YouTube for “${esc(state.q.trim())}”${icon("external", "sm")}</a>
+      <button type="button" class="btn" data-action="add">${icon("plus")}Add a channel</button>`;
+  }
   function renderSearch(q) {
-    let base = allChannels();
-    if (CATS[state.cat]) base = base.filter((c) => c.cat === state.cat);
-    const chans = base.filter((c) => matchChannel(c, q));
-    const baseIds = new Set(base.map((c) => c.id));
-    const vids = feed().filter((v) => baseIds.has(v.channelId) && matchVideo(v, q)).slice(0, 60);
-    if (!chans.length && !vids.length) return noResults();
-    let html = "";
+    const chans = allChannels().filter((c) => matchChannel(c, q));
+    const vids = feed().filter((v) => matchVideo(v, q)).slice(0, 60);
+    const feedIds = new Set(vids.map((v) => v.id));
+    const saved = state.queue.map((e, i) => [e, i]).filter(([e]) => matchEntry(e, q) && !feedIds.has(e.vid));
+    const recent = state.recent.filter((e) => e.kind !== "channel" && matchEntry(e, q) && !feedIds.has(e.vid) && !state.queue.some((x) => entryKey(x) === entryKey(e)));
+    const total = chans.length + vids.length + saved.length + recent.length;
+    if (!total) return noResults();
+    let html = `<section class="section"><header class="sec-head"><div><p class="kicker">~/<b>search</b></p>
+      <h2>Results for “${esc(state.q.trim())}”${countBadge(total)}</h2></div></header>
+      <p class="search-scope">Searching all ${allChannels().length} SecTube channels${hasFeed() ? " and " + feed().length + " recent videos" : ""}, plus your saved videos and history.</p></section>`;
     if (chans.length) html += gridSection("Channels", "search/channels", chans.map(channelCard), { channels: true });
     if (vids.length) html += gridSection("Videos", "search/videos", vids.map(videoCard));
+    if (saved.length) html += gridSection("Saved videos", "search/saved", saved.map(([e, i]) => entryCard(e, i, "queue")));
+    if (recent.length) html += gridSection("Recently watched", "search/history", recent.map(recentCard).filter(Boolean));
+    html += `<div class="search-more"><p>Not what you wanted? SecTube only searches its own channels — YouTube search opens in a new tab.</p><div class="em-cta">${searchElsewhere(false)}</div></div>`;
     return html;
   }
   function noResults() {
-    return emptyState("search", "No matches", `Nothing matches “${esc(state.q)}”${CATS[state.cat] ? " in " + esc(CATS[state.cat]) : ""}.`,
-      `<button type="button" class="btn" data-action="clear-search">Clear search</button>`);
+    return emptyState("search", "No matches in SecTube",
+      `“${esc(state.q.trim())}” isn't one of your ${allChannels().length} channels or their recent videos. Search YouTube instead, or add the channel with its <b>/channel/UC…</b> link.`,
+      searchElsewhere(true) + `<button type="button" class="btn ghost" data-action="clear-search">Clear search</button>`);
   }
-  const norm = (s) => String(s || "").toLowerCase();
-  function matchChannel(c, q) { return !q || norm([c.name, c.handle, c.desc, CATS[c.cat]].join(" ")).includes(q); }
-  function matchVideo(v, q) { if (!q) return true; const c = channelById(v.channelId); return norm(v.title + " " + (c ? c.name : "")).includes(q); }
+  const norm = (s) => String(s || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+  const squash = (s) => s.replace(/[\s@._\-–—]+/g, "");
+  function textMatch(text, q) {
+    const t = norm(text);
+    if (t.includes(q)) return true;
+    const sq = squash(q);
+    return sq.length > 0 && squash(t).includes(sq);
+  }
+  function matchChannel(c, q) { return !q || textMatch([c.name, c.handle, c.desc, CATS[c.cat]].join(" "), q); }
+  function matchVideo(v, q) { if (!q) return true; const c = channelById(v.channelId); return textMatch(v.title + " " + (c ? c.name + " " + c.handle : ""), q); }
   function matchEntry(e, q) {
     if (!q) return true;
     if (e.kind === "channel") { const c = channelById(e.id); return !!c && matchChannel(c, q); }
     const fv = e.vid && videoById.get(e.vid); const c = channelById(entryChannelId(e));
-    return norm([e.title, fv && fv.title, c && c.name].join(" ")).includes(q);
+    return textMatch([e.title, fv && fv.title, c && c.name].join(" "), q);
   }
 
   function render() {
     renderNav();
     const q = norm(state.q.trim());
     let html;
-    if (state.cat === "queue") html = renderQueue(q);
+    if (q) html = renderSearch(q);
+    else if (state.cat === "queue") html = renderQueue(q);
     else if (state.cat === "recent") html = renderRecent(q);
     else if (state.cat === "pinned") html = renderPinned(q);
-    else if (q) html = renderSearch(q);
     else if (CATS[state.cat]) html = renderCategory(state.cat);
     else { state.cat = "all"; html = renderHome(); renderNav(); }
     $("#content").innerHTML = html;
@@ -985,7 +1007,7 @@
     if (!t) return;
     const d = t.dataset;
     if (d.themeSet) { toggleTheme(d.themeSet); return; }
-    if (d.cat) { navigate(d.cat); return; }
+    if (d.cat) { if (state.q.trim()) { state.q = ""; $("#q").value = ""; state.cat = ""; } navigate(d.cat); return; }
     if (d.playChannel) { play({ kind: "channel", id: d.playChannel }); return; }
     if (d.pin) { togglePin(d.pin); return; }
     if (d.playVid) {
