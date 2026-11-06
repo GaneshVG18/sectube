@@ -1,0 +1,4 @@
+# Local review material (original file backup, screenshots, test log); not part of the site
+.review/
+__pycache__/
+.DS_Store

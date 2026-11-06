@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Synthetic fixture for parser edge cases. IDs are deliberately fake
+     (all-letter placeholders), never shown by the site. -->
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <title>Edge cases</title>
+ <entry>
+  <id>yt:video:AAAAAAAAAAA</id>
+  <yt:videoId>AAAAAAAAAAA</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>  Older   video
+   with odd whitespace </title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=AAAAAAAAAAA"/>
+  <published>2024-01-02T03:04:05+00:00</published>
+ </entry>
+ <entry>
+  <id>yt:video:BBBBBBBBBBB</id>
+  <yt:videoId>BBBBBBBBBBB</yt:videoId>
+  <title>A short &amp; sweet clip</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/BBBBBBBBBBB"/>
+  <published>2024-06-01T12:00:00+02:00</published>
+ </entry>
+ <entry>
+  <yt:videoId>not-a-valid-video-id</yt:videoId>
+  <title>Bad id is dropped</title>
+  <published>2024-07-01T00:00:00+00:00</published>
+ </entry>
+ <entry>
+  <yt:videoId>CCCCCCCCCCC</yt:videoId>
+  <title>Missing date is dropped</title>
+ </entry>
+ <entry>
+  <yt:videoId>DDDDDDDDDDD</yt:videoId>
+  <title></title>
+  <published>2024-03-01T00:00:00Z</published>
+ </entry>
+</feed>

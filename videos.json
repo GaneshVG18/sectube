@@ -1,0 +1,2211 @@
+{
+ "updated_at": "2026-11-05T22:17:11Z",
+ "source": "YouTube channel RSS feeds",
+ "videos": [
+  {
+   "id": "KdMdEwLbQ8M",
+   "title": "Dissecting PHP Vulnerabilities with AI",
+   "published": "2026-11-05T19:00:14Z",
+   "channelId": "UCVeW9qkBjo3zosnqUbG7CFw",
+   "short": true
+  },
+  {
+   "id": "kMe6WMN86Tw",
+   "title": "DHCP 26 - Geschichten aus der COBOL-Gruft - Modernisierung von alternden Systemen",
+   "published": "2026-11-05T16:54:53Z",
+   "channelId": "UC2TXq_t06Hjdr2g_KdKpHQg",
+   "short": false
+  },
+  {
+   "id": "UCvgNW3qhr0",
+   "title": "DHCP 26 - Bagel: History of a bread with a hole",
+   "published": "2026-11-05T16:47:16Z",
+   "channelId": "UC2TXq_t06Hjdr2g_KdKpHQg",
+   "short": false
+  },
+  {
+   "id": "rQ9xnCmrbXU",
+   "title": "DeepSeek can find some great vulns too!",
+   "published": "2026-11-05T16:45:10Z",
+   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
+   "short": true
+  },
+  {
+   "id": "MUjHP-M5_wY",
+   "title": "DHCP 26 - All Cars Are Broadcasting - Die Public-Key-Infrastruktur der (Daten)Autobahnen",
+   "published": "2026-11-05T16:31:13Z",
+   "channelId": "UC2TXq_t06Hjdr2g_KdKpHQg",
+   "short": false
+  },
+  {
+   "id": "BS5VnrrFPdw",
+   "title": "DHCP 26 - DHCP RELEASE (Closing)",
+   "published": "2026-11-05T16:22:56Z",
+   "channelId": "UC2TXq_t06Hjdr2g_KdKpHQg",
+   "short": false
+  },
+  {
+   "id": "zY0CAOjufAU",
+   "title": "My Minecraft Mod needs Quarantine",
+   "published": "2026-11-05T14:00:09Z",
+   "channelId": "UCVeW9qkBjo3zosnqUbG7CFw",
+   "short": false
+  },
+  {
+   "id": "hPFMHj-xGls",
+   "title": "Hardware LHE Rehash (Ep. 199)",
+   "published": "2026-11-05T11:00:28Z",
+   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
+   "short": false
+  },
+  {
+   "id": "CFoihHrELJ0",
+   "title": "Introducing Burp AT at enterprise scale: deeper testing across your applications",
+   "published": "2026-11-05T11:00:02Z",
+   "channelId": "UCkytgKNbJ0L1UuN1K27GAKA",
+   "short": false
+  },
+  {
+   "id": "UTNRT7YFSss",
+   "title": "DHCP 26 - Traut Euch... die Sonntagsfrage zu hinterfragen.",
+   "published": "2026-11-05T10:42:46Z",
+   "channelId": "UC2TXq_t06Hjdr2g_KdKpHQg",
+   "short": false
+  },
+  {
+   "id": "_k6ILWKbKTA",
+   "title": "DHCP 26 - MakeBackups - Ein Backupprojekt für alle, die mal Backups einrichten sollten - 6-Monats-Re",
+   "published": "2026-11-05T10:27:15Z",
+   "channelId": "UC2TXq_t06Hjdr2g_KdKpHQg",
+   "short": false
+  },
+  {
+   "id": "KcL5m-w5GmM",
+   "title": "DHCP 26 - Taking Apart A Telekom Router",
+   "published": "2026-11-05T10:21:23Z",
+   "channelId": "UC2TXq_t06Hjdr2g_KdKpHQg",
+   "short": false
+  },
+  {
+   "id": "6BkHNbiRgLE",
+   "title": "Fighting PHP Zombies",
+   "published": "2026-11-04T19:00:36Z",
+   "channelId": "UCVeW9qkBjo3zosnqUbG7CFw",
+   "short": true
+  },
+  {
+   "id": "QH9Lh7wVZAg",
+   "title": "Fromage-Gate: Old-School Hacking Tactics vs. French Supermarkets",
+   "published": "2026-11-04T18:47:35Z",
+   "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
+   "short": false
+  },
+  {
+   "id": "4USeqlW5p54",
+   "title": "Meta paid a $300,000 bounty for this",
+   "published": "2026-11-04T18:31:37Z",
+   "channelId": "UCCZDt7MuC3Hzs6IH4xODLBw",
+   "short": true
+  },
+  {
+   "id": "V-tBmoF_qY4",
+   "title": "Criminals don’t care about your scope",
+   "published": "2026-11-04T16:15:01Z",
+   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
+   "short": true
+  },
+  {
+   "id": "CyuHd7wOAkM",
+   "title": "Attacks Are Accelerating",
+   "published": "2026-11-04T15:43:40Z",
+   "channelId": "UCVeW9qkBjo3zosnqUbG7CFw",
+   "short": true
+  },
+  {
+   "id": "hxqfjFl-M08",
+   "title": "How Can We Make Sure AI Generated Code is Secure? @snyksec #sponsored #AISecurity",
+   "published": "2026-11-04T15:16:19Z",
+   "channelId": "UC6biysICWOJ-C3P4Tyeggzg",
+   "short": true
+  },
+  {
+   "id": "AtGmZZrQHJo",
+   "title": "Microsoft Edge Did ANOTHER Awesome Thing",
+   "published": "2026-11-04T14:00:23Z",
+   "channelId": "UCVeW9qkBjo3zosnqUbG7CFw",
+   "short": false
+  },
+  {
+   "id": "7SCMgzQzsx8",
+   "title": "Understanding the Blast Radius of a Cryptographic Change",
+   "published": "2026-11-04T03:14:37Z",
+   "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
+   "short": false
+  },
+  {
+   "id": "QHb5UPJGmHY",
+   "title": "Eliminating the Blind Spots Between Humans, Machines, and AI",
+   "published": "2026-11-04T03:12:30Z",
+   "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
+   "short": false
+  },
+  {
+   "id": "J4EgJcmvVws",
+   "title": "AI, Resilience & Trust: Securing the Autonomous Enterprise",
+   "published": "2026-11-04T00:10:53Z",
+   "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
+   "short": false
+  },
+  {
+   "id": "G01Xd9ogFOQ",
+   "title": "Black Hat Podcasts: RE:BRIEF Trailer",
+   "published": "2026-11-03T22:08:27Z",
+   "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
+   "short": true
+  },
+  {
+   "id": "6zG9mziUg84",
+   "title": "Are CTF Platforms Useful? (Ask a CISO)",
+   "published": "2026-11-03T19:00:35Z",
+   "channelId": "UC0ArlFuFYMpEewyRBzdLHiw",
+   "short": true
+  },
+  {
+   "id": "Yu1qqCF5beA",
+   "title": "Version Jumping in PHP",
+   "published": "2026-11-03T19:00:28Z",
+   "channelId": "UCVeW9qkBjo3zosnqUbG7CFw",
+   "short": true
+  },
+  {
+   "id": "y_lw2P0393k",
+   "title": "SecTor 2026 | Using Claude or Codex? We Can Hack Your App?",
+   "published": "2026-11-03T18:06:32Z",
+   "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
+   "short": false
+  },
+  {
+   "id": "znEcvInY2Yk",
+   "title": "OpenAI paid $5000 for this account takeover vulnerability that could also leak your private chats",
+   "published": "2026-11-03T16:49:13Z",
+   "channelId": "UCCZDt7MuC3Hzs6IH4xODLBw",
+   "short": true
+  },
+  {
+   "id": "AcwbRaDV9HQ",
+   "title": "Threat modelling still requires HUMAN reasoning",
+   "published": "2026-11-03T14:30:10Z",
+   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
+   "short": true
+  },
+  {
+   "id": "ncYAPgzjD90",
+   "title": "AI made a Malware Viewer in Minecraft",
+   "published": "2026-11-03T14:00:05Z",
+   "channelId": "UCVeW9qkBjo3zosnqUbG7CFw",
+   "short": false
+  },
+  {
+   "id": "1HU_OsgzBQ0",
+   "title": "Black Hat Europe 2026 | Welcome Video",
+   "published": "2026-11-02T21:44:30Z",
+   "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
+   "short": false
+  },
+  {
+   "id": "dHikgaV_OJ4",
+   "title": "malware.mob",
+   "published": "2026-11-02T20:30:34Z",
+   "channelId": "UCVeW9qkBjo3zosnqUbG7CFw",
+   "short": false
+  },
+  {
+   "id": "aPNfVvh9EZA",
+   "title": "The PHP Vulnerabilities Explained",
+   "published": "2026-11-02T19:00:07Z",
+   "channelId": "UCVeW9qkBjo3zosnqUbG7CFw",
+   "short": true
+  },
+  {
+   "id": "yKBeKerDM7Q",
+   "title": "I recreated a real MCP vulnerability and tested it with @snyksec’s Evo to see if it finds it. 👀 #ad",
+   "published": "2026-11-02T16:00:06Z",
+   "channelId": "UCCZDt7MuC3Hzs6IH4xODLBw",
+   "short": true
+  },
+  {
+   "id": "XU_13sxT3WM",
+   "title": "Is running LOCAL AI for you?",
+   "published": "2026-11-02T15:30:30Z",
+   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
+   "short": true
+  },
+  {
+   "id": "PFy0TPjitcY",
+   "title": "I Rebuilt a Real World MCP Bug. Can AI Find It?",
+   "published": "2026-11-02T15:00:00Z",
+   "channelId": "UCCZDt7MuC3Hzs6IH4xODLBw",
+   "short": false
+  },
+  {
+   "id": "m4gx5YoRYfM",
+   "title": "This Isn't Possible...",
+   "published": "2026-11-02T13:46:54Z",
+   "channelId": "UC6biysICWOJ-C3P4Tyeggzg",
+   "short": false
+  },
+  {
+   "id": "Z5DAv-zgrcI",
+   "title": "HackTheBox - MakeSense",
+   "published": "2026-10-31T15:16:44Z",
+   "channelId": "UCa6eh7gCkpPo5XXUDfygQQA",
+   "short": false
+  },
+  {
+   "id": "cHK_Aq0USlw",
+   "title": "Scariest Bugs of 2026 - Halloween Special (Ep.198)",
+   "published": "2026-10-31T10:00:36Z",
+   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
+   "short": false
+  },
+  {
+   "id": "o8LWS7XiW84",
+   "title": "Hack a Water Tower! & Two Big Announcements",
+   "published": "2026-10-31T06:11:59Z",
+   "channelId": "UCVeW9qkBjo3zosnqUbG7CFw",
+   "short": false
+  },
+  {
+   "id": "vSQHZLnV29M",
+   "title": "AI in Offensive Security: Discovery, Validation, and Autonomy",
+   "published": "2026-10-31T05:31:47Z",
+   "channelId": "UCc8gr33-DyCZ6gAmqdcyzgA",
+   "short": false
+  },
+  {
+   "id": "Z46D96dg0qg",
+   "title": "DEF CON CTF Walkthrough: OSINT Edition",
+   "published": "2026-10-30T16:00:37Z",
+   "channelId": "UC0ArlFuFYMpEewyRBzdLHiw",
+   "short": false
+  },
+  {
+   "id": "9svS9Cj40UU",
+   "title": "Great new features in CAIDO!",
+   "published": "2026-10-30T15:45:21Z",
+   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
+   "short": true
+  },
+  {
+   "id": "f92LfA0AR2E",
+   "title": "The ClickFix Deception",
+   "published": "2026-10-30T14:06:44Z",
+   "channelId": "UCVeW9qkBjo3zosnqUbG7CFw",
+   "short": true
+  },
+  {
+   "id": "06Qjai8RQKw",
+   "title": "Is curl Getting Harder to Hack? Daniel Stenberg on AI vs. Decades of Hardening",
+   "published": "2026-10-30T08:49:27Z",
+   "channelId": "UCQN2DsjnYH60SFBIA6IkNwg",
+   "short": false
+  },
+  {
+   "id": "9_H7E4cpXPw",
+   "title": "A reliable model outperforms the creative ones",
+   "published": "2026-10-29T15:30:01Z",
+   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
+   "short": true
+  },
+  {
+   "id": "7h7FYGF7tuQ",
+   "title": "Reverse Engineering Proves What We Suspected All Along..",
+   "published": "2026-10-29T13:52:38Z",
+   "channelId": "UC6biysICWOJ-C3P4Tyeggzg",
+   "short": false
+  },
+  {
+   "id": "3lIYPeb9oDY",
+   "title": "Real Folks of Cyber | Thomas Rogers | DITL",
+   "published": "2026-10-29T05:21:26Z",
+   "channelId": "UC0ArlFuFYMpEewyRBzdLHiw",
+   "short": false
+  },
+  {
+   "id": "MdcziDthhRg",
+   "title": "Cloudflare is offering a $3,000 bounty for any unique PHO2SHELL bypass.",
+   "published": "2026-10-28T18:22:37Z",
+   "channelId": "UCCZDt7MuC3Hzs6IH4xODLBw",
+   "short": true
+  },
+  {
+   "id": "VjesGKMKqxo",
+   "title": "AI Meets Minecraft",
+   "published": "2026-10-28T18:12:09Z",
+   "channelId": "UCVeW9qkBjo3zosnqUbG7CFw",
+   "short": true
+  },
+  {
+   "id": "Vv2CHSZZPzU",
+   "title": "Is your hackbot burning money or actually making it?",
+   "published": "2026-10-28T15:00:26Z",
+   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
+   "short": true
+  },
+  {
+   "id": "MbSrYUgoFik",
+   "title": "Nullcon Call For Papers Workshop | Make Your Security Research Stand Out",
+   "published": "2026-10-28T04:12:48Z",
+   "channelId": "UCI85JnsJEiKnkGiGBkqvZXw",
+   "short": false
+  },
+  {
+   "id": "ozaSVLDMhGI",
+   "title": "Is AI Security a Real Career?",
+   "published": "2026-10-27T16:00:02Z",
+   "channelId": "UC0ArlFuFYMpEewyRBzdLHiw",
+   "short": true
+  },
+  {
+   "id": "dzESpp3VNpA",
+   "title": "Do you think we're entering the Golden Era for Pentests?",
+   "published": "2026-10-27T15:45:22Z",
+   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
+   "short": true
+  },
+  {
+   "id": "o5BzV11g3UI",
+   "title": "Securing the Ship of Theseus Diogo Sousa",
+   "published": "2026-10-27T13:14:21Z",
+   "channelId": "UCe8j61ABYDuPTdtjItD2veA",
+   "short": false
+  },
+  {
+   "id": "zroXcBDsal4",
+   "title": "Threat Modeling for AI Systems Adrien O Hana",
+   "published": "2026-10-27T13:14:16Z",
+   "channelId": "UCe8j61ABYDuPTdtjItD2veA",
+   "short": false
+  },
+  {
+   "id": "2aqdui1Nb5c",
+   "title": "OWASP AppSec Days Portugal 2026 Opening Session",
+   "published": "2026-10-27T13:01:01Z",
+   "channelId": "UCe8j61ABYDuPTdtjItD2veA",
+   "short": false
+  },
+  {
+   "id": "6_HSeYfoLRk",
+   "title": "New AI Threats in 2026 #sponsored by @Snyksec",
+   "published": "2026-10-27T13:00:38Z",
+   "channelId": "UCVeW9qkBjo3zosnqUbG7CFw",
+   "short": true
+  },
+  {
+   "id": "TL7kwMFvWL0",
+   "title": "DrogonSec Building a Parallelized, Multi Engine Security Scanner for DevSecOps Filipi Pires",
+   "published": "2026-10-27T12:53:55Z",
+   "channelId": "UCe8j61ABYDuPTdtjItD2veA",
+   "short": false
+  },
+  {
+   "id": "pbwH_38ADjU",
+   "title": "Follow The Money",
+   "published": "2026-10-26T20:27:34Z",
+   "channelId": "UCVeW9qkBjo3zosnqUbG7CFw",
+   "short": true
+  },
+  {
+   "id": "VhNiMWtOutw",
+   "title": "The $2,000 php2shell Challenge Was Unexploitable",
+   "published": "2026-10-26T18:49:46Z",
+   "channelId": "UClcE-kVhqyiHCcjYwcpfj9w",
+   "short": false
+  },
+  {
+   "id": "oLzo-yUZRyQ",
+   "title": "AI Meets Minecraft",
+   "published": "2026-10-26T18:01:31Z",
+   "channelId": "UCVeW9qkBjo3zosnqUbG7CFw",
+   "short": true
+  },
+  {
+   "id": "Kn0th6JK_Ag",
+   "title": "This is how rez0 uses his local models to hack FASTER",
+   "published": "2026-10-26T16:15:01Z",
+   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
+   "short": true
+  },
+  {
+   "id": "IhA9Ikkd3MI",
+   "title": "They Knew About This Exploit for 8 Years.",
+   "published": "2026-10-26T13:31:14Z",
+   "channelId": "UC6biysICWOJ-C3P4Tyeggzg",
+   "short": false
+  },
+  {
+   "id": "CRkFArW5jAI",
+   "title": "My $250 AI Hackbot Ran 24/7 on a VPS and Missed This",
+   "published": "2026-10-26T12:45:31Z",
+   "channelId": "UCCZDt7MuC3Hzs6IH4xODLBw",
+   "short": false
+  },
+  {
+   "id": "HBEydB8MfaU",
+   "title": "OWASP Finance - Management Report Detail",
+   "published": "2026-10-26T06:48:20Z",
+   "channelId": "UCe8j61ABYDuPTdtjItD2veA",
+   "short": false
+  },
+  {
+   "id": "c34NmvZpNL0",
+   "title": "OWASP Finance Summary Deck - September 2026",
+   "published": "2026-10-26T06:42:03Z",
+   "channelId": "UCe8j61ABYDuPTdtjItD2veA",
+   "short": false
+  },
+  {
+   "id": "I56yQ3s0E08",
+   "title": "Developing Effective Security Testing Skills With Objective Structured Assessments - Ryan Armstrong",
+   "published": "2026-10-25T14:36:00Z",
+   "channelId": "UCe8j61ABYDuPTdtjItD2veA",
+   "short": false
+  },
+  {
+   "id": "jidbqey89lE",
+   "title": "Why AppSec Fails At Scale (And How To Fix It) - Eduard Thamm",
+   "published": "2026-10-25T14:35:56Z",
+   "channelId": "UCe8j61ABYDuPTdtjItD2veA",
+   "short": false
+  },
+  {
+   "id": "z2rGD0-8dek",
+   "title": "Why Every \"Remembered\" Interaction Is A Potential Backdoor - Rico Komenda & Barno Kaharova",
+   "published": "2026-10-25T14:35:52Z",
+   "channelId": "UCe8j61ABYDuPTdtjItD2veA",
+   "short": false
+  },
+  {
+   "id": "gVzE3mvTME8",
+   "title": "Illegal States Are My Favorite Security Vulnerability - Michael Koppmann",
+   "published": "2026-10-25T14:35:41Z",
+   "channelId": "UCe8j61ABYDuPTdtjItD2veA",
+   "short": false
+  },
+  {
+   "id": "BMqtw0VZMcQ",
+   "title": "[Keynote] Résilience numérique : au delà de la cybersécurité",
+   "published": "2026-10-24T22:53:42Z",
+   "channelId": "UCe8j61ABYDuPTdtjItD2veA",
+   "short": false
+  },
+  {
+   "id": "aKGhr6NX2G4",
+   "title": "The AI Surge in Bug Bounty: Insights from Decathlon triage team",
+   "published": "2026-10-24T22:34:09Z",
+   "channelId": "UCe8j61ABYDuPTdtjItD2veA",
+   "short": false
+  },
+  {
+   "id": "7MpyuesrS_w",
+   "title": "JWT : maîtrisez la sécurité des jetons stateless côté serveur",
+   "published": "2026-10-24T22:20:44Z",
+   "channelId": "UCe8j61ABYDuPTdtjItD2veA",
+   "short": false
+  },
+  {
+   "id": "c4re99VRgss",
+   "title": "260924 OWASP Matteo Dora",
+   "published": "2026-10-24T22:15:14Z",
+   "channelId": "UCe8j61ABYDuPTdtjItD2veA",
+   "short": false
+  },
+  {
+   "id": "M62XjvmqGUQ",
+   "title": "Jean Ramirez",
+   "published": "2026-10-24T21:59:18Z",
+   "channelId": "UCe8j61ABYDuPTdtjItD2veA",
+   "short": false
+  },
+  {
+   "id": "c_ioEqX7NFE",
+   "title": "HackTheBox - Checkpoint",
+   "published": "2026-10-24T15:07:01Z",
+   "channelId": "UCa6eh7gCkpPo5XXUDfygQQA",
+   "short": false
+  },
+  {
+   "id": "s_OW4UgXygs",
+   "title": "Narrow instructions can make your hackbot SO MUCH better",
+   "published": "2026-10-23T15:45:02Z",
+   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
+   "short": true
+  },
+  {
+   "id": "SP7y1h0laN0",
+   "title": "php situation 24h later",
+   "published": "2026-10-23T02:16:24Z",
+   "channelId": "UClcE-kVhqyiHCcjYwcpfj9w",
+   "short": false
+  },
+  {
+   "id": "QRABrn606LE",
+   "title": "php situation is insane",
+   "published": "2026-10-22T17:23:12Z",
+   "channelId": "UC6biysICWOJ-C3P4Tyeggzg",
+   "short": false
+  },
+  {
+   "id": "3sLeRexgHgs",
+   "title": "Good ROI vs. doing the things you love",
+   "published": "2026-10-22T15:30:01Z",
+   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
+   "short": true
+  },
+  {
+   "id": "5USn1bdtvJU",
+   "title": "In Singapore for a few days hanging out with hackers and having a good time.",
+   "published": "2026-10-22T15:22:06Z",
+   "channelId": "UCQN2DsjnYH60SFBIA6IkNwg",
+   "short": true
+  },
+  {
+   "id": "-w0p51n4BQc",
+   "title": "Webinar - Group Policy Objects: An Active Directory Attacker's Best Friend ft. Wilfried & Hugo",
+   "published": "2026-10-22T12:53:30Z",
+   "channelId": "UCI85JnsJEiKnkGiGBkqvZXw",
+   "short": false
+  },
+  {
+   "id": "gKvIjE8LRVg",
+   "title": "800 Bugs w/ DeepSeek + Local Model Hacks (Ep.197)",
+   "published": "2026-10-22T10:00:14Z",
+   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
+   "short": false
+  },
+  {
+   "id": "7CiZmq2llDg",
+   "title": "The race to the first exploit // php2shell",
+   "published": "2026-10-22T00:44:29Z",
+   "channelId": "UClcE-kVhqyiHCcjYwcpfj9w",
+   "short": false
+  },
+  {
+   "id": "oQg2_VoK4CU",
+   "title": "Have you visited fransrosen.com?",
+   "published": "2026-10-21T15:45:09Z",
+   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
+   "short": true
+  },
+  {
+   "id": "eO0FZm_xeSo",
+   "title": "Black Hat Stories | Island.io",
+   "published": "2026-10-21T14:45:28Z",
+   "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
+   "short": true
+  },
+  {
+   "id": "Muk6elQ_qcs",
+   "title": "Black Hat Europe 2026 | Hear From Our Sponsors",
+   "published": "2026-10-20T19:07:00Z",
+   "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
+   "short": false
+  },
+  {
+   "id": "Tx82oBkxWko",
+   "title": "What Does a GRC Cybersecurity Professional Do?",
+   "published": "2026-10-20T16:00:08Z",
+   "channelId": "UC0ArlFuFYMpEewyRBzdLHiw",
+   "short": true
+  },
+  {
+   "id": "NAPi2gWNZP4",
+   "title": "Black Hat Stories | First Time Exhibitor",
+   "published": "2026-10-20T14:00:32Z",
+   "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
+   "short": true
+  },
+  {
+   "id": "1PZ8fu1v14Q",
+   "title": "The AI Reality. The Human Response. | Black Hat Europe 2026, London",
+   "published": "2026-10-19T20:20:19Z",
+   "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
+   "short": false
+  },
+  {
+   "id": "V8Uku6dk5d0",
+   "title": "Black Hat Stories | Chris Gaun, VP of Product Marketing at Island.io",
+   "published": "2026-10-19T17:04:56Z",
+   "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
+   "short": true
+  },
+  {
+   "id": "N3RIC0_fO0g",
+   "title": "Self-efficacy in the age of AI",
+   "published": "2026-10-19T15:10:03Z",
+   "channelId": "UClcE-kVhqyiHCcjYwcpfj9w",
+   "short": false
+  },
+  {
+   "id": "JqljXzMrSGk",
+   "title": "the fridge situation is insane",
+   "published": "2026-10-19T14:43:24Z",
+   "channelId": "UC6biysICWOJ-C3P4Tyeggzg",
+   "short": false
+  },
+  {
+   "id": "uQ3miEp_0Wo",
+   "title": "Black Hat Stories | Chris Gaun, VP of Product Marketing at Island.io",
+   "published": "2026-10-19T13:45:38Z",
+   "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
+   "short": false
+  },
+  {
+   "id": "QY-fWrU5Mp4",
+   "title": "HackerOne Limited Me to 3 Reports After 12 Years",
+   "published": "2026-10-19T12:45:04Z",
+   "channelId": "UCCZDt7MuC3Hzs6IH4xODLBw",
+   "short": false
+  },
+  {
+   "id": "aRSUIJXxbDc",
+   "title": "HackTheBox - Eloquia",
+   "published": "2026-10-17T15:00:22Z",
+   "channelId": "UCa6eh7gCkpPo5XXUDfygQQA",
+   "short": false
+  },
+  {
+   "id": "qFEuYUfauNY",
+   "title": "I Tested The Viral Reverse Engineering Repo",
+   "published": "2026-10-16T16:52:23Z",
+   "channelId": "UC6biysICWOJ-C3P4Tyeggzg",
+   "short": false
+  },
+  {
+   "id": "DbxyX0UZ0XE",
+   "title": "CTF Walkthrough: The Cuckoo's Log",
+   "published": "2026-10-16T16:00:37Z",
+   "channelId": "UC0ArlFuFYMpEewyRBzdLHiw",
+   "short": false
+  },
+  {
+   "id": "mYGWolSb3wU",
+   "title": "Purple Team Incident Adventure | TCM Community Live | Cybersecurity",
+   "published": "2026-10-15T05:10:04Z",
+   "channelId": "UC0ArlFuFYMpEewyRBzdLHiw",
+   "short": false
+  },
+  {
+   "id": "W5DT8jpcBCk",
+   "title": "Did AI Really Reverse Engineer Every Adobe App?",
+   "published": "2026-10-14T13:00:36Z",
+   "channelId": "UC6biysICWOJ-C3P4Tyeggzg",
+   "short": false
+  },
+  {
+   "id": "9-7r-VpP1H8",
+   "title": "Google just paid a $90,000 bounty for this vulnerability",
+   "published": "2026-10-13T19:46:33Z",
+   "channelId": "UCCZDt7MuC3Hzs6IH4xODLBw",
+   "short": true
+  },
+  {
+   "id": "zuYAEM7zpkU",
+   "title": "Why You Need to Know the Software Development Lifecycle (SDLC)",
+   "published": "2026-10-13T15:00:31Z",
+   "channelId": "UC0ArlFuFYMpEewyRBzdLHiw",
+   "short": true
+  },
+  {
+   "id": "xrfiOisaxtQ",
+   "title": "Black Hat Stories | Learn From the Legends",
+   "published": "2026-10-13T14:00:10Z",
+   "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
+   "short": true
+  },
+  {
+   "id": "OpftGw5vVms",
+   "title": "Team Introduction Videos for the European Cyber Security Challenge",
+   "published": "2026-10-13T06:02:55Z",
+   "channelId": "UClcE-kVhqyiHCcjYwcpfj9w",
+   "short": false
+  },
+  {
+   "id": "NrqUfs-OTtc",
+   "title": "Your AI hackbot has found another 100+ vulnerabilities. Who fixes them? And how? ft Erlend",
+   "published": "2026-10-12T13:23:16Z",
+   "channelId": "UCQN2DsjnYH60SFBIA6IkNwg",
+   "short": false
+  },
+  {
+   "id": "z5wQNqQ-e6M",
+   "title": "I Built a Hackbot for Less Than $250",
+   "published": "2026-10-12T12:45:16Z",
+   "channelId": "UCCZDt7MuC3Hzs6IH4xODLBw",
+   "short": false
+  },
+  {
+   "id": "Mp4tU7qqJpI",
+   "title": "Black Hat Stories | The Black Hat Experience",
+   "published": "2026-10-11T14:00:15Z",
+   "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
+   "short": true
+  },
+  {
+   "id": "XRqQjK345zo",
+   "title": "HackTheBox - DevHub",
+   "published": "2026-10-10T15:00:21Z",
+   "channelId": "UCa6eh7gCkpPo5XXUDfygQQA",
+   "short": false
+  },
+  {
+   "id": "j4kx0u_BeH8",
+   "title": "Finding and Exploiting Spacecraft Vulnerabilities",
+   "published": "2026-10-10T08:18:16Z",
+   "channelId": "UCc8gr33-DyCZ6gAmqdcyzgA",
+   "short": false
+  },
+  {
+   "id": "-3tpevl0aes",
+   "title": "wood will keep you warm, once when chop, carry, staple and sort it, and once when you burn it.",
+   "published": "2026-10-09T19:34:58Z",
+   "channelId": "UCQN2DsjnYH60SFBIA6IkNwg",
+   "short": true
+  },
+  {
+   "id": "w8tC1cgtPQk",
+   "title": "I tend to sauna 2-3 days a week, it have made wonders for my recovery. #sauna #mobilesauna #vlog",
+   "published": "2026-10-09T19:28:17Z",
+   "channelId": "UCQN2DsjnYH60SFBIA6IkNwg",
+   "short": true
+  },
+  {
+   "id": "wIe3eDfGKUo",
+   "title": "Has AI Solved Reverse Engineering?",
+   "published": "2026-10-09T16:56:43Z",
+   "channelId": "UC6biysICWOJ-C3P4Tyeggzg",
+   "short": false
+  },
+  {
+   "id": "uID6Ne48ENo",
+   "title": "Vercel paid a $50,000 bounty! 👀👀",
+   "published": "2026-10-09T07:33:13Z",
+   "channelId": "UCCZDt7MuC3Hzs6IH4xODLBw",
+   "short": true
+  },
+  {
+   "id": "3nQ78ShxYJE",
+   "title": "Classic server-side request forgery… but make it AI!",
+   "published": "2026-10-09T07:31:27Z",
+   "channelId": "UCCZDt7MuC3Hzs6IH4xODLBw",
+   "short": true
+  },
+  {
+   "id": "zXgQvrO33VQ",
+   "title": "Prototype Fund: Version 3.0, here we go! #ds26",
+   "published": "2026-10-08T14:35:29Z",
+   "channelId": "UC2TXq_t06Hjdr2g_KdKpHQg",
+   "short": false
+  },
+  {
+   "id": "YLDfPf_mQHs",
+   "title": "Palantir Überwachungstechnologie und tödliche Kriegswaffen mit KI im CyberWarfare #ds26",
+   "published": "2026-10-08T14:35:29Z",
+   "channelId": "UC2TXq_t06Hjdr2g_KdKpHQg",
+   "short": false
+  },
+  {
+   "id": "JB8emx-sgfo",
+   "title": "Spuren von Sicherheit: Open-Source-Security in Zeiten moderner LLMs #ds26",
+   "published": "2026-10-08T14:35:29Z",
+   "channelId": "UC2TXq_t06Hjdr2g_KdKpHQg",
+   "short": false
+  },
+  {
+   "id": "FCe6gFlwdFw",
+   "title": "Zwischen Ästhetik und Vergemeinschaftung: Junge Neonazi-Strukturen in Sachsen #ds26",
+   "published": "2026-10-08T14:35:29Z",
+   "channelId": "UC2TXq_t06Hjdr2g_KdKpHQg",
+   "short": false
+  },
+  {
+   "id": "YReeRlpuoLQ",
+   "title": "‘A Game of Numbers’ Literature Reading #ds26",
+   "published": "2026-10-08T14:35:28Z",
+   "channelId": "UC2TXq_t06Hjdr2g_KdKpHQg",
+   "short": false
+  },
+  {
+   "id": "AhU5AD8WTS4",
+   "title": "Reproducible Builds zur Absicherung von Open-Source-Supply-Chains mit Zero Trust #ds26",
+   "published": "2026-10-08T14:35:28Z",
+   "channelId": "UC2TXq_t06Hjdr2g_KdKpHQg",
+   "short": false
+  },
+  {
+   "id": "8cpC2ZP7sEA",
+   "title": "KopfKino - das musikalische Filmquiz #ds26",
+   "published": "2026-10-08T14:35:28Z",
+   "channelId": "UC2TXq_t06Hjdr2g_KdKpHQg",
+   "short": false
+  },
+  {
+   "id": "5vehgyBKvDE",
+   "title": "How do we want to pay? #ds26",
+   "published": "2026-10-08T14:35:28Z",
+   "channelId": "UC2TXq_t06Hjdr2g_KdKpHQg",
+   "short": false
+  },
+  {
+   "id": "H9jby9JX1b0",
+   "title": "Massive corporate hack got worse",
+   "published": "2026-10-07T13:56:56Z",
+   "channelId": "UC6biysICWOJ-C3P4Tyeggzg",
+   "short": false
+  },
+  {
+   "id": "qg4pksnIcJk",
+   "title": "What Do Security Professionals Look for in Code?",
+   "published": "2026-10-06T16:00:11Z",
+   "channelId": "UC0ArlFuFYMpEewyRBzdLHiw",
+   "short": true
+  },
+  {
+   "id": "uoYslOzW7Sk",
+   "title": "I Gave Claude Access to My Hacking Traffic",
+   "published": "2026-10-05T12:45:15Z",
+   "channelId": "UCCZDt7MuC3Hzs6IH4xODLBw",
+   "short": false
+  },
+  {
+   "id": "F199_KrTF_4",
+   "title": "Security Through Complexity #shorts",
+   "published": "2026-10-04T22:02:35Z",
+   "channelId": "UClcE-kVhqyiHCcjYwcpfj9w",
+   "short": true
+  },
+  {
+   "id": "-mBxWU9vrJQ",
+   "title": "HackTheBox - Reactor",
+   "published": "2026-10-03T15:00:18Z",
+   "channelId": "UCa6eh7gCkpPo5XXUDfygQQA",
+   "short": false
+  },
+  {
+   "id": "vB7-NI2xszs",
+   "title": "DEF CON CTF Walkthrough: Packet Analysis",
+   "published": "2026-10-02T16:00:38Z",
+   "channelId": "UC0ArlFuFYMpEewyRBzdLHiw",
+   "short": false
+  },
+  {
+   "id": "qypnjORyWNI",
+   "title": "OpenAI Hacked with a 1-Year-Old Bug",
+   "published": "2026-10-02T14:36:02Z",
+   "channelId": "UClcE-kVhqyiHCcjYwcpfj9w",
+   "short": false
+  },
+  {
+   "id": "u-4byGPXE20",
+   "title": "Facebook’s marketplace is just getting weirder especially with AI in the mix. #ai #meta #facebook",
+   "published": "2026-10-02T14:00:04Z",
+   "channelId": "UCCZDt7MuC3Hzs6IH4xODLBw",
+   "short": true
+  },
+  {
+   "id": "U2Tlfmfu6pw",
+   "title": "OpenAI has shifted threat models #shorts",
+   "published": "2026-10-02T10:00:27Z",
+   "channelId": "UClcE-kVhqyiHCcjYwcpfj9w",
+   "short": true
+  },
+  {
+   "id": "to9jid5ZY6c",
+   "title": "Massive corporate hack",
+   "published": "2026-10-01T14:27:43Z",
+   "channelId": "UC6biysICWOJ-C3P4Tyeggzg",
+   "short": false
+  },
+  {
+   "id": "wLOv0ixcHCw",
+   "title": "Finding a vulnerability in libheif #shorts",
+   "published": "2026-10-01T14:03:30Z",
+   "channelId": "UClcE-kVhqyiHCcjYwcpfj9w",
+   "short": true
+  },
+  {
+   "id": "E4Fl5GTxiFY",
+   "title": "Real Folks of Cyber | Marshall Livingston | DITL",
+   "published": "2026-10-01T06:01:21Z",
+   "channelId": "UC0ArlFuFYMpEewyRBzdLHiw",
+   "short": false
+  },
+  {
+   "id": "zqOC2EZUV3M",
+   "title": "DCSG1 - Introduction to Range Village Community - Gladiator",
+   "published": "2026-09-30T22:04:54Z",
+   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
+   "short": false
+  },
+  {
+   "id": "yzqFFMn1qPw",
+   "title": "DSCG1 - CryptoCurrency Opening Keynote - Michael Schloh",
+   "published": "2026-09-30T22:04:54Z",
+   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
+   "short": false
+  },
+  {
+   "id": "yKnXPkpuS0I",
+   "title": "DCSG1 - Adversaries Have AI. You Have $0. Here's How You Win Anyway - Aaron Crow",
+   "published": "2026-09-30T22:04:54Z",
+   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
+   "short": false
+  },
+  {
+   "id": "vXNpaN3LjIs",
+   "title": "DCSG1 - Where's our Hats: The founding of N0H4Ts - Pengfei Yu, Zara Teo",
+   "published": "2026-09-30T22:04:54Z",
+   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
+   "short": false
+  },
+  {
+   "id": "qKJYPeVtGW4",
+   "title": "DCSG1 - Autonomous and Exploitable: Breaking AI Agents before they break everything else - Aaron Ang",
+   "published": "2026-09-30T22:04:54Z",
+   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
+   "short": false
+  },
+  {
+   "id": "kBGaSIca82k",
+   "title": "DCSG1- Are we nurturing the next generation of hackers or losing them - SherpaSec",
+   "published": "2026-09-30T22:04:54Z",
+   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
+   "short": false
+  },
+  {
+   "id": "euCa-VJnON4",
+   "title": "DCSG1 - Actual OT Cyber Security - Dillon Lee",
+   "published": "2026-09-30T22:04:54Z",
+   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
+   "short": false
+  },
+  {
+   "id": "YA5zrUSpxxI",
+   "title": "DCSG1 - Augmenting Apple's Source Code and OS Logs with AI Agents -Olivia Gallucci",
+   "published": "2026-09-30T22:04:54Z",
+   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
+   "short": false
+  },
+  {
+   "id": "XyT00Hdld6c",
+   "title": "DCSG1 - Pwn2Own Level Break of a Printer - SungJun Park, WonBeen Im",
+   "published": "2026-09-30T22:04:54Z",
+   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
+   "short": false
+  },
+  {
+   "id": "TuWzt-du9ZI",
+   "title": "DCSG1 - DEF CON History and Lore - The Dark Tangent",
+   "published": "2026-09-30T22:04:52Z",
+   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
+   "short": false
+  },
+  {
+   "id": "8Pbqi61wvDo",
+   "title": "DCSG1 - RFIDrive: Access Badges for Cars - Kamel Ghali, Smriti",
+   "published": "2026-09-30T22:04:51Z",
+   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
+   "short": false
+  },
+  {
+   "id": "81holvvSdcA",
+   "title": "DSCG1 - Attack and Defense of AI Enabled Systems - Hahna Latonick",
+   "published": "2026-09-30T22:04:51Z",
+   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
+   "short": false
+  },
+  {
+   "id": "4gn5cjVbf40",
+   "title": "DCSG1 - Solidity Smart Contracts - Kennashka DeSilva",
+   "published": "2026-09-30T22:04:51Z",
+   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
+   "short": false
+  },
+  {
+   "id": "3S3gmjJCu34",
+   "title": "DCSG1 - You can't engineer your way out of a bad AI stack - Paul",
+   "published": "2026-09-30T22:04:51Z",
+   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
+   "short": false
+  },
+  {
+   "id": "0Ipwd0FcTAo",
+   "title": "DCSG1 - The DEF CON Singapore Badge Presentation - Michael Schloh, Joyce Ng, Dani Weidman",
+   "published": "2026-09-30T22:04:51Z",
+   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
+   "short": false
+  },
+  {
+   "id": "XrKrCGSeNNo",
+   "title": "Why Old Threat Models Are Dead #shorts",
+   "published": "2026-09-30T13:55:42Z",
+   "channelId": "UClcE-kVhqyiHCcjYwcpfj9w",
+   "short": true
+  },
+  {
+   "id": "RkIQ0E9_3EQ",
+   "title": "Google built PageBreak and it found 500 XSS on Google’s own application. That kinda hurts 😭",
+   "published": "2026-09-30T13:00:21Z",
+   "channelId": "UCCZDt7MuC3Hzs6IH4xODLBw",
+   "short": true
+  },
+  {
+   "id": "4PgkRlg0Z50",
+   "title": "Can Developers Switch to AppSec Roles?",
+   "published": "2026-09-29T16:00:10Z",
+   "channelId": "UC0ArlFuFYMpEewyRBzdLHiw",
+   "short": true
+  },
+  {
+   "id": "BpOesb7yYJ4",
+   "title": "Using Claude 5 to write an exploit against Discourse #shorts",
+   "published": "2026-09-29T13:57:38Z",
+   "channelId": "UClcE-kVhqyiHCcjYwcpfj9w",
+   "short": true
+  },
+  {
+   "id": "9-2CSJC114k",
+   "title": "the change is finally coming",
+   "published": "2026-09-29T13:16:52Z",
+   "channelId": "UC6biysICWOJ-C3P4Tyeggzg",
+   "short": false
+  },
+  {
+   "id": "xn5mIBaRzWw",
+   "title": "Builders & Breakers | Local AI for Offensive Security: Models, Harnesses & Human Judgment ft Thomas",
+   "published": "2026-09-28T14:12:36Z",
+   "channelId": "UCQN2DsjnYH60SFBIA6IkNwg",
+   "short": false
+  },
+  {
+   "id": "Ee-5PFrsGtU",
+   "title": "This WordPress Core Bug Can Lead to Remote Code Execution (CVE-2026-87902)",
+   "published": "2026-09-28T12:45:32Z",
+   "channelId": "UCCZDt7MuC3Hzs6IH4xODLBw",
+   "short": false
+  },
+  {
+   "id": "nrrAva4-SDE",
+   "title": "OpenAI paid $6,500 for this bug! #shorts",
+   "published": "2026-09-27T21:54:50Z",
+   "channelId": "UClcE-kVhqyiHCcjYwcpfj9w",
+   "short": true
+  },
+  {
+   "id": "tb3Z15ia3xc",
+   "title": "VIM is Performative #linux #vim #chatgpt #coding",
+   "published": "2026-09-27T13:15:46Z",
+   "channelId": "UC6biysICWOJ-C3P4Tyeggzg",
+   "short": true
+  },
+  {
+   "id": "aKjcb1PhErg",
+   "title": "Gaining access to OpenAI's monorepo through ChatGPT #short",
+   "published": "2026-09-27T10:54:28Z",
+   "channelId": "UClcE-kVhqyiHCcjYwcpfj9w",
+   "short": true
+  },
+  {
+   "id": "_vj7rzmN-2E",
+   "title": "Saturday evening candy haul and photography vibes #travel #photography #vlog",
+   "published": "2026-09-26T20:12:26Z",
+   "channelId": "UCQN2DsjnYH60SFBIA6IkNwg",
+   "short": true
+  },
+  {
+   "id": "BGWdTqr2Vls",
+   "title": "HackTheBox - SmartHire",
+   "published": "2026-09-26T15:00:08Z",
+   "channelId": "UCa6eh7gCkpPo5XXUDfygQQA",
+   "short": false
+  },
+  {
+   "id": "dPcLZE9RG28",
+   "title": "Hacking OpenAI shortly after the Hugging Face incident.",
+   "published": "2026-09-26T13:04:27Z",
+   "channelId": "UClcE-kVhqyiHCcjYwcpfj9w",
+   "short": true
+  },
+  {
+   "id": "WWQRirWAKCE",
+   "title": "Watching Offensive AI Agents Work",
+   "published": "2026-09-26T08:46:16Z",
+   "channelId": "UCc8gr33-DyCZ6gAmqdcyzgA",
+   "short": false
+  },
+  {
+   "id": "_vYVQtle4SQ",
+   "title": "I Know What You've Been Doing #cybersecurity #claude #ai #automations @1Password #sponsored",
+   "published": "2026-09-25T15:53:50Z",
+   "channelId": "UC6biysICWOJ-C3P4Tyeggzg",
+   "short": true
+  },
+  {
+   "id": "d1pYS_6KJDg",
+   "title": "OpenAI and Slack got hacked with the same vulnerability! #short",
+   "published": "2026-09-25T13:58:34Z",
+   "channelId": "UClcE-kVhqyiHCcjYwcpfj9w",
+   "short": true
+  },
+  {
+   "id": "zBRQR_XOsEE",
+   "title": "government hack situation is absolutely insane",
+   "published": "2026-09-24T16:07:34Z",
+   "channelId": "UC6biysICWOJ-C3P4Tyeggzg",
+   "short": false
+  },
+  {
+   "id": "v1KblKrtVb8",
+   "title": "Is AppSec a Realistic First Cybersecurity Job?",
+   "published": "2026-09-22T17:00:18Z",
+   "channelId": "UC0ArlFuFYMpEewyRBzdLHiw",
+   "short": true
+  },
+  {
+   "id": "3tP1HVwA5ks",
+   "title": "Breaking Windows: Exploring Security Through Kernel Drivers",
+   "published": "2026-09-18T19:52:02Z",
+   "channelId": "UCc8gr33-DyCZ6gAmqdcyzgA",
+   "short": false
+  },
+  {
+   "id": "XmZ6OPEhnsI",
+   "title": "Soft Skills for the Job Market: Personal Websites",
+   "published": "2026-09-18T16:00:25Z",
+   "channelId": "UC0ArlFuFYMpEewyRBzdLHiw",
+   "short": false
+  },
+  {
+   "id": "YNNsjsBtyVI",
+   "title": "Start Hardware Hacking for Just $20!",
+   "published": "2026-09-15T17:00:37Z",
+   "channelId": "UC0ArlFuFYMpEewyRBzdLHiw",
+   "short": true
+  },
+  {
+   "id": "MYK9-66qe6w",
+   "title": "Builders & Breakers | Building Hackbots: Models, Harnesses and Human Expertise with Hamid Kashfi",
+   "published": "2026-09-14T11:55:50Z",
+   "channelId": "UCQN2DsjnYH60SFBIA6IkNwg",
+   "short": false
+  },
+  {
+   "id": "B9lVpmiCORQ",
+   "title": "HackTheBox - Silentium",
+   "published": "2026-09-12T15:00:08Z",
+   "channelId": "UCa6eh7gCkpPo5XXUDfygQQA",
+   "short": false
+  },
+  {
+   "id": "FF1aEhNRIwg",
+   "title": "The Role of Cryptography in Security",
+   "published": "2026-09-11T03:14:51Z",
+   "channelId": "UCc8gr33-DyCZ6gAmqdcyzgA",
+   "short": false
+  },
+  {
+   "id": "-THgoMNvH6E",
+   "title": "We back.",
+   "published": "2026-09-08T17:41:51Z",
+   "channelId": "UCQN2DsjnYH60SFBIA6IkNwg",
+   "short": true
+  },
+  {
+   "id": "-ZWuvykS-QA",
+   "title": "HackTheBox - Pirate",
+   "published": "2026-09-05T15:00:26Z",
+   "channelId": "UCa6eh7gCkpPo5XXUDfygQQA",
+   "short": false
+  },
+  {
+   "id": "UNH00QT1YR8",
+   "title": "Learning macOS Internals Through Reverse Engineering",
+   "published": "2026-08-29T05:37:22Z",
+   "channelId": "UCc8gr33-DyCZ6gAmqdcyzgA",
+   "short": false
+  },
+  {
+   "id": "ry4SNYe2f68",
+   "title": "Microsoft Killed My Exploit! Enforcing User-Kernel Separation on Windows with Exploit Mitigations",
+   "published": "2026-08-22T07:12:59Z",
+   "channelId": "UCc8gr33-DyCZ6gAmqdcyzgA",
+   "short": false
+  },
+  {
+   "id": "wfak-WONMbw",
+   "title": "AI Found a Vulnerability. Now Prove It! - Stephen Sims",
+   "published": "2026-08-18T07:09:45Z",
+   "channelId": "UCc8gr33-DyCZ6gAmqdcyzgA",
+   "short": false
+  },
+  {
+   "id": "zLCxUiQcHC0",
+   "title": "HackTheBox - Cobblestone",
+   "published": "2026-08-15T15:00:35Z",
+   "channelId": "UCa6eh7gCkpPo5XXUDfygQQA",
+   "short": false
+  },
+  {
+   "id": "WW1Xd6OK0O0",
+   "title": "HackTheBox - Helix",
+   "published": "2026-08-08T15:00:21Z",
+   "channelId": "UCa6eh7gCkpPo5XXUDfygQQA",
+   "short": false
+  },
+  {
+   "id": "5Z3rUOm9MLc",
+   "title": "Failure is Not an Option! A Reliable Process to Exploit STM32F2/F4 Microcontrollers, with Joe Grand",
+   "published": "2026-08-08T08:23:33Z",
+   "channelId": "UCc8gr33-DyCZ6gAmqdcyzgA",
+   "short": false
+  },
+  {
+   "id": "qmkQ6IghMOE",
+   "title": "HackTheBox - Kobold",
+   "published": "2026-08-01T15:00:52Z",
+   "channelId": "UCa6eh7gCkpPo5XXUDfygQQA",
+   "short": false
+  },
+  {
+   "id": "0_0h74zZJ-8",
+   "title": "Building the First Public Linux UEFI Bootkit Framework, with Alejandro Vazquez",
+   "published": "2026-08-01T07:52:22Z",
+   "channelId": "UCc8gr33-DyCZ6gAmqdcyzgA",
+   "short": false
+  },
+  {
+   "id": "GZf2Dj6pb0I",
+   "title": "HackTheBox - Fries",
+   "published": "2026-07-25T15:00:24Z",
+   "channelId": "UCa6eh7gCkpPo5XXUDfygQQA",
+   "short": false
+  },
+  {
+   "id": "tJhuAINZWQ0",
+   "title": "They hacked Google's AI in Seoul",
+   "published": "2026-07-23T09:15:46Z",
+   "channelId": "UCQN2DsjnYH60SFBIA6IkNwg",
+   "short": false
+  },
+  {
+   "id": "56zFqJq6qZw",
+   "title": "CyberLab Con 26 Track 1 (I'm live at 2PM UTC!)",
+   "published": "2026-07-19T03:01:52Z",
+   "channelId": "UCPiN9NPjIer8Do9gUFxKv7A",
+   "short": false
+  },
+  {
+   "id": "-SLJWkn1tzo",
+   "title": "HackTheBox Logging",
+   "published": "2026-07-18T15:00:18Z",
+   "channelId": "UCa6eh7gCkpPo5XXUDfygQQA",
+   "short": false
+  },
+  {
+   "id": "C60J33Mbd5E",
+   "title": "HackTheBox - CCTV",
+   "published": "2026-07-11T15:12:22Z",
+   "channelId": "UCa6eh7gCkpPo5XXUDfygQQA",
+   "short": false
+  },
+  {
+   "id": "a4_YdbW15y8",
+   "title": "Human Expertise Still Matters: AI Vulnerability Discovery, Triage, and Patching",
+   "published": "2026-07-11T07:38:32Z",
+   "channelId": "UCc8gr33-DyCZ6gAmqdcyzgA",
+   "short": false
+  },
+  {
+   "id": "ayaINQn7K08",
+   "title": "Human Expertise Still Matters AI Vulnerability Discovery Triage and Patching",
+   "published": "2026-07-11T03:05:08Z",
+   "channelId": "UCc8gr33-DyCZ6gAmqdcyzgA",
+   "short": false
+  },
+  {
+   "id": "Unsgv70jpA4",
+   "title": "HackTheBox - DevArea",
+   "published": "2026-07-04T15:00:08Z",
+   "channelId": "UCa6eh7gCkpPo5XXUDfygQQA",
+   "short": false
+  },
+  {
+   "id": "tSUYkRB6qwg",
+   "title": "AI Agents as Confused Deputies ...with Niki Aimable Niyikiza",
+   "published": "2026-07-02T19:08:13Z",
+   "channelId": "UCc8gr33-DyCZ6gAmqdcyzgA",
+   "short": false
+  },
+  {
+   "id": "T0Cl6HXB1no",
+   "title": "Building the Kill Chain: From Initial Access to Kernel Research",
+   "published": "2026-07-02T19:08:13Z",
+   "channelId": "UCc8gr33-DyCZ6gAmqdcyzgA",
+   "short": false
+  },
+  {
+   "id": "4ODfiVuxdlI",
+   "title": "Automated Reverse Engineering with LibGhidra, GhidraSQL, and AI Agents",
+   "published": "2026-07-02T19:08:13Z",
+   "channelId": "UCc8gr33-DyCZ6gAmqdcyzgA",
+   "short": false
+  },
+  {
+   "id": "xnw8rkGThc0",
+   "title": "Where have I gone?",
+   "published": "2026-06-24T13:24:10Z",
+   "channelId": "UCZDyl7G-Lq-EMVO8PfDFp9g",
+   "short": false
+  },
+  {
+   "id": "xmhxPZvUtXU",
+   "title": "OffensiveCon26 - Paul Gerste and Moritz Sanft",
+   "published": "2026-05-28T13:38:08Z",
+   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
+   "short": false
+  },
+  {
+   "id": "iMZJE2d7ZMU",
+   "title": "OffensiveCon26 - NiNi and Xiaobye",
+   "published": "2026-05-28T13:38:08Z",
+   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
+   "short": false
+  },
+  {
+   "id": "ssmNEPS3s1U",
+   "title": "OffensiveCon26 - Zhongquan Li - Design-Based Vulnerabilities on macOS: Oops, Not a One-Shot Fix",
+   "published": "2026-05-28T13:38:07Z",
+   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
+   "short": false
+  },
+  {
+   "id": "jpB_b6KGCoA",
+   "title": "OffensiveCon26 - Natalie Silvanovich and Seth Jenkins - A 0-Click Exploit Chain For The Pixel 10",
+   "published": "2026-05-28T13:38:07Z",
+   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
+   "short": false
+  },
+  {
+   "id": "d3nfJL86jrc",
+   "title": "OffensiveCon26 - Ivan Fratric - Beyond the Limits of Site Isolation",
+   "published": "2026-05-28T13:38:07Z",
+   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
+   "short": false
+  },
+  {
+   "id": "bYwE8NA5hqY",
+   "title": "OffensiveCon26 - sakura and R1nd0",
+   "published": "2026-05-28T13:38:07Z",
+   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
+   "short": false
+  },
+  {
+   "id": "UcAcCsEg7PA",
+   "title": "OffensiveCon26 - Benoît Sevens",
+   "published": "2026-05-28T13:38:07Z",
+   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
+   "short": false
+  },
+  {
+   "id": "KbKzze2MhgM",
+   "title": "OffensiveCon26 - Kaufi - From Samsung Account to RCE: A Journey to a Remote 0-Click Capability",
+   "published": "2026-05-28T13:38:05Z",
+   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
+   "short": false
+  },
+  {
+   "id": "Pbdt5DQ6hAQ",
+   "title": "OffensiveCon26 - Ollie Whitehouse - Keynote",
+   "published": "2026-05-28T13:38:04Z",
+   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
+   "short": false
+  },
+  {
+   "id": "KGbGU_MK9hY",
+   "title": "OffensiveCon26 - Xingyu Jin & Martijn Bogaard",
+   "published": "2026-05-28T13:38:04Z",
+   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
+   "short": false
+  },
+  {
+   "id": "I1-D_sck6to",
+   "title": "OffensiveCon26 - Cristofaro Mune - Exploiting QSEE Vulnerabilities In Google's Wifi Pro",
+   "published": "2026-05-28T13:38:04Z",
+   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
+   "short": false
+  },
+  {
+   "id": "FikuvF6Ot_E",
+   "title": "OffensiveCon26 - Philipp Mao and Rokhaya Fall - Exploiting Android Apps with Counterfeit Art",
+   "published": "2026-05-28T13:38:04Z",
+   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
+   "short": false
+  },
+  {
+   "id": "E8l4FE4B6bU",
+   "title": "OffensiveCon26 - Atlan Pinabel - Navigating the MTE Landscape: iOS Memory Protection Deep Dive",
+   "published": "2026-05-28T13:38:04Z",
+   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
+   "short": false
+  },
+  {
+   "id": "60_tbA4K0I8",
+   "title": "OffensiveCon26 - Chris and Benedict",
+   "published": "2026-05-28T13:38:04Z",
+   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
+   "short": false
+  },
+  {
+   "id": "2ytQDhLSDMg",
+   "title": "OffensiveCon26 - Erik Egsgard - IRON GIANT: When The Vault Becomes The Victim",
+   "published": "2026-05-28T13:38:04Z",
+   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
+   "short": false
+  },
+  {
+   "id": "F9R0qTPdw2w",
+   "title": "Ai, Deception And Deepfakes When Trust Becomes The Primary Attack Surface",
+   "published": "2026-05-26T21:47:55Z",
+   "channelId": "UCI85JnsJEiKnkGiGBkqvZXw",
+   "short": false
+  },
+  {
+   "id": "VE43LxyfEB8",
+   "title": "Cloud Resilience Simplified Less Data, Stronger Security",
+   "published": "2026-05-26T21:46:48Z",
+   "channelId": "UCI85JnsJEiKnkGiGBkqvZXw",
+   "short": false
+  },
+  {
+   "id": "ml2EkwX2mp4",
+   "title": "Demystifying Driver Research A Systematic Approach For Vulnerability Hunting",
+   "published": "2026-05-26T21:46:04Z",
+   "channelId": "UCI85JnsJEiKnkGiGBkqvZXw",
+   "short": false
+  },
+  {
+   "id": "JPG0DsjtMVU",
+   "title": "Dpdpa In Action Designing A 72 Hour Breach Response That Actually Works",
+   "published": "2026-05-26T21:16:16Z",
+   "channelId": "UCI85JnsJEiKnkGiGBkqvZXw",
+   "short": false
+  },
+  {
+   "id": "_P9gciWAjds",
+   "title": "Regulation, Resilience and Reality: How CXOs Navigate the Compliance Security Trade-Off",
+   "published": "2026-05-26T21:13:21Z",
+   "channelId": "UCI85JnsJEiKnkGiGBkqvZXw",
+   "short": false
+  },
+  {
+   "id": "TflR0wBf7v0",
+   "title": "Securing The Model Context Protocol Defense Strategies For Ai Tool Ecosystems",
+   "published": "2026-05-26T20:42:10Z",
+   "channelId": "UCI85JnsJEiKnkGiGBkqvZXw",
+   "short": false
+  },
+  {
+   "id": "dlXm8kNUN38",
+   "title": "Stealthy Data Exfiltration Exploiting Tls Handshake With Next Generation Firewalls",
+   "published": "2026-05-26T20:40:33Z",
+   "channelId": "UCI85JnsJEiKnkGiGBkqvZXw",
+   "short": false
+  },
+  {
+   "id": "HAtou3R_dxc",
+   "title": "The Ciso Equation Authority, Accountability, And Survival In The Modern Enterprise",
+   "published": "2026-05-26T20:39:13Z",
+   "channelId": "UCI85JnsJEiKnkGiGBkqvZXw",
+   "short": false
+  },
+  {
+   "id": "rhMIsZl-1QA",
+   "title": "The Future Of Augmented Appsec Integrating Llm Reasoning Into Burp Workflows With Vista",
+   "published": "2026-05-26T14:11:31Z",
+   "channelId": "UCI85JnsJEiKnkGiGBkqvZXw",
+   "short": false
+  },
+  {
+   "id": "rUQiuFVvT9g",
+   "title": "The Machine With Many Faces Identity Impersonation In Spiffe Spire",
+   "published": "2026-05-26T14:10:54Z",
+   "channelId": "UCI85JnsJEiKnkGiGBkqvZXw",
+   "short": false
+  },
+  {
+   "id": "gjDw1V3KOPk",
+   "title": "The Meltdown Moment Cve 2025 21533 A Speculative Store Bypass In Oracle Virtualbox",
+   "published": "2026-05-26T14:10:04Z",
+   "channelId": "UCI85JnsJEiKnkGiGBkqvZXw",
+   "short": false
+  },
+  {
+   "id": "jrGY_E7Ncr4",
+   "title": "☔️🌅",
+   "published": "2026-05-23T19:42:45Z",
+   "channelId": "UCQN2DsjnYH60SFBIA6IkNwg",
+   "short": true
+  },
+  {
+   "id": "JiGVMsyj_J0",
+   "title": "The Soap Effect Breaking Security Assumptions In Real World Systems",
+   "published": "2026-05-19T15:55:24Z",
+   "channelId": "UCI85JnsJEiKnkGiGBkqvZXw",
+   "short": false
+  },
+  {
+   "id": "go8poeCzenU",
+   "title": "Volatility Meets Ai Transforming Linux And Windows Memory Forensics For Modern Threats",
+   "published": "2026-05-19T15:54:16Z",
+   "channelId": "UCI85JnsJEiKnkGiGBkqvZXw",
+   "short": false
+  },
+  {
+   "id": "OqJPklaKJos",
+   "title": "Welcome to our live show!",
+   "published": "2026-04-02T11:06:14Z",
+   "channelId": "UCBaWwFw7KmCN8YlfX4ERYKg",
+   "short": false
+  },
+  {
+   "id": "bDAakzNvTDI",
+   "title": "Welcome to our live show!",
+   "published": "2026-03-19T11:05:37Z",
+   "channelId": "UCBaWwFw7KmCN8YlfX4ERYKg",
+   "short": false
+  },
+  {
+   "id": "yMoq17-1pJA",
+   "title": "I bought this tiny $40 ereader… Then rewrote It",
+   "published": "2026-01-16T23:07:28Z",
+   "channelId": "UCPiN9NPjIer8Do9gUFxKv7A",
+   "short": false
+  },
+  {
+   "id": "DqFBS_RDgl4",
+   "title": "CSE 365: Welcome to Spring 2026",
+   "published": "2026-01-12T23:22:16Z",
+   "channelId": "UCBaWwFw7KmCN8YlfX4ERYKg",
+   "short": false
+  },
+  {
+   "id": "7gwSOfgxUyU",
+   "title": "Microarchitectural Vulnerabilities - CSE466 - Robert - 2025.11.25",
+   "published": "2025-12-23T19:25:28Z",
+   "channelId": "UCBaWwFw7KmCN8YlfX4ERYKg",
+   "short": false
+  },
+  {
+   "id": "Z5m76u8M-tA",
+   "title": "Kernel - CSE466 - Robert - 2025.11.20",
+   "published": "2025-12-23T18:23:45Z",
+   "channelId": "UCBaWwFw7KmCN8YlfX4ERYKg",
+   "short": false
+  },
+  {
+   "id": "_fpnJNPD124",
+   "title": "Final Review - CSE466 - Michael - 2025.12.02",
+   "published": "2025-12-23T17:56:39Z",
+   "channelId": "UCBaWwFw7KmCN8YlfX4ERYKg",
+   "short": false
+  },
+  {
+   "id": "dGzIE7FRVSg",
+   "title": "Microarchitectural Vulnerabilities - CSE466 - Robert - 2025.12.04",
+   "published": "2025-12-23T17:45:07Z",
+   "channelId": "UCBaWwFw7KmCN8YlfX4ERYKg",
+   "short": false
+  },
+  {
+   "id": "LeRRJYb0ub0",
+   "title": "How to enable the React2Shell custom scan check in Burp Suite Professional",
+   "published": "2025-12-05T14:34:25Z",
+   "channelId": "UCkytgKNbJ0L1UuN1K27GAKA",
+   "short": false
+  },
+  {
+   "id": "MbOucGQ3kVk",
+   "title": "pwn.talk — 012 — pwn.certs?",
+   "published": "2025-11-24T19:53:56Z",
+   "channelId": "UCBaWwFw7KmCN8YlfX4ERYKg",
+   "short": false
+  },
+  {
+   "id": "TUwXmj-u_Ys",
+   "title": "Kernel - CSE466 - Michael - 2025.11.18",
+   "published": "2025-11-20T22:52:34Z",
+   "channelId": "UCBaWwFw7KmCN8YlfX4ERYKg",
+   "short": false
+  },
+  {
+   "id": "-jecaiBQOjk",
+   "title": "Welcome to our live show!",
+   "published": "2025-11-20T11:23:04Z",
+   "channelId": "UCBaWwFw7KmCN8YlfX4ERYKg",
+   "short": false
+  },
+  {
+   "id": "UnA1FOWz_YQ",
+   "title": "Linux Namespaces - CSE466 - Robert - 2025.11.13",
+   "published": "2025-11-14T07:16:51Z",
+   "channelId": "UCBaWwFw7KmCN8YlfX4ERYKg",
+   "short": false
+  },
+  {
+   "id": "Unaa58tT3ho",
+   "title": "Race Conditions - CSE466 - Robert - 2025.11.06",
+   "published": "2025-11-14T07:05:35Z",
+   "channelId": "UCBaWwFw7KmCN8YlfX4ERYKg",
+   "short": false
+  },
+  {
+   "id": "z92GobdN40Y",
+   "title": "HTTP Anomaly Rank - a new Turbo Intruder feature",
+   "published": "2025-11-11T14:56:53Z",
+   "channelId": "UCkytgKNbJ0L1UuN1K27GAKA",
+   "short": false
+  },
+  {
+   "id": "6XM5mJCBfXg",
+   "title": "Race Conditions - CSE466 - Michael - 2025.11.04",
+   "published": "2025-11-06T20:40:11Z",
+   "channelId": "UCBaWwFw7KmCN8YlfX4ERYKg",
+   "short": false
+  },
+  {
+   "id": "Aer1pkbee-Y",
+   "title": "pwn.talk — 011 — Advent of PWN!",
+   "published": "2025-11-06T20:12:21Z",
+   "channelId": "UCBaWwFw7KmCN8YlfX4ERYKg",
+   "short": false
+  },
+  {
+   "id": "KSQMdIPQ2Ik",
+   "title": "pwn.talk — 010 — Contributing to pwn.college",
+   "published": "2025-11-06T20:10:58Z",
+   "channelId": "UCBaWwFw7KmCN8YlfX4ERYKg",
+   "short": false
+  },
+  {
+   "id": "g06bdpAL5mQ",
+   "title": "The Evolution of Burp AI",
+   "published": "2025-10-31T14:16:29Z",
+   "channelId": "UCkytgKNbJ0L1UuN1K27GAKA",
+   "short": false
+  },
+  {
+   "id": "BAZ-z2fA8E4",
+   "title": "HTTP is supposed to be stateless...",
+   "published": "2025-10-22T13:36:21Z",
+   "channelId": "UCkytgKNbJ0L1UuN1K27GAKA",
+   "short": false
+  },
+  {
+   "id": "90hWsR18kHw",
+   "title": "NahamSec unlocks new agentic capabilities with Burp AI",
+   "published": "2025-10-20T18:23:42Z",
+   "channelId": "UCkytgKNbJ0L1UuN1K27GAKA",
+   "short": false
+  },
+  {
+   "id": "q-TWZ24A7dw",
+   "title": "WebSocket Turbo Intruder for Burp Suite",
+   "published": "2025-09-30T12:27:58Z",
+   "channelId": "UCkytgKNbJ0L1UuN1K27GAKA",
+   "short": false
+  },
+  {
+   "id": "olD6F7ElI3o",
+   "title": "Life in the Nordics 🌲 | Foraging Blueberries, Mushrooms & Nosework Training with Our Dogs",
+   "published": "2025-08-24T10:27:23Z",
+   "channelId": "UCQN2DsjnYH60SFBIA6IkNwg",
+   "short": false
+  },
+  {
+   "id": "CpV3XDqzYyE",
+   "title": "Analysing the DOM to find Reflected XSS",
+   "published": "2025-08-13T14:11:35Z",
+   "channelId": "UCPiN9NPjIer8Do9gUFxKv7A",
+   "short": false
+  },
+  {
+   "id": "8Uva1su3goc",
+   "title": "Still not found your first bug? Try IDORs",
+   "published": "2025-07-31T08:49:00Z",
+   "channelId": "UCPiN9NPjIer8Do9gUFxKv7A",
+   "short": false
+  },
+  {
+   "id": "SCN_nt9DnyI",
+   "title": "GraphQL CSRF via the HEAD method #bugbounty #bugbountytips #bugbountyhunter",
+   "published": "2025-06-30T10:00:50Z",
+   "channelId": "UCZDyl7G-Lq-EMVO8PfDFp9g",
+   "short": true
+  },
+  {
+   "id": "uEqMfYq1tl8",
+   "title": "10/10 GraphQL SQL injection bug #bugbounty #bugbountytips #bugbountyhunter",
+   "published": "2025-06-28T10:01:29Z",
+   "channelId": "UCZDyl7G-Lq-EMVO8PfDFp9g",
+   "short": true
+  },
+  {
+   "id": "n_iwfhuARk0",
+   "title": "Unexpected privilege escalation deletion bug #bugbounty #bugbountytips #bugbountyhunter",
+   "published": "2025-06-27T10:01:24Z",
+   "channelId": "UCZDyl7G-Lq-EMVO8PfDFp9g",
+   "short": true
+  },
+  {
+   "id": "IIA6pCv8z6M",
+   "title": "Unauthenticated → Low privileges → admin #bugbounty #bugbountytips #bugbountyhunter",
+   "published": "2025-06-26T10:00:34Z",
+   "channelId": "UCZDyl7G-Lq-EMVO8PfDFp9g",
+   "short": true
+  },
+  {
+   "id": "jKykE8g3fgk",
+   "title": "Sometimes, one field is all you need for a bug #bugbounty #bugbountytips #bugbountyhunter",
+   "published": "2025-06-25T10:01:15Z",
+   "channelId": "UCZDyl7G-Lq-EMVO8PfDFp9g",
+   "short": true
+  },
+  {
+   "id": "9tNUPpB1gto",
+   "title": "What bugs you should look for in a GraphQL API? Bug Bounty Case Study",
+   "published": "2025-06-24T11:38:10Z",
+   "channelId": "UCZDyl7G-Lq-EMVO8PfDFp9g",
+   "short": false
+  },
+  {
+   "id": "xCFVIpy2EFk",
+   "title": "Fuzzing vs broken access control bugs feat. Arthur Aires #bugbounty #bugbountytips #bugbountyhunter",
+   "published": "2025-06-16T11:01:27Z",
+   "channelId": "UCZDyl7G-Lq-EMVO8PfDFp9g",
+   "short": true
+  },
+  {
+   "id": "S0HWhUZJOF0",
+   "title": "This is why you should run bug bounty tools from a VPS feat. Arthur Aires #bugbounty #bugbountytips",
+   "published": "2025-06-14T11:00:49Z",
+   "channelId": "UCZDyl7G-Lq-EMVO8PfDFp9g",
+   "short": true
+  },
+  {
+   "id": "TMbwITGiUHc",
+   "title": "Managing your blind XSS payloads feat. Arthur Aires #bugbounty #bugbountytips #bugbountyhunter",
+   "published": "2025-06-12T22:00:37Z",
+   "channelId": "UCZDyl7G-Lq-EMVO8PfDFp9g",
+   "short": true
+  },
+  {
+   "id": "b-f6iBA03J0",
+   "title": "Generating target-specific wordlists feat. Arthur Aires #bugbounty #bugbountytips #bugbountyhunter",
+   "published": "2025-06-12T11:00:59Z",
+   "channelId": "UCZDyl7G-Lq-EMVO8PfDFp9g",
+   "short": true
+  },
+  {
+   "id": "GGfWHKJUNIk",
+   "title": "Automation to get Hackerone program updates feat. Arthur Aires #bugbounty #bugbountytips #bugbountyh",
+   "published": "2025-06-11T11:03:28Z",
+   "channelId": "UCZDyl7G-Lq-EMVO8PfDFp9g",
+   "short": true
+  },
+  {
+   "id": "6mVMVLYKBYI",
+   "title": "Bug bounty tools that actually land bugs with Arthur Aires",
+   "published": "2025-06-10T14:33:45Z",
+   "channelId": "UCZDyl7G-Lq-EMVO8PfDFp9g",
+   "short": false
+  },
+  {
+   "id": "sdtyclxY0Vo",
+   "title": "How Burp AI is redefining AppSec with Burp Suite Creator, Dafydd Stuttard",
+   "published": "2025-06-04T13:18:58Z",
+   "channelId": "UCkytgKNbJ0L1UuN1K27GAKA",
+   "short": false
+  },
+  {
+   "id": "s1i0j23cwJk",
+   "title": "Exploring Burp AI with the developers - Burp Suite Professional, but smarter",
+   "published": "2025-06-04T13:18:49Z",
+   "channelId": "UCkytgKNbJ0L1UuN1K27GAKA",
+   "short": false
+  },
+  {
+   "id": "RLyhPGsEMz4",
+   "title": "XSS like you've never seen.",
+   "published": "2025-06-03T18:43:43Z",
+   "channelId": "UCW6MNdOsqv2E9AjQkv9we7A",
+   "short": false
+  },
+  {
+   "id": "wnVpmSrhNRo",
+   "title": "Vibe Coding in Cursor for Cyber Security",
+   "published": "2025-05-29T13:05:11Z",
+   "channelId": "UCPiN9NPjIer8Do9gUFxKv7A",
+   "short": false
+  },
+  {
+   "id": "tEfjSs4fq8M",
+   "title": "RCE via deserialization with a class allowlist bypass and DNS exfiltration with Arthur Aires",
+   "published": "2025-05-28T10:29:52Z",
+   "channelId": "UCZDyl7G-Lq-EMVO8PfDFp9g",
+   "short": false
+  },
+  {
+   "id": "mgmUZ9odkvU",
+   "title": "AMA: James Kettle on Burp Suite, AI & Security Research",
+   "published": "2025-05-27T10:48:44Z",
+   "channelId": "UCkytgKNbJ0L1UuN1K27GAKA",
+   "short": false
+  },
+  {
+   "id": "ypC3KRMOAzo",
+   "title": "An ATO that doesn’t make sense feat. Jasmin “JR0ch17” Landry #bugbounty #bugbountytips #bugbountyhun",
+   "published": "2025-05-21T10:15:07Z",
+   "channelId": "UCZDyl7G-Lq-EMVO8PfDFp9g",
+   "short": true
+  },
+  {
+   "id": "u3GX4LgMdHQ",
+   "title": "Burp Suite: Introducing Custom Actions",
+   "published": "2025-05-16T12:19:08Z",
+   "channelId": "UCkytgKNbJ0L1UuN1K27GAKA",
+   "short": false
+  },
+  {
+   "id": "XtkXHCG4RL8",
+   "title": "Introducing the Bambda Library",
+   "published": "2025-04-28T09:33:21Z",
+   "channelId": "UCkytgKNbJ0L1UuN1K27GAKA",
+   "short": false
+  },
+  {
+   "id": "m4UArMW28xM",
+   "title": "Using and creating AI extensions for Burp Suite Professional",
+   "published": "2025-04-15T11:03:35Z",
+   "channelId": "UCkytgKNbJ0L1UuN1K27GAKA",
+   "short": true
+  },
+  {
+   "id": "KIgaZb_IjHU",
+   "title": "I designed and built eink labels for my filament with an ESP32, here’s how it works #3dprinting",
+   "published": "2025-04-15T07:39:35Z",
+   "channelId": "UCPiN9NPjIer8Do9gUFxKv7A",
+   "short": true
+  },
+  {
+   "id": "iTT2AYE2IMQ",
+   "title": "Innocent Looking Backdoor Found in Universities and Government Systems",
+   "published": "2025-04-13T20:54:12Z",
+   "channelId": "UCW6MNdOsqv2E9AjQkv9we7A",
+   "short": false
+  },
+  {
+   "id": "66Zo3l2tkKA",
+   "title": "Burp Suite Shorts | Developing an AI Extension with Tom",
+   "published": "2025-03-18T15:36:37Z",
+   "channelId": "UCkytgKNbJ0L1UuN1K27GAKA",
+   "short": false
+  },
+  {
+   "id": "rgsIkZkflMw",
+   "title": "2 Bytes Was Enough To Breach The US Treasury",
+   "published": "2025-03-07T15:52:27Z",
+   "channelId": "UCW6MNdOsqv2E9AjQkv9we7A",
+   "short": false
+  },
+  {
+   "id": "Z1uJmfCGpRE",
+   "title": "Using the AI-powered Shadow Repeater extension to discover SSTI variations with Burp Suite",
+   "published": "2025-02-20T13:28:27Z",
+   "channelId": "UCkytgKNbJ0L1UuN1K27GAKA",
+   "short": false
+  },
+  {
+   "id": "gUuDyIE44bc",
+   "title": "How 3 Hackers Combined Their Skills for Big Bounties! (And how you can do it too)",
+   "published": "2025-01-11T22:24:29Z",
+   "channelId": "UCPiN9NPjIer8Do9gUFxKv7A",
+   "short": false
+  },
+  {
+   "id": "ct6393M_Iow",
+   "title": "Advent of Cyber Day 24: MQTT & Wireshark",
+   "published": "2024-12-24T16:00:35Z",
+   "channelId": "UCPiN9NPjIer8Do9gUFxKv7A",
+   "short": false
+  },
+  {
+   "id": "ozgRXn44FF0",
+   "title": "Advent of Cyber Day 13: Exploring WebSocket Vulnerabilities with InsiderPhD",
+   "published": "2024-12-13T16:00:48Z",
+   "channelId": "UCPiN9NPjIer8Do9gUFxKv7A",
+   "short": false
+  },
+  {
+   "id": "OvUmumbiGRI",
+   "title": "Review: This Is How They Tell Me the World Ends (not with a bang but with a bug)",
+   "published": "2024-10-24T14:00:31Z",
+   "channelId": "UCPiN9NPjIer8Do9gUFxKv7A",
+   "short": false
+  },
+  {
+   "id": "AIJK_Lw8rKw",
+   "title": "Understanding the Bugcrowd VRT: An Insider's Guide",
+   "published": "2024-10-17T14:00:13Z",
+   "channelId": "UCPiN9NPjIer8Do9gUFxKv7A",
+   "short": false
+  },
+  {
+   "id": "hnU0mRl0WBI",
+   "title": "Get Bigger Bounties With Better Reports",
+   "published": "2024-10-10T14:00:43Z",
+   "channelId": "UCPiN9NPjIer8Do9gUFxKv7A",
+   "short": false
+  },
+  {
+   "id": "y7-J8g3_9l8",
+   "title": "Live at the RSA expo hall!",
+   "published": "2024-05-06T22:16:46Z",
+   "channelId": "UCPiN9NPjIer8Do9gUFxKv7A",
+   "short": true
+  },
+  {
+   "id": "vJYXy8UmsUA",
+   "title": "Fault injection vs Firmware hacking",
+   "published": "2024-04-18T12:43:10Z",
+   "channelId": "UC3S8vxwRfqLBdIhgRlDRVzw",
+   "short": true
+  },
+  {
+   "id": "T4EhE5f7fQg",
+   "title": "Should I report this vulnerability? Will I get a bounty?",
+   "published": "2024-03-14T07:28:58Z",
+   "channelId": "UCPiN9NPjIer8Do9gUFxKv7A",
+   "short": false
+  },
+  {
+   "id": "uXuMvUPlvd0",
+   "title": "How to take notes when you suck at it",
+   "published": "2024-03-07T08:00:34Z",
+   "channelId": "UCPiN9NPjIer8Do9gUFxKv7A",
+   "short": false
+  },
+  {
+   "id": "1TeZktDEPf0",
+   "title": "Sniffing Bitlocker keys with $10 of equipment",
+   "published": "2024-02-06T17:20:43Z",
+   "channelId": "UC3S8vxwRfqLBdIhgRlDRVzw",
+   "short": true
+  },
+  {
+   "id": "wTl4vEednkQ",
+   "title": "Breaking Bitlocker - Bypassing the Windows Disk Encryption",
+   "published": "2024-02-03T18:11:18Z",
+   "channelId": "UC3S8vxwRfqLBdIhgRlDRVzw",
+   "short": false
+  },
+  {
+   "id": "Y6SL8kIdTpQ",
+   "title": "Winter vanlife = good times",
+   "published": "2023-12-31T14:47:36Z",
+   "channelId": "UCQN2DsjnYH60SFBIA6IkNwg",
+   "short": true
+  },
+  {
+   "id": "uKXUhA2Oycc",
+   "title": "What an experience! Getting a Christmas tree from our own piece of land. #movingupnorth!",
+   "published": "2023-12-24T19:51:01Z",
+   "channelId": "UCQN2DsjnYH60SFBIA6IkNwg",
+   "short": false
+  },
+  {
+   "id": "h3-GuExi_Z0",
+   "title": "Had to much GLÖGG and lost my camera during - 13371122 - Intigriti + Visma",
+   "published": "2023-12-18T09:22:51Z",
+   "channelId": "UCQN2DsjnYH60SFBIA6IkNwg",
+   "short": false
+  },
+  {
+   "id": "D8UGlvBubkA",
+   "title": "Getting JTAG on the iPhone 15",
+   "published": "2023-10-01T14:00:13Z",
+   "channelId": "UC3S8vxwRfqLBdIhgRlDRVzw",
+   "short": false
+  },
+  {
+   "id": "p5tMaWsuGk0",
+   "title": "The secrets of Apple Lightning - Part 1",
+   "published": "2023-02-11T18:14:29Z",
+   "channelId": "UC3S8vxwRfqLBdIhgRlDRVzw",
+   "short": false
+  },
+  {
+   "id": "PqJTmd7mmX0",
+   "title": "Flipper Zero + Cheap Remote Car Key",
+   "published": "2022-12-19T20:21:26Z",
+   "channelId": "UC3S8vxwRfqLBdIhgRlDRVzw",
+   "short": true
+  },
+  {
+   "id": "7p_njRMqzrY",
+   "title": "The Hitchhacker’s Guide to iPhone Lightning and JTAG Hacking (DEF CON 30 Presentation)",
+   "published": "2022-10-28T13:07:00Z",
+   "channelId": "UC3S8vxwRfqLBdIhgRlDRVzw",
+   "short": false
+  },
+  {
+   "id": "-h_rj2-HP2E",
+   "title": "How To Predict Random Numbers Generated By Computers",
+   "published": "2022-07-14T11:30:04Z",
+   "channelId": "UCW6MNdOsqv2E9AjQkv9we7A",
+   "short": false
+  },
+  {
+   "id": "eTcVLqKpZJc",
+   "title": "Dangerous Code Hidden in Plain Sight for 12 years!",
+   "published": "2022-04-08T16:47:39Z",
+   "channelId": "UCW6MNdOsqv2E9AjQkv9we7A",
+   "short": false
+  },
+  {
+   "id": "XS_UMqQalLI",
+   "title": "How One NPM Package Silently Owns Your Entire Codebase",
+   "published": "2021-12-13T20:07:29Z",
+   "channelId": "UCW6MNdOsqv2E9AjQkv9we7A",
+   "short": false
+  },
+  {
+   "id": "z9E38sN5nRQ",
+   "title": "Can an AI drive Mario Kart 64?",
+   "published": "2021-11-14T17:46:12Z",
+   "channelId": "UC3S8vxwRfqLBdIhgRlDRVzw",
+   "short": false
+  },
+  {
+   "id": "RCJdPiogUIk",
+   "title": "Don't make random HTTP requests.",
+   "published": "2021-10-05T16:52:27Z",
+   "channelId": "UCW6MNdOsqv2E9AjQkv9we7A",
+   "short": false
+  },
+  {
+   "id": "64FgfhfvJ4s",
+   "title": "Hacking the Game Boy with a Silver Play Button",
+   "published": "2021-07-03T14:11:50Z",
+   "channelId": "UC3S8vxwRfqLBdIhgRlDRVzw",
+   "short": false
+  },
+  {
+   "id": "msdymgkhePo",
+   "title": "This Website has No Code, or Does it?",
+   "published": "2021-06-04T12:27:50Z",
+   "channelId": "UCW6MNdOsqv2E9AjQkv9we7A",
+   "short": false
+  },
+  {
+   "id": "_E0PWQvW-14",
+   "title": "How the Apple AirTags were hacked",
+   "published": "2021-05-11T18:30:38Z",
+   "channelId": "UC3S8vxwRfqLBdIhgRlDRVzw",
+   "short": false
+  },
+  {
+   "id": "KtHu693wE9o",
+   "title": "Online Multiplayer on the Game Boy",
+   "published": "2021-05-02T17:46:55Z",
+   "channelId": "UC3S8vxwRfqLBdIhgRlDRVzw",
+   "short": false
+  },
+  {
+   "id": "6SA6S9Ca5-U",
+   "title": "Why you should Close Your Files | bin 0x02",
+   "published": "2021-04-23T16:24:45Z",
+   "channelId": "UCW6MNdOsqv2E9AjQkv9we7A",
+   "short": false
+  },
+  {
+   "id": "EJtUW2AklVs",
+   "title": "How some functions can be Dangerous | bin 0x01",
+   "published": "2021-04-01T19:18:25Z",
+   "channelId": "UCW6MNdOsqv2E9AjQkv9we7A",
+   "short": false
+  },
+  {
+   "id": "4ckjr9x214c",
+   "title": "Mining Bitcoin on the Game Boy",
+   "published": "2021-03-27T16:52:11Z",
+   "channelId": "UC3S8vxwRfqLBdIhgRlDRVzw",
+   "short": false
+  },
+  {
+   "id": "WnqOhgI_8wA",
+   "title": "What are Executables? | bin 0x00",
+   "published": "2021-03-12T13:29:57Z",
+   "channelId": "UCW6MNdOsqv2E9AjQkv9we7A",
+   "short": false
+  },
+  {
+   "id": "yYnQYF_Xa8g",
+   "title": "In-depth: Raspberry Pi Pico's PIO - programmable I/O!",
+   "published": "2021-03-09T14:56:16Z",
+   "channelId": "UC3S8vxwRfqLBdIhgRlDRVzw",
+   "short": false
+  },
+  {
+   "id": "cwyH59nACzQ",
+   "title": "Why 111-1111111 is a valid Windows 95 key",
+   "published": "2021-01-29T18:52:41Z",
+   "channelId": "UC3S8vxwRfqLBdIhgRlDRVzw",
+   "short": false
+  },
+  {
+   "id": "jwzeJU_62IQ",
+   "title": "Insecure Deserialization Attack Explained",
+   "published": "2021-01-24T18:30:16Z",
+   "channelId": "UCW6MNdOsqv2E9AjQkv9we7A",
+   "short": false
+  },
+  {
+   "id": "JQ9KAQrq18U",
+   "title": "PwnFunction Live Stream",
+   "published": "2021-01-24T16:30:02Z",
+   "channelId": "UCW6MNdOsqv2E9AjQkv9we7A",
+   "short": false
+  },
+  {
+   "id": "sVkFGajsnW8",
+   "title": "Hacking the ████████® ████ & █████™",
+   "published": "2021-01-15T15:52:31Z",
+   "channelId": "UC3S8vxwRfqLBdIhgRlDRVzw",
+   "short": false
+  },
+  {
+   "id": "SN6EVIG4c-0",
+   "title": "Server-Side Template Injections Explained",
+   "published": "2020-11-27T18:48:15Z",
+   "channelId": "UCW6MNdOsqv2E9AjQkv9we7A",
+   "short": false
+  },
+  {
+   "id": "EoaDgUgS6QA",
+   "title": "Cross-Site Scripting (XSS) Explained",
+   "published": "2020-03-22T16:45:21Z",
+   "channelId": "UCW6MNdOsqv2E9AjQkv9we7A",
+   "short": false
+  }
+ ]
+}

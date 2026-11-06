@@ -1,0 +1,158 @@
+{
+  "categories": {
+    "web": "Web & bug bounty",
+    "low": "Exploitation & low-level",
+    "red": "Pentest & red team",
+    "talks": "Conference talks",
+    "mine": "My channels"
+  },
+  "channels": [
+    {
+      "id": "UCkytgKNbJ0L1UuN1K27GAKA",
+      "name": "PortSwigger",
+      "handle": "@PortSwiggerTV",
+      "cat": "web",
+      "desc": "Web security research from the makers of Burp Suite, plus Web Security Academy walkthroughs."
+    },
+    {
+      "id": "UCCZDt7MuC3Hzs6IH4xODLBw",
+      "name": "NahamSec",
+      "handle": "@NahamSec",
+      "cat": "web",
+      "desc": "Bug bounty methodology, recon, and interviews with full-time hunters."
+    },
+    {
+      "id": "UCW6MNdOsqv2E9AjQkv9we7A",
+      "name": "PwnFunction",
+      "handle": "@PwnFunction",
+      "cat": "web",
+      "desc": "Short animated explainers of web vulnerability classes."
+    },
+    {
+      "id": "UCZDyl7G-Lq-EMVO8PfDFp9g",
+      "name": "Bug Bounty Reports Explained",
+      "handle": "@BugBountyReportsExplained",
+      "cat": "web",
+      "desc": "Breakdowns of real disclosed bug bounty reports — how the bug was found and why it paid."
+    },
+    {
+      "id": "UC6zbKG1pqq2do-_oa9QFliA",
+      "name": "Critical Thinking",
+      "handle": "@criticalthinkingpodcast",
+      "cat": "web",
+      "desc": "Technical bug bounty podcast: techniques, write-ups, and hunter workflows."
+    },
+    {
+      "id": "UCPiN9NPjIer8Do9gUFxKv7A",
+      "name": "InsiderPhD",
+      "handle": "@InsiderPhD",
+      "cat": "web",
+      "desc": "Beginner-friendly bug bounty and API hacking."
+    },
+    {
+      "id": "UCQN2DsjnYH60SFBIA6IkNwg",
+      "name": "STÖK",
+      "handle": "@STOKfredrik",
+      "cat": "web",
+      "desc": "Bug bounty, recon, and hacker mindset."
+    },
+    {
+      "id": "UClcE-kVhqyiHCcjYwcpfj9w",
+      "name": "LiveOverflow",
+      "handle": "@LiveOverflow",
+      "cat": "low",
+      "desc": "Binary exploitation, CTFs, and how security research actually works."
+    },
+    {
+      "id": "UCBaWwFw7KmCN8YlfX4ERYKg",
+      "name": "pwn.college",
+      "handle": "@pwncollege",
+      "cat": "low",
+      "desc": "Free university-grade lectures on exploitation and system security."
+    },
+    {
+      "id": "UCc8gr33-DyCZ6gAmqdcyzgA",
+      "name": "Off By One Security",
+      "handle": "@OffByOneSecurity",
+      "cat": "low",
+      "desc": "Exploit development and vulnerability research streams."
+    },
+    {
+      "id": "UC3S8vxwRfqLBdIhgRlDRVzw",
+      "name": "stacksmashing",
+      "handle": "@stacksmashing",
+      "cat": "low",
+      "desc": "Hardware hacking and reverse engineering."
+    },
+    {
+      "id": "UC6biysICWOJ-C3P4Tyeggzg",
+      "name": "Low Level",
+      "handle": "@LowLevelTV",
+      "cat": "low",
+      "desc": "Low-level programming and the security bugs that live there."
+    },
+    {
+      "id": "UCa6eh7gCkpPo5XXUDfygQQA",
+      "name": "IppSec",
+      "handle": "@ippsec",
+      "cat": "red",
+      "desc": "Hack The Box machine walkthroughs — the classic pentest-practice channel."
+    },
+    {
+      "id": "UC0ArlFuFYMpEewyRBzdLHiw",
+      "name": "The Cyber Mentor (TCM)",
+      "handle": "@TCMSecurityAcademy",
+      "cat": "red",
+      "desc": "Practical pentesting courses, including Active Directory attacks."
+    },
+    {
+      "id": "UCVeW9qkBjo3zosnqUbG7CFw",
+      "name": "John Hammond",
+      "handle": "@_JohnHammond",
+      "cat": "red",
+      "desc": "CTFs, malware analysis, and general offensive security."
+    },
+    {
+      "id": "UC6Om9kAkl32dWlDSNlDS9Iw",
+      "name": "DEF CON",
+      "handle": "@DEFCONConference",
+      "cat": "talks",
+      "desc": "Talks from DEF CON."
+    },
+    {
+      "id": "UCJ6q9Ie29ajGqKApbLqfBOg",
+      "name": "Black Hat",
+      "handle": "@BlackHatOfficialYT",
+      "cat": "talks",
+      "desc": "Briefings from Black Hat USA, Europe, and Asia."
+    },
+    {
+      "id": "UCMNvAtT4ak2azKNk6UlB1QQ",
+      "name": "OffensiveCon",
+      "handle": "@OffensiveCon",
+      "cat": "talks",
+      "desc": "Deep offensive research and exploitation talks."
+    },
+    {
+      "id": "UC2TXq_t06Hjdr2g_KdKpHQg",
+      "name": "media.ccc.de",
+      "handle": "@mediacccde",
+      "cat": "talks",
+      "desc": "Chaos Communication Congress and other CCC event talks."
+    },
+    {
+      "id": "UCI85JnsJEiKnkGiGBkqvZXw",
+      "name": "nullcon",
+      "handle": "@nullcon",
+      "cat": "talks",
+      "desc": "Talks from nullcon, the security conference in Goa."
+    },
+    {
+      "id": "UCe8j61ABYDuPTdtjItD2veA",
+      "name": "OWASP Foundation",
+      "handle": "@OWASPGLOBAL",
+      "cat": "talks",
+      "desc": "Application security conference talks."
+    }
+  ]
+}

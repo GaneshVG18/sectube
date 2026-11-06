@@ -1,0 +1,39 @@
+name: Refresh video feed
+
+on:
+  schedule:
+    - cron: "23 */6 * * *"   # every 6 hours (off the hour to avoid the top-of-hour rush)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-video-feed
+  cancel-in-progress: false
+
+jobs:
+  feed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Test feed parser (offline fixtures)
+        run: python3 scripts/test_build_feed.py
+
+      - name: Build videos.json
+        run: python3 scripts/build_feed.py
+
+      - name: Commit videos.json if it changed
+        run: |
+          if [ -z "$(git status --porcelain -- videos.json)" ]; then
+            echo "videos.json unchanged; nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add videos.json
+          git commit -m "Refresh videos.json"
+          git push || { git pull --rebase && git push; }

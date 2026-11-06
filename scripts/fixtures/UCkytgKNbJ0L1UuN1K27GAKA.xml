@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCkytgKNbJ0L1UuN1K27GAKA"/>
+ <id>yt:channel:kytgKNbJ0L1UuN1K27GAKA</id>
+ <yt:channelId>kytgKNbJ0L1UuN1K27GAKA</yt:channelId>
+ <title>PortSwigger</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCkytgKNbJ0L1UuN1K27GAKA"/>
+ <author>
+  <name>PortSwigger</name>
+  <uri>https://www.youtube.com/channel/UCkytgKNbJ0L1UuN1K27GAKA</uri>
+ </author>
+ <published>2020-02-14T16:31:37+00:00</published>
+ <entry>
+  <id>yt:video:CFoihHrELJ0</id>
+  <yt:videoId>CFoihHrELJ0</yt:videoId>
+  <yt:channelId>UCkytgKNbJ0L1UuN1K27GAKA</yt:channelId>
+  <title>Introducing Burp AT at enterprise scale: deeper testing across your applications</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=CFoihHrELJ0"/>
+  <author>
+   <name>PortSwigger</name>
+   <uri>https://www.youtube.com/channel/UCkytgKNbJ0L1UuN1K27GAKA</uri>
+  </author>
+  <published>2026-11-05T11:00:02+00:00</published>
+  <updated>2026-11-05T13:16:41+00:00</updated>
+  <media:group>
+   <media:title>Introducing Burp AT at enterprise scale: deeper testing across your applications</media:title>
+   <media:content url="https://www.youtube.com/v/CFoihHrELJ0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/CFoihHrELJ0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>As applications grow and change, the demand for expert-depth security testing grows with them. Burp AT helps your team bring deeper testing to more applications through scheduled autonomous tests.
+
+Agents use Burp’s specialist web security tools and purpose-built skills developed with PortSwigger Research for precision and the latest methologies. Your team chooses how much autonomy to delegate, while Burp enforces scope and permissions. Your experts retain visibility into the work and the evidence behind findings.
+
+Learn more: https://portswigger.net/burp/burp-at/enterprise</media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="42"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:LeRRJYb0ub0</id>
+  <yt:videoId>LeRRJYb0ub0</yt:videoId>
+  <yt:channelId>UCkytgKNbJ0L1UuN1K27GAKA</yt:channelId>
+  <title>How to enable the React2Shell custom scan check in Burp Suite Professional</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=LeRRJYb0ub0"/>
+  <author>
+   <name>PortSwigger</name>
+   <uri>https://www.youtube.com/channel/UCkytgKNbJ0L1UuN1K27GAKA</uri>
+  </author>
+  <published>2025-12-05T14:34:25+00:00</published>
+  <updated>2026-10-03T09:50:12+00:00</updated>
+  <media:group>
+   <media:title>How to enable the React2Shell custom scan check in Burp Suite Professional</media:title>
+   <media:content url="https://www.youtube.com/v/LeRRJYb0ub0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/LeRRJYb0ub0/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="58" average="5.00" min="1" max="5"/>
+    <media:statistics views="4079"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:z92GobdN40Y</id>
+  <yt:videoId>z92GobdN40Y</yt:videoId>
+  <yt:channelId>UCkytgKNbJ0L1UuN1K27GAKA</yt:channelId>
+  <title>HTTP Anomaly Rank - a new Turbo Intruder feature</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=z92GobdN40Y"/>
+  <author>
+   <name>PortSwigger</name>
+   <uri>https://www.youtube.com/channel/UCkytgKNbJ0L1UuN1K27GAKA</uri>
+  </author>
+  <published>2025-11-11T14:56:53+00:00</published>
+  <updated>2026-10-22T06:04:07+00:00</updated>
+  <media:group>
+   <media:title>HTTP Anomaly Rank - a new Turbo Intruder feature</media:title>
+   <media:content url="https://www.youtube.com/v/z92GobdN40Y?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/z92GobdN40Y/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Check out portswigger.net/research for a description of how the algorithm works under the hood.</media:description>
+   <media:community>
+    <media:starRating count="99" average="5.00" min="1" max="5"/>
+    <media:statistics views="3709"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>

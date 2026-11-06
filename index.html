@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-a5ZmSpA19xG2WFLGjbStkLBLL4hVv7WeZ3MtR89ocUU='; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://i.ytimg.com data:; frame-src https://www.youtube-nocookie.com; connect-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self'">
+<title>SecTube</title>
+<meta name="description" content="A personal, security-only video shelf.">
+<meta name="color-scheme" content="dark light">
+<meta name="theme-color" content="#0b0b0c">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<script>try{var t=JSON.parse(localStorage.getItem("sectube:theme"));if(t==="light"){document.documentElement.setAttribute("data-theme","light");document.querySelector('meta[name="theme-color"]').setAttribute("content","#ffffff");}}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+<script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#content">Skip to content</a>
+
+<header class="top">
+  <button class="logo" id="home" type="button" title="SecTube home" aria-label="SecTube home">
+    <span class="mark" aria-hidden="true"></span><span class="word">Sec<b>Tube</b></span><span class="caret" aria-hidden="true"></span>
+  </button>
+  <form class="search" id="searchForm" role="search">
+    <span data-icon="search"></span>
+    <input id="q" type="search" placeholder="Search channels and videos" aria-label="Search channels and videos"
+      autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="search">
+    <kbd class="kbd" aria-hidden="true">/</kbd>
+  </form>
+  <div class="top-actions">
+    <button class="icon-btn" id="helpBtn" type="button" aria-label="Keyboard shortcuts" title="Keyboard shortcuts (?)"><span data-icon="keyboard"></span></button>
+    <button class="icon-btn" id="themeBtn" type="button" aria-label="Switch to light theme" title="Switch theme"><span data-icon="sun"></span></button>
+    <button class="btn primary" id="addBtn" type="button"><span data-icon="plus"></span><span class="lbl">Add</span></button>
+  </div>
+</header>
+
+<div class="layout">
+  <nav class="side" id="side" aria-label="Library"></nav>
+
+  <main class="page" id="page">
+    <div id="player" hidden>
+      <div class="frame-wrap">
+        <div class="frame"><iframe id="frame" title="Player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+      </div>
+      <section class="pmeta" aria-labelledby="pTitle">
+        <h1 id="pTitle"></h1>
+        <div class="prow">
+          <div class="pchan"><span id="pAvatar"></span><div><div class="nm" id="pChanName"></div><p id="pSub"></p></div></div>
+          <div class="actions">
+            <button class="btn" id="pPin" type="button">☆ Pin</button>
+            <button class="btn" id="pSave" type="button">Save</button>
+            <a class="btn" id="pOpen" target="_blank" rel="noopener">Open on YouTube <span data-icon="external"></span></a>
+            <button class="btn" id="pClose" type="button">Close <span data-icon="close"></span></button>
+          </div>
+        </div>
+        <p class="hint" id="pHint"></p>
+      </section>
+      <aside class="upnext" aria-labelledby="unTitle">
+        <h2 id="unTitle">Up next</h2>
+        <div id="upnext"></div>
+      </aside>
+    </div>
+
+    <nav class="chips" id="chips" aria-label="Categories"></nav>
+
+    <div id="content" tabindex="-1">
+      <!-- skeleton shown until channels/videos load -->
+      <div class="sk sk-title"></div>
+      <div class="grid">
+        <div class="sk-card"><div class="sk sk-thumb"></div><div class="sk sk-line"></div><div class="sk sk-line w60"></div></div>
+        <div class="sk-card"><div class="sk sk-thumb"></div><div class="sk sk-line"></div><div class="sk sk-line w60"></div></div>
+        <div class="sk-card"><div class="sk sk-thumb"></div><div class="sk sk-line"></div><div class="sk sk-line w60"></div></div>
+        <div class="sk-card"><div class="sk sk-thumb"></div><div class="sk sk-line"></div><div class="sk sk-line w60"></div></div>
+      </div>
+    </div>
+
+    <footer class="foot">
+      <span>Your pins, history and saved videos stay in this browser only. Videos play through YouTube's own player.</span>
+      <span class="mono" id="feedInfo"></span>
+    </footer>
+  </main>
+</div>
+
+<nav class="tabbar" id="tabbar" aria-label="Primary">
+  <button class="tab" type="button" data-cat="all"><span data-icon="home"></span><span>Home</span></button>
+  <button class="tab" type="button" data-cat="pinned"><span data-icon="star"></span><span>Pinned</span></button>
+  <button class="tab" type="button" data-cat="queue"><span data-icon="bookmark"></span><span>Saved</span></button>
+  <button class="tab add" type="button" data-action="add"><span class="ico-wrap"><span data-icon="plus"></span></span><span>Add</span></button>
+</nav>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<div class="scrim sheet-host" id="scrim" hidden>
+  <form class="dialog" id="addForm" role="dialog" aria-modal="true" aria-labelledby="addTitle" novalidate>
+    <div class="grabber" aria-hidden="true"></div>
+    <div class="dlg-head">
+      <h2 id="addTitle">Add to SecTube</h2>
+      <button type="button" class="icon-btn" id="addX" aria-label="Close"><span data-icon="close"></span></button>
+    </div>
+    <label class="field"><span>YouTube link</span>
+      <input id="addUrl" type="text" inputmode="url" placeholder="Video, playlist, or youtube.com/channel/UC… link"
+        autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="done">
+    </label>
+    <div class="detect" id="addDetect" hidden aria-live="polite"><span class="dot"></span><span id="addDetectText"></span></div>
+    <div class="preview" id="addPreview" hidden>
+      <div class="pv-thumb"><img id="addThumb" alt="" referrerpolicy="strict-origin-when-cross-origin"></div>
+      <div class="pv-t"><b id="addPrevTitle"></b><span class="mono" id="addPrevId"></span></div>
+    </div>
+    <label class="field"><span id="addNameLbl">Name / title</span>
+      <input id="addName" placeholder="e.g. Orange Tsai – ProxyLogon talk" autocomplete="off">
+    </label>
+    <label class="field" id="catWrap"><span>Shelf (for channels)</span>
+      <select id="addCat"></select>
+    </label>
+    <p class="note">For a channel you need its <b>/channel/UC…</b> link: on the channel page tap
+      <i>More about this channel → Share channel → Copy channel ID</i>, then paste
+      <code>youtube.com/channel/&lt;ID&gt;</code>. Handle links (@name) can't be resolved without an API key.</p>
+    <p class="err" id="addErr" role="alert"></p>
+    <div class="actions">
+      <button type="button" class="btn" id="addCancel">Cancel</button>
+      <button type="submit" class="btn primary" id="addSubmit">Add</button>
+    </div>
+  </form>
+</div>
+
+<div class="scrim" id="helpScrim" hidden>
+  <div class="dialog" id="helpDlg" role="dialog" aria-modal="true" aria-labelledby="helpTitle">
+    <div class="dlg-head">
+      <h2 id="helpTitle">Keyboard shortcuts</h2>
+      <button type="button" class="icon-btn" id="helpX" aria-label="Close"><span data-icon="close"></span></button>
+    </div>
+    <dl class="keys">
+      <div><dt>Search channels and videos</dt><dd><kbd class="kbd">/</kbd></dd></div>
+      <div><dt>Show this panel</dt><dd><kbd class="kbd">?</kbd></dd></div>
+      <div><dt>Close dialog or player</dt><dd><kbd class="kbd">Esc</kbd></dd></div>
+      <div><dt>Toggle light / dark theme</dt><dd><kbd class="kbd">t</kbd></dd></div>
+    </dl>
+  </div>
+</div>
+</body>
+</html>
