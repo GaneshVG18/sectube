@@ -1,7 +1,140 @@
 {
- "updated_at": "2026-11-06T14:26:02Z",
+ "updated_at": "2026-11-07T13:17:49Z",
  "source": "YouTube channel RSS feeds",
  "videos": [
+  {
+   "id": "mCP6fU8OrDc",
+   "title": "Off By One Security: Open Session!",
+   "published": "2026-11-07T09:05:34Z",
+   "channelId": "UCc8gr33-DyCZ6gAmqdcyzgA",
+   "short": false
+  },
+  {
+   "id": "yGlZAL_M2SU",
+   "title": "DEF CON 34 - Main - How Dealer Installed AntiTheft System Exposes 1M+ Cars - A Schulman, J Yu, Y Wei",
+   "published": "2026-11-06T22:48:20Z",
+   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
+   "short": false
+  },
+  {
+   "id": "ltwLEu0otaY",
+   "title": "DEF CON 34 - Main - Bird Hunting Season The Final Flight - Jon Gaines",
+   "published": "2026-11-06T22:48:10Z",
+   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
+   "short": false
+  },
+  {
+   "id": "lDrpgYYXGtA",
+   "title": "DEF CON 34 - Aerospace - Behind the Badge SAOv3, Open Sourcing Aerospace Village ISS Badge - Panel",
+   "published": "2026-11-06T22:48:06Z",
+   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
+   "short": false
+  },
+  {
+   "id": "IFMOtEqqF1A",
+   "title": "DEF CON 34 - BugBounty - How Cache Poisoning Led to Critical Acct Takeover in TikTok's Web - G Chong",
+   "published": "2026-11-06T22:48:06Z",
+   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
+   "short": false
+  },
+  {
+   "id": "9YsizCh9oiA",
+   "title": "DEF CON 34 - Main - C2YA Inside the Adversary's Inbox - Vitaly Simonovich",
+   "published": "2026-11-06T22:48:05Z",
+   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
+   "short": false
+  },
+  {
+   "id": "_FKX5hDwgVE",
+   "title": "DEF CON 34 - Main - Breaking Local AI Runtimes Exploiting llama cpp & Ollama - V Tokarev, O Itach",
+   "published": "2026-11-06T22:47:52Z",
+   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
+   "short": false
+  },
+  {
+   "id": "MgiNgdg4gAA",
+   "title": "DEF CON 34 - AppSec - A Billion User Blast Radius Owning ChatGPT’s Secure Sandbox - Simcha Kosman",
+   "published": "2026-11-06T22:47:52Z",
+   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
+   "short": false
+  },
+  {
+   "id": "UmtBaddxd3I",
+   "title": "DEF CON 34 - Main - A Provider for the MOFia Distributed Post Ex Capabilities - Steven Flores",
+   "published": "2026-11-06T22:47:51Z",
+   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
+   "short": false
+  },
+  {
+   "id": "T5A2qE0lHBc",
+   "title": "DEF CON 34 - BioHack - AIRGAP BREACHED - David Castillo-Cornejo, Matthew Woslum, Zee Zinck",
+   "published": "2026-11-06T22:47:51Z",
+   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
+   "short": false
+  },
+  {
+   "id": "SQxuyxqVyDI",
+   "title": "DEF CON 34 - Main - Breaking the Ethereum Phone From BootROM to Wallet Signing Keys - Guanxing Wen",
+   "published": "2026-11-06T22:47:51Z",
+   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
+   "short": false
+  },
+  {
+   "id": "RNVNVLBKBWQ",
+   "title": "DEF CON 34 - Main - Certified Re-Pwned Escalating All the Way Up -Daniel Monzon, Eric Labrador",
+   "published": "2026-11-06T22:47:51Z",
+   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
+   "short": false
+  },
+  {
+   "id": "CJQ3SJnK-Pw",
+   "title": "DEF CON 34 - BugBounty - Finding Prompt Injection Vulns via Mutated Prompt Gen - B Steele, A Garg",
+   "published": "2026-11-06T22:47:51Z",
+   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
+   "short": false
+  },
+  {
+   "id": "8ewe-9hf-tA",
+   "title": "DEF CON 34 - Main - Defender’s Dilemma Releasing Dual-Use AI Models as Capabilities Climb - Panel",
+   "published": "2026-11-06T22:47:51Z",
+   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
+   "short": false
+  },
+  {
+   "id": "6U7cWKZzQBc",
+   "title": "DEF CON 34 - Main - Beyond the Ceremony - The 2026 Passkey Attack Surface - Matteo Giordano",
+   "published": "2026-11-06T22:47:51Z",
+   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
+   "short": false
+  },
+  {
+   "id": "0pJet2AADxM",
+   "title": "DEF CON 34 - BugBounty - AI Nightmare Hacking at 0 Hour - Pedro Paniago",
+   "published": "2026-11-06T22:47:51Z",
+   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
+   "short": false
+  },
+  {
+   "id": "PSDdF_Naz_M",
+   "title": "Next Steps for PHP",
+   "published": "2026-11-06T19:00:05Z",
+   "channelId": "UCVeW9qkBjo3zosnqUbG7CFw",
+   "short": true
+  },
+  {
+   "id": "gCyYXURQCNw",
+   "title": "ClickFix Gets Sneaky",
+   "published": "2026-11-06T17:01:25Z",
+   "channelId": "UCVeW9qkBjo3zosnqUbG7CFw",
+   "short": true
+  },
+  {
+   "id": "44yMRi9dwEU",
+   "title": "This is how gr3pme leverages smaller AI models to hack more efficiently",
+   "published": "2026-11-06T16:30:08Z",
+   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
+   "short": true
+  },
   {
    "id": "ErB1SRcksDc",
    "title": "SSH situation is insane",
@@ -21,13 +154,6 @@
    "title": "How an Image Causes a Heap Buffer Overflow // libheif",
    "published": "2026-11-06T13:51:53Z",
    "channelId": "UClcE-kVhqyiHCcjYwcpfj9w",
-   "short": false
-  },
-  {
-   "id": "mCP6fU8OrDc",
-   "title": "Off By One Security: Open Session!",
-   "published": "2026-11-06T03:05:20Z",
-   "channelId": "UCc8gr33-DyCZ6gAmqdcyzgA",
    "short": false
   },
   {
@@ -423,25 +549,11 @@
    "short": false
   },
   {
-   "id": "6_HSeYfoLRk",
-   "title": "New AI Threats in 2026 #sponsored by @Snyksec",
-   "published": "2026-10-27T13:00:38Z",
-   "channelId": "UCVeW9qkBjo3zosnqUbG7CFw",
-   "short": true
-  },
-  {
    "id": "TL7kwMFvWL0",
    "title": "DrogonSec Building a Parallelized, Multi Engine Security Scanner for DevSecOps Filipi Pires",
    "published": "2026-10-27T12:53:55Z",
    "channelId": "UCe8j61ABYDuPTdtjItD2veA",
    "short": false
-  },
-  {
-   "id": "pbwH_38ADjU",
-   "title": "Follow The Money",
-   "published": "2026-10-26T20:27:34Z",
-   "channelId": "UCVeW9qkBjo3zosnqUbG7CFw",
-   "short": true
   },
   {
    "id": "VhNiMWtOutw",
@@ -610,13 +722,6 @@
    "published": "2026-10-22T00:44:29Z",
    "channelId": "UClcE-kVhqyiHCcjYwcpfj9w",
    "short": false
-  },
-  {
-   "id": "oQg2_VoK4CU",
-   "title": "Have you visited fransrosen.com?",
-   "published": "2026-10-21T15:45:09Z",
-   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
-   "short": true
   },
   {
    "id": "eO0FZm_xeSo",
@@ -959,111 +1064,6 @@
    "title": "Real Folks of Cyber | Marshall Livingston | DITL",
    "published": "2026-10-01T06:01:21Z",
    "channelId": "UC0ArlFuFYMpEewyRBzdLHiw",
-   "short": false
-  },
-  {
-   "id": "zqOC2EZUV3M",
-   "title": "DCSG1 - Introduction to Range Village Community - Gladiator",
-   "published": "2026-09-30T22:04:54Z",
-   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
-   "short": false
-  },
-  {
-   "id": "yzqFFMn1qPw",
-   "title": "DSCG1 - CryptoCurrency Opening Keynote - Michael Schloh",
-   "published": "2026-09-30T22:04:54Z",
-   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
-   "short": false
-  },
-  {
-   "id": "yKnXPkpuS0I",
-   "title": "DCSG1 - Adversaries Have AI. You Have $0. Here's How You Win Anyway - Aaron Crow",
-   "published": "2026-09-30T22:04:54Z",
-   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
-   "short": false
-  },
-  {
-   "id": "vXNpaN3LjIs",
-   "title": "DCSG1 - Where's our Hats: The founding of N0H4Ts - Pengfei Yu, Zara Teo",
-   "published": "2026-09-30T22:04:54Z",
-   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
-   "short": false
-  },
-  {
-   "id": "qKJYPeVtGW4",
-   "title": "DCSG1 - Autonomous and Exploitable: Breaking AI Agents before they break everything else - Aaron Ang",
-   "published": "2026-09-30T22:04:54Z",
-   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
-   "short": false
-  },
-  {
-   "id": "kBGaSIca82k",
-   "title": "DCSG1- Are we nurturing the next generation of hackers or losing them - SherpaSec",
-   "published": "2026-09-30T22:04:54Z",
-   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
-   "short": false
-  },
-  {
-   "id": "euCa-VJnON4",
-   "title": "DCSG1 - Actual OT Cyber Security - Dillon Lee",
-   "published": "2026-09-30T22:04:54Z",
-   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
-   "short": false
-  },
-  {
-   "id": "YA5zrUSpxxI",
-   "title": "DCSG1 - Augmenting Apple's Source Code and OS Logs with AI Agents -Olivia Gallucci",
-   "published": "2026-09-30T22:04:54Z",
-   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
-   "short": false
-  },
-  {
-   "id": "XyT00Hdld6c",
-   "title": "DCSG1 - Pwn2Own Level Break of a Printer - SungJun Park, WonBeen Im",
-   "published": "2026-09-30T22:04:54Z",
-   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
-   "short": false
-  },
-  {
-   "id": "TuWzt-du9ZI",
-   "title": "DCSG1 - DEF CON History and Lore - The Dark Tangent",
-   "published": "2026-09-30T22:04:52Z",
-   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
-   "short": false
-  },
-  {
-   "id": "8Pbqi61wvDo",
-   "title": "DCSG1 - RFIDrive: Access Badges for Cars - Kamel Ghali, Smriti",
-   "published": "2026-09-30T22:04:51Z",
-   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
-   "short": false
-  },
-  {
-   "id": "81holvvSdcA",
-   "title": "DSCG1 - Attack and Defense of AI Enabled Systems - Hahna Latonick",
-   "published": "2026-09-30T22:04:51Z",
-   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
-   "short": false
-  },
-  {
-   "id": "4gn5cjVbf40",
-   "title": "DCSG1 - Solidity Smart Contracts - Kennashka DeSilva",
-   "published": "2026-09-30T22:04:51Z",
-   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
-   "short": false
-  },
-  {
-   "id": "3S3gmjJCu34",
-   "title": "DCSG1 - You can't engineer your way out of a bad AI stack - Paul",
-   "published": "2026-09-30T22:04:51Z",
-   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
-   "short": false
-  },
-  {
-   "id": "0Ipwd0FcTAo",
-   "title": "DCSG1 - The DEF CON Singapore Badge Presentation - Michael Schloh, Joyce Ng, Dani Weidman",
-   "published": "2026-09-30T22:04:51Z",
-   "channelId": "UC6Om9kAkl32dWlDSNlDS9Iw",
    "short": false
   },
   {
