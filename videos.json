@@ -1,7 +1,28 @@
 {
- "updated_at": "2026-11-07T13:17:49Z",
+ "updated_at": "2026-11-07T22:00:16Z",
  "source": "YouTube channel RSS feeds",
  "videos": [
+  {
+   "id": "F4duxQ4mMrg",
+   "title": "Taking your PHP Website Offline",
+   "published": "2026-11-07T19:00:30Z",
+   "channelId": "UCVeW9qkBjo3zosnqUbG7CFw",
+   "short": true
+  },
+  {
+   "id": "9FVcrVMnZNw",
+   "title": "AI Security Boundaries",
+   "published": "2026-11-07T17:57:28Z",
+   "channelId": "UCVeW9qkBjo3zosnqUbG7CFw",
+   "short": true
+  },
+  {
+   "id": "cN4Uez-PZmM",
+   "title": "HackTheBox - Garfield",
+   "published": "2026-11-07T15:00:18Z",
+   "channelId": "UCa6eh7gCkpPo5XXUDfygQQA",
+   "short": false
+  },
   {
    "id": "mCP6fU8OrDc",
    "title": "Off By One Security: Open Session!",
@@ -451,13 +472,6 @@
    "short": true
   },
   {
-   "id": "f92LfA0AR2E",
-   "title": "The ClickFix Deception",
-   "published": "2026-10-30T14:06:44Z",
-   "channelId": "UCVeW9qkBjo3zosnqUbG7CFw",
-   "short": true
-  },
-  {
    "id": "06Qjai8RQKw",
    "title": "Is curl Getting Harder to Hack? Daniel Stenberg on AI vs. Decades of Hardening",
    "published": "2026-10-30T08:49:27Z",
@@ -490,13 +504,6 @@
    "title": "Cloudflare is offering a $3,000 bounty for any unique PHO2SHELL bypass.",
    "published": "2026-10-28T18:22:37Z",
    "channelId": "UCCZDt7MuC3Hzs6IH4xODLBw",
-   "short": true
-  },
-  {
-   "id": "VjesGKMKqxo",
-   "title": "AI Meets Minecraft",
-   "published": "2026-10-28T18:12:09Z",
-   "channelId": "UCVeW9qkBjo3zosnqUbG7CFw",
    "short": true
   },
   {
@@ -1337,13 +1344,6 @@
    "title": "Human Expertise Still Matters AI Vulnerability Discovery Triage and Patching",
    "published": "2026-07-11T03:05:08Z",
    "channelId": "UCc8gr33-DyCZ6gAmqdcyzgA",
-   "short": false
-  },
-  {
-   "id": "Unsgv70jpA4",
-   "title": "HackTheBox - DevArea",
-   "published": "2026-07-04T15:00:08Z",
-   "channelId": "UCa6eh7gCkpPo5XXUDfygQQA",
    "short": false
   },
   {
