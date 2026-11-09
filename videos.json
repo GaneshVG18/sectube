@@ -1,7 +1,28 @@
 {
- "updated_at": "2026-11-07T22:00:16Z",
+ "updated_at": "2026-11-09T22:30:43Z",
  "source": "YouTube channel RSS feeds",
  "videos": [
+  {
+   "id": "ShrtUdoXj0I",
+   "title": "CSS injection can be a lot more useful than you think",
+   "published": "2026-11-09T16:45:00Z",
+   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
+   "short": true
+  },
+  {
+   "id": "yydGYEnRKzg",
+   "title": "ClickFix Cache Trick",
+   "published": "2026-11-09T14:37:32Z",
+   "channelId": "UCVeW9qkBjo3zosnqUbG7CFw",
+   "short": true
+  },
+  {
+   "id": "DhdJBwVZp5M",
+   "title": "I Almost Missed This Kubernetes Vulnerability",
+   "published": "2026-11-09T13:40:23Z",
+   "channelId": "UCCZDt7MuC3Hzs6IH4xODLBw",
+   "short": false
+  },
   {
    "id": "F4duxQ4mMrg",
    "title": "Taking your PHP Website Offline",
@@ -444,13 +465,6 @@
    "short": false
   },
   {
-   "id": "o8LWS7XiW84",
-   "title": "Hack a Water Tower! & Two Big Announcements",
-   "published": "2026-10-31T06:11:59Z",
-   "channelId": "UCVeW9qkBjo3zosnqUbG7CFw",
-   "short": false
-  },
-  {
    "id": "vSQHZLnV29M",
    "title": "AI in Offensive Security: Discovery, Validation, and Autonomy",
    "published": "2026-10-31T05:31:47Z",
@@ -714,13 +728,6 @@
    "title": "Webinar - Group Policy Objects: An Active Directory Attacker's Best Friend ft. Wilfried & Hugo",
    "published": "2026-10-22T12:53:30Z",
    "channelId": "UCI85JnsJEiKnkGiGBkqvZXw",
-   "short": false
-  },
-  {
-   "id": "gKvIjE8LRVg",
-   "title": "800 Bugs w/ DeepSeek + Local Model Hacks (Ep.197)",
-   "published": "2026-10-22T10:00:14Z",
-   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
    "short": false
   },
   {
@@ -1113,13 +1120,6 @@
    "title": "Builders & Breakers | Local AI for Offensive Security: Models, Harnesses & Human Judgment ft Thomas",
    "published": "2026-09-28T14:12:36Z",
    "channelId": "UCQN2DsjnYH60SFBIA6IkNwg",
-   "short": false
-  },
-  {
-   "id": "Ee-5PFrsGtU",
-   "title": "This WordPress Core Bug Can Lead to Remote Code Execution (CVE-2026-87902)",
-   "published": "2026-09-28T12:45:32Z",
-   "channelId": "UCCZDt7MuC3Hzs6IH4xODLBw",
    "short": false
   },
   {
