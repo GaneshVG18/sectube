@@ -1,7 +1,28 @@
 {
- "updated_at": "2026-11-09T22:30:43Z",
+ "updated_at": "2026-11-10T19:52:00Z",
  "source": "YouTube channel RSS feeds",
  "videos": [
+  {
+   "id": "PrcPQzp3kSQ",
+   "title": "Do you create these action protocols for you agents?",
+   "published": "2026-11-10T16:45:17Z",
+   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
+   "short": true
+  },
+  {
+   "id": "O-YpYSHK34Q",
+   "title": "Why Your Company Needs an AI Policy (Ask a CISO)",
+   "published": "2026-11-10T16:00:34Z",
+   "channelId": "UC0ArlFuFYMpEewyRBzdLHiw",
+   "short": true
+  },
+  {
+   "id": "Q-e9L6ECpgM",
+   "title": "Payload Podcast 013 - Catchup",
+   "published": "2026-11-10T13:54:16Z",
+   "channelId": "UCVeW9qkBjo3zosnqUbG7CFw",
+   "short": false
+  },
   {
    "id": "ShrtUdoXj0I",
    "title": "CSS injection can be a lot more useful than you think",
@@ -416,13 +437,6 @@
    "short": false
   },
   {
-   "id": "aPNfVvh9EZA",
-   "title": "The PHP Vulnerabilities Explained",
-   "published": "2026-11-02T19:00:07Z",
-   "channelId": "UCVeW9qkBjo3zosnqUbG7CFw",
-   "short": true
-  },
-  {
    "id": "yKBeKerDM7Q",
    "title": "I recreated a real MCP vulnerability and tested it with @snyksec’s Evo to see if it finds it. 👀 #ad",
    "published": "2026-11-02T16:00:06Z",
@@ -708,13 +722,6 @@
    "published": "2026-10-22T17:23:12Z",
    "channelId": "UC6biysICWOJ-C3P4Tyeggzg",
    "short": false
-  },
-  {
-   "id": "3sLeRexgHgs",
-   "title": "Good ROI vs. doing the things you love",
-   "published": "2026-10-22T15:30:01Z",
-   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
-   "short": true
   },
   {
    "id": "5USn1bdtvJU",
@@ -1198,13 +1205,6 @@
    "published": "2026-09-18T16:00:25Z",
    "channelId": "UC0ArlFuFYMpEewyRBzdLHiw",
    "short": false
-  },
-  {
-   "id": "YNNsjsBtyVI",
-   "title": "Start Hardware Hacking for Just $20!",
-   "published": "2026-09-15T17:00:37Z",
-   "channelId": "UC0ArlFuFYMpEewyRBzdLHiw",
-   "short": true
   },
   {
    "id": "MYK9-66qe6w",
