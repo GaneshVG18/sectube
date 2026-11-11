@@ -1,7 +1,21 @@
 {
- "updated_at": "2026-11-10T19:52:00Z",
+ "updated_at": "2026-11-11T19:44:24Z",
  "source": "YouTube channel RSS feeds",
  "videos": [
+  {
+   "id": "_MSFGF0XI6Q",
+   "title": "Veterans Day Cybersecurity Livestream - Carlo Anez Mazurco",
+   "published": "2026-11-11T16:58:02Z",
+   "channelId": "UC0ArlFuFYMpEewyRBzdLHiw",
+   "short": false
+  },
+  {
+   "id": "rRFtMuEdmY8",
+   "title": "\"Make it sound like I wrote this!\"",
+   "published": "2026-11-11T15:15:01Z",
+   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
+   "short": true
+  },
   {
    "id": "PrcPQzp3kSQ",
    "title": "Do you create these action protocols for you agents?",
@@ -703,13 +717,6 @@
    "short": false
   },
   {
-   "id": "s_OW4UgXygs",
-   "title": "Narrow instructions can make your hackbot SO MUCH better",
-   "published": "2026-10-23T15:45:02Z",
-   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
-   "short": true
-  },
-  {
    "id": "SP7y1h0laN0",
    "title": "php situation 24h later",
    "published": "2026-10-23T02:16:24Z",
@@ -1197,13 +1204,6 @@
    "title": "Breaking Windows: Exploring Security Through Kernel Drivers",
    "published": "2026-09-18T19:52:02Z",
    "channelId": "UCc8gr33-DyCZ6gAmqdcyzgA",
-   "short": false
-  },
-  {
-   "id": "XmZ6OPEhnsI",
-   "title": "Soft Skills for the Job Market: Personal Websites",
-   "published": "2026-09-18T16:00:25Z",
-   "channelId": "UC0ArlFuFYMpEewyRBzdLHiw",
    "short": false
   },
   {
