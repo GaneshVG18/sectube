@@ -1,11 +1,46 @@
 {
- "updated_at": "2026-11-11T19:44:24Z",
+ "updated_at": "2026-11-12T20:07:54Z",
  "source": "YouTube channel RSS feeds",
  "videos": [
   {
+   "id": "qCcrRh16Wgg",
+   "title": "Bug bounty is still 80%+ profit if you're a dedicated hacker",
+   "published": "2026-11-12T16:30:29Z",
+   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
+   "short": true
+  },
+  {
+   "id": "Z3xvjzlDWd8",
+   "title": "they found 1000 vulnerabilities in the linux kernel..",
+   "published": "2026-11-12T14:08:52Z",
+   "channelId": "UC6biysICWOJ-C3P4Tyeggzg",
+   "short": false
+  },
+  {
+   "id": "h4--vD8txNo",
+   "title": "Burp AT skills: CSP bypass",
+   "published": "2026-11-12T13:36:24Z",
+   "channelId": "UCkytgKNbJ0L1UuN1K27GAKA",
+   "short": false
+  },
+  {
+   "id": "CR2k8a0xXcY",
+   "title": "Burp AT skills: CRLF-powered desync",
+   "published": "2026-11-12T13:33:05Z",
+   "channelId": "UCkytgKNbJ0L1UuN1K27GAKA",
+   "short": false
+  },
+  {
+   "id": "5XrJSSBfGow",
+   "title": "Cloud Hacking w/ Nick Copi (Ep. 200)",
+   "published": "2026-11-12T11:00:29Z",
+   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
+   "short": false
+  },
+  {
    "id": "_MSFGF0XI6Q",
    "title": "Veterans Day Cybersecurity Livestream - Carlo Anez Mazurco",
-   "published": "2026-11-11T16:58:02Z",
+   "published": "2026-11-12T06:03:33Z",
    "channelId": "UC0ArlFuFYMpEewyRBzdLHiw",
    "short": false
   },
@@ -570,13 +605,6 @@
    "short": true
   },
   {
-   "id": "dzESpp3VNpA",
-   "title": "Do you think we're entering the Golden Era for Pentests?",
-   "published": "2026-10-27T15:45:22Z",
-   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
-   "short": true
-  },
-  {
    "id": "o5BzV11g3UI",
    "title": "Securing the Ship of Theseus Diogo Sousa",
    "published": "2026-10-27T13:14:21Z",
@@ -610,13 +638,6 @@
    "published": "2026-10-26T18:49:46Z",
    "channelId": "UClcE-kVhqyiHCcjYwcpfj9w",
    "short": false
-  },
-  {
-   "id": "Kn0th6JK_Ag",
-   "title": "This is how rez0 uses his local models to hack FASTER",
-   "published": "2026-10-26T16:15:01Z",
-   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
-   "short": true
   },
   {
    "id": "IhA9Ikkd3MI",
@@ -1184,13 +1205,6 @@
    "published": "2026-09-26T08:46:16Z",
    "channelId": "UCc8gr33-DyCZ6gAmqdcyzgA",
    "short": false
-  },
-  {
-   "id": "_vYVQtle4SQ",
-   "title": "I Know What You've Been Doing #cybersecurity #claude #ai #automations @1Password #sponsored",
-   "published": "2026-09-25T15:53:50Z",
-   "channelId": "UC6biysICWOJ-C3P4Tyeggzg",
-   "short": true
   },
   {
    "id": "v1KblKrtVb8",
@@ -1914,24 +1928,10 @@
    "short": false
   },
   {
-   "id": "66Zo3l2tkKA",
-   "title": "Burp Suite Shorts | Developing an AI Extension with Tom",
-   "published": "2025-03-18T15:36:37Z",
-   "channelId": "UCkytgKNbJ0L1UuN1K27GAKA",
-   "short": false
-  },
-  {
    "id": "rgsIkZkflMw",
    "title": "2 Bytes Was Enough To Breach The US Treasury",
    "published": "2025-03-07T15:52:27Z",
    "channelId": "UCW6MNdOsqv2E9AjQkv9we7A",
-   "short": false
-  },
-  {
-   "id": "Z1uJmfCGpRE",
-   "title": "Using the AI-powered Shadow Repeater extension to discover SSTI variations with Burp Suite",
-   "published": "2025-02-20T13:28:27Z",
-   "channelId": "UCkytgKNbJ0L1UuN1K27GAKA",
    "short": false
   },
   {
