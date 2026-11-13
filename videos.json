@@ -1,7 +1,28 @@
 {
- "updated_at": "2026-11-12T20:07:54Z",
+ "updated_at": "2026-11-13T19:52:36Z",
  "source": "YouTube channel RSS feeds",
  "videos": [
+  {
+   "id": "-mhIHhRz2Ew",
+   "title": "ClickFix Data Staging",
+   "published": "2026-11-13T17:03:31Z",
+   "channelId": "UCVeW9qkBjo3zosnqUbG7CFw",
+   "short": true
+  },
+  {
+   "id": "jWD9lrXTmXE",
+   "title": "DEF CON CTF Walkthrough: Web Exploitation",
+   "published": "2026-11-13T17:00:32Z",
+   "channelId": "UC0ArlFuFYMpEewyRBzdLHiw",
+   "short": false
+  },
+  {
+   "id": "HtJqnEEH60I",
+   "title": "He dumped ALL patients' sensitive data",
+   "published": "2026-11-13T16:00:19Z",
+   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
+   "short": true
+  },
   {
    "id": "qCcrRh16Wgg",
    "title": "Bug bounty is still 80%+ profit if you're a dedicated hacker",
@@ -39,7 +60,7 @@
   },
   {
    "id": "_MSFGF0XI6Q",
-   "title": "Veterans Day Cybersecurity Livestream - Carlo Anez Mazurco",
+   "title": "Veterans Day Cybersecurity Livestream | PowerShell Course Preview",
    "published": "2026-11-12T06:03:33Z",
    "channelId": "UC0ArlFuFYMpEewyRBzdLHiw",
    "short": false
@@ -479,13 +500,6 @@
    "short": false
   },
   {
-   "id": "dHikgaV_OJ4",
-   "title": "malware.mob",
-   "published": "2026-11-02T20:30:34Z",
-   "channelId": "UCVeW9qkBjo3zosnqUbG7CFw",
-   "short": false
-  },
-  {
    "id": "yKBeKerDM7Q",
    "title": "I recreated a real MCP vulnerability and tested it with @snyksec’s Evo to see if it finds it. 👀 #ad",
    "published": "2026-11-02T16:00:06Z",
@@ -581,13 +595,6 @@
    "title": "Cloudflare is offering a $3,000 bounty for any unique PHO2SHELL bypass.",
    "published": "2026-10-28T18:22:37Z",
    "channelId": "UCCZDt7MuC3Hzs6IH4xODLBw",
-   "short": true
-  },
-  {
-   "id": "Vv2CHSZZPzU",
-   "title": "Is your hackbot burning money or actually making it?",
-   "published": "2026-10-28T15:00:26Z",
-   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
    "short": true
   },
   {
@@ -1205,13 +1212,6 @@
    "published": "2026-09-26T08:46:16Z",
    "channelId": "UCc8gr33-DyCZ6gAmqdcyzgA",
    "short": false
-  },
-  {
-   "id": "v1KblKrtVb8",
-   "title": "Is AppSec a Realistic First Cybersecurity Job?",
-   "published": "2026-09-22T17:00:18Z",
-   "channelId": "UC0ArlFuFYMpEewyRBzdLHiw",
-   "short": true
   },
   {
    "id": "3tP1HVwA5ks",
