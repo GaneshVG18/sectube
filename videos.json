@@ -1,7 +1,28 @@
 {
- "updated_at": "2026-11-13T19:52:36Z",
+ "updated_at": "2026-11-14T18:18:01Z",
  "source": "YouTube channel RSS feeds",
  "videos": [
+  {
+   "id": "smdOz8LQNC0",
+   "title": "HackTheBox - Nimbus",
+   "published": "2026-11-14T15:01:01Z",
+   "channelId": "UCa6eh7gCkpPo5XXUDfygQQA",
+   "short": false
+  },
+  {
+   "id": "bmoCcesBvI4",
+   "title": "Black Hat USA 2026 | AI and the Future of Cyber Defense Panel",
+   "published": "2026-11-13T23:02:56Z",
+   "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
+   "short": false
+  },
+  {
+   "id": "MspRSCAb6uI",
+   "title": "Black Hat USA 2026 | ChatMate: Remote Prompt Execution on AI Assistants through Sandbox Escaping",
+   "published": "2026-11-13T23:00:40Z",
+   "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
+   "short": false
+  },
   {
    "id": "-mhIHhRz2Ew",
    "title": "ClickFix Data Staging",
@@ -899,13 +920,6 @@
    "short": true
   },
   {
-   "id": "xrfiOisaxtQ",
-   "title": "Black Hat Stories | Learn From the Legends",
-   "published": "2026-10-13T14:00:10Z",
-   "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
-   "short": true
-  },
-  {
    "id": "OpftGw5vVms",
    "title": "Team Introduction Videos for the European Cyber Security Challenge",
    "published": "2026-10-13T06:02:55Z",
@@ -925,13 +939,6 @@
    "published": "2026-10-12T12:45:16Z",
    "channelId": "UCCZDt7MuC3Hzs6IH4xODLBw",
    "short": false
-  },
-  {
-   "id": "Mp4tU7qqJpI",
-   "title": "Black Hat Stories | The Black Hat Experience",
-   "published": "2026-10-11T14:00:15Z",
-   "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
-   "short": true
   },
   {
    "id": "XRqQjK345zo",
@@ -1336,13 +1343,6 @@
    "id": "-SLJWkn1tzo",
    "title": "HackTheBox Logging",
    "published": "2026-07-18T15:00:18Z",
-   "channelId": "UCa6eh7gCkpPo5XXUDfygQQA",
-   "short": false
-  },
-  {
-   "id": "C60J33Mbd5E",
-   "title": "HackTheBox - CCTV",
-   "published": "2026-07-11T15:12:22Z",
    "channelId": "UCa6eh7gCkpPo5XXUDfygQQA",
    "short": false
   },
