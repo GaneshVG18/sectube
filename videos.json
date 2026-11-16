@@ -1,7 +1,140 @@
 {
- "updated_at": "2026-11-14T18:18:01Z",
+ "updated_at": "2026-11-16T22:20:10Z",
  "source": "YouTube channel RSS feeds",
  "videos": [
+  {
+   "id": "-m7pPKq-f2o",
+   "title": "Minecraft Malware Research",
+   "published": "2026-11-16T18:22:21Z",
+   "channelId": "UCVeW9qkBjo3zosnqUbG7CFw",
+   "short": true
+  },
+  {
+   "id": "Rc_n9lrvREk",
+   "title": "We just hired the most chaotic host we could find xD",
+   "published": "2026-11-16T16:30:14Z",
+   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
+   "short": true
+  },
+  {
+   "id": "QycP3EBGEwo",
+   "title": "What Does \"AI Security\" Even Mean?",
+   "published": "2026-11-16T16:12:07Z",
+   "channelId": "UC6biysICWOJ-C3P4Tyeggzg",
+   "short": true
+  },
+  {
+   "id": "cbJs1GPIU50",
+   "title": "Is Cybersecurity Still Worth It in the AI Era?",
+   "published": "2026-11-16T13:40:11Z",
+   "channelId": "UCCZDt7MuC3Hzs6IH4xODLBw",
+   "short": false
+  },
+  {
+   "id": "4XeakBGzIzY",
+   "title": "OffensiveCon Trailer",
+   "published": "2026-11-16T11:30:31Z",
+   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
+   "short": false
+  },
+  {
+   "id": "Jw-yOwNMMNc",
+   "title": "OffensiveCon26 Tokyo - Keynote - James Redmond - One Law for the Machine War",
+   "published": "2026-11-16T11:25:17Z",
+   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
+   "short": false
+  },
+  {
+   "id": "kGJgPTpxDxk",
+   "title": "OffensiveCon26 Tokyo - Keynote - Oege de Moor - Recursively Self-Improving Security",
+   "published": "2026-11-16T08:25:46Z",
+   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
+   "short": false
+  },
+  {
+   "id": "TzKsSvq9yPA",
+   "title": "OffensiveCon26 Tokyo - Hao-Yu Yang and Yu-Ting Lin - Harvest Season for SLUB",
+   "published": "2026-11-16T08:25:41Z",
+   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
+   "short": false
+  },
+  {
+   "id": "FgX0LTAvLtU",
+   "title": "OffensiveCon26 Tokyo - Josh Maine - Guest to Host on Apple Virtualization",
+   "published": "2026-11-16T08:25:38Z",
+   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
+   "short": false
+  },
+  {
+   "id": "O3a9PpOoobg",
+   "title": "OffensiveCon26 Tokyo - Lei Lu and Ji'an Zhou - Breaking Out Through GPU Drivers",
+   "published": "2026-11-16T08:25:34Z",
+   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
+   "short": false
+  },
+  {
+   "id": "O-giCEZrinI",
+   "title": "OffensiveCon26 Tokyo - Luke McLaren - Discovering iOS 0-Days with Muse Spark",
+   "published": "2026-11-16T08:25:31Z",
+   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
+   "short": false
+  },
+  {
+   "id": "ZAfPb5HIYIU",
+   "title": "OffensiveCon26 Tokyo - Nils Ole Timm - Cracking Open the Closed Door",
+   "published": "2026-11-16T08:25:27Z",
+   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
+   "short": false
+  },
+  {
+   "id": "bV-uX_VeUrU",
+   "title": "OffensiveCon26 Tokyo - Philipp Mao and Leo Larigauderie - Netflix and Pwn",
+   "published": "2026-11-16T08:25:22Z",
+   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
+   "short": false
+  },
+  {
+   "id": "OWoOypjUrBg",
+   "title": "OffensiveCon26 Tokyo - Stephen Röttger and Carl Smith - 100 V8 Exploits: Lessons from v8CTF",
+   "published": "2026-11-16T08:25:18Z",
+   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
+   "short": false
+  },
+  {
+   "id": "AC6u578XzQM",
+   "title": "OffensiveCon26 Tokyo - Yunpeng Tian and Gongming Wang - Breaking NTFS at Scale",
+   "published": "2026-11-16T08:25:13Z",
+   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
+   "short": false
+  },
+  {
+   "id": "WXaJIZBLUkw",
+   "title": "OffensiveCon26 Tokyo - Saifeldeen Aziz - Telegram's Zero-Click Attack Surface",
+   "published": "2026-11-16T08:25:06Z",
+   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
+   "short": false
+  },
+  {
+   "id": "IuciLWyMgbA",
+   "title": "OffensiveCon26 Tokyo - Andres Luksenberg - Crashing the Crashpad",
+   "published": "2026-11-16T08:25:02Z",
+   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
+   "short": false
+  },
+  {
+   "id": "KwMib1LjJ-Q",
+   "title": "OffensiveCon26 Tokyo - Quang L - Escaping the Chrome Renderer Sandbox via Skia",
+   "published": "2026-11-16T08:24:59Z",
+   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
+   "short": false
+  },
+  {
+   "id": "j0pyPkVyEzk",
+   "title": "OffensiveCon26 Tokyo - Gergely Kalman - SmorgasBored: Are You Tired of macOS Logic Bugs Yet",
+   "published": "2026-11-16T08:24:54Z",
+   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
+   "short": false
+  },
   {
    "id": "smdOz8LQNC0",
    "title": "HackTheBox - Nimbus",
@@ -507,13 +640,6 @@
    "short": true
   },
   {
-   "id": "ncYAPgzjD90",
-   "title": "AI made a Malware Viewer in Minecraft",
-   "published": "2026-11-03T14:00:05Z",
-   "channelId": "UCVeW9qkBjo3zosnqUbG7CFw",
-   "short": false
-  },
-  {
    "id": "1HU_OsgzBQ0",
    "title": "Black Hat Europe 2026 | Welcome Video",
    "published": "2026-11-02T21:44:30Z",
@@ -591,13 +717,6 @@
    "short": false
   },
   {
-   "id": "9_H7E4cpXPw",
-   "title": "A reliable model outperforms the creative ones",
-   "published": "2026-10-29T15:30:01Z",
-   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
-   "short": true
-  },
-  {
    "id": "7h7FYGF7tuQ",
    "title": "Reverse Engineering Proves What We Suspected All Along..",
    "published": "2026-10-29T13:52:38Z",
@@ -634,14 +753,14 @@
   },
   {
    "id": "o5BzV11g3UI",
-   "title": "Securing the Ship of Theseus Diogo Sousa",
+   "title": "AppSec Days PT -Securing the Ship of Theseus Diogo Sousa",
    "published": "2026-10-27T13:14:21Z",
    "channelId": "UCe8j61ABYDuPTdtjItD2veA",
    "short": false
   },
   {
    "id": "zroXcBDsal4",
-   "title": "Threat Modeling for AI Systems Adrien O Hana",
+   "title": "AppSec Days PT - Threat Modeling for AI Systems Adrien O Hana",
    "published": "2026-10-27T13:14:16Z",
    "channelId": "UCe8j61ABYDuPTdtjItD2veA",
    "short": false
@@ -655,7 +774,7 @@
   },
   {
    "id": "TL7kwMFvWL0",
-   "title": "DrogonSec Building a Parallelized, Multi Engine Security Scanner for DevSecOps Filipi Pires",
+   "title": "AppSec PT DrogonSec Building a Parallelized Multi Engine Security Scanner for DevSecOps Filipi Pires",
    "published": "2026-10-27T12:53:55Z",
    "channelId": "UCe8j61ABYDuPTdtjItD2veA",
    "short": false
@@ -1137,13 +1256,6 @@
    "short": true
   },
   {
-   "id": "RkIQ0E9_3EQ",
-   "title": "Google built PageBreak and it found 500 XSS on Google’s own application. That kinda hurts 😭",
-   "published": "2026-09-30T13:00:21Z",
-   "channelId": "UCCZDt7MuC3Hzs6IH4xODLBw",
-   "short": true
-  },
-  {
    "id": "4PgkRlg0Z50",
    "title": "Can Developers Switch to AppSec Roles?",
    "published": "2026-09-29T16:00:10Z",
@@ -1176,13 +1288,6 @@
    "title": "OpenAI paid $6,500 for this bug! #shorts",
    "published": "2026-09-27T21:54:50Z",
    "channelId": "UClcE-kVhqyiHCcjYwcpfj9w",
-   "short": true
-  },
-  {
-   "id": "tb3Z15ia3xc",
-   "title": "VIM is Performative #linux #vim #chatgpt #coding",
-   "published": "2026-09-27T13:15:46Z",
-   "channelId": "UC6biysICWOJ-C3P4Tyeggzg",
    "short": true
   },
   {
@@ -1379,111 +1484,6 @@
    "title": "Where have I gone?",
    "published": "2026-06-24T13:24:10Z",
    "channelId": "UCZDyl7G-Lq-EMVO8PfDFp9g",
-   "short": false
-  },
-  {
-   "id": "xmhxPZvUtXU",
-   "title": "OffensiveCon26 - Paul Gerste and Moritz Sanft",
-   "published": "2026-05-28T13:38:08Z",
-   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
-   "short": false
-  },
-  {
-   "id": "iMZJE2d7ZMU",
-   "title": "OffensiveCon26 - NiNi and Xiaobye",
-   "published": "2026-05-28T13:38:08Z",
-   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
-   "short": false
-  },
-  {
-   "id": "ssmNEPS3s1U",
-   "title": "OffensiveCon26 - Zhongquan Li - Design-Based Vulnerabilities on macOS: Oops, Not a One-Shot Fix",
-   "published": "2026-05-28T13:38:07Z",
-   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
-   "short": false
-  },
-  {
-   "id": "jpB_b6KGCoA",
-   "title": "OffensiveCon26 - Natalie Silvanovich and Seth Jenkins - A 0-Click Exploit Chain For The Pixel 10",
-   "published": "2026-05-28T13:38:07Z",
-   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
-   "short": false
-  },
-  {
-   "id": "d3nfJL86jrc",
-   "title": "OffensiveCon26 - Ivan Fratric - Beyond the Limits of Site Isolation",
-   "published": "2026-05-28T13:38:07Z",
-   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
-   "short": false
-  },
-  {
-   "id": "bYwE8NA5hqY",
-   "title": "OffensiveCon26 - sakura and R1nd0",
-   "published": "2026-05-28T13:38:07Z",
-   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
-   "short": false
-  },
-  {
-   "id": "UcAcCsEg7PA",
-   "title": "OffensiveCon26 - Benoît Sevens",
-   "published": "2026-05-28T13:38:07Z",
-   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
-   "short": false
-  },
-  {
-   "id": "KbKzze2MhgM",
-   "title": "OffensiveCon26 - Kaufi - From Samsung Account to RCE: A Journey to a Remote 0-Click Capability",
-   "published": "2026-05-28T13:38:05Z",
-   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
-   "short": false
-  },
-  {
-   "id": "Pbdt5DQ6hAQ",
-   "title": "OffensiveCon26 - Ollie Whitehouse - Keynote",
-   "published": "2026-05-28T13:38:04Z",
-   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
-   "short": false
-  },
-  {
-   "id": "KGbGU_MK9hY",
-   "title": "OffensiveCon26 - Xingyu Jin & Martijn Bogaard",
-   "published": "2026-05-28T13:38:04Z",
-   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
-   "short": false
-  },
-  {
-   "id": "I1-D_sck6to",
-   "title": "OffensiveCon26 - Cristofaro Mune - Exploiting QSEE Vulnerabilities In Google's Wifi Pro",
-   "published": "2026-05-28T13:38:04Z",
-   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
-   "short": false
-  },
-  {
-   "id": "FikuvF6Ot_E",
-   "title": "OffensiveCon26 - Philipp Mao and Rokhaya Fall - Exploiting Android Apps with Counterfeit Art",
-   "published": "2026-05-28T13:38:04Z",
-   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
-   "short": false
-  },
-  {
-   "id": "E8l4FE4B6bU",
-   "title": "OffensiveCon26 - Atlan Pinabel - Navigating the MTE Landscape: iOS Memory Protection Deep Dive",
-   "published": "2026-05-28T13:38:04Z",
-   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
-   "short": false
-  },
-  {
-   "id": "60_tbA4K0I8",
-   "title": "OffensiveCon26 - Chris and Benedict",
-   "published": "2026-05-28T13:38:04Z",
-   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
-   "short": false
-  },
-  {
-   "id": "2ytQDhLSDMg",
-   "title": "OffensiveCon26 - Erik Egsgard - IRON GIANT: When The Vault Becomes The Victim",
-   "published": "2026-05-28T13:38:04Z",
-   "channelId": "UCMNvAtT4ak2azKNk6UlB1QQ",
    "short": false
   },
   {
