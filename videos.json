@@ -1,7 +1,14 @@
 {
- "updated_at": "2026-11-16T22:20:10Z",
+ "updated_at": "2026-11-17T08:08:15Z",
  "source": "YouTube channel RSS feeds",
  "videos": [
+  {
+   "id": "5HpphRnlzxk",
+   "title": "Black Hat USA 2026 | LANJack: Turning Ads into IoT Recon Tools",
+   "published": "2026-11-16T23:10:02Z",
+   "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
+   "short": false
+  },
   {
    "id": "-m7pPKq-f2o",
    "title": "Minecraft Malware Research",
@@ -973,13 +980,6 @@
    "title": "the fridge situation is insane",
    "published": "2026-10-19T14:43:24Z",
    "channelId": "UC6biysICWOJ-C3P4Tyeggzg",
-   "short": false
-  },
-  {
-   "id": "uQ3miEp_0Wo",
-   "title": "Black Hat Stories | Chris Gaun, VP of Product Marketing at Island.io",
-   "published": "2026-10-19T13:45:38Z",
-   "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
    "short": false
   },
   {
