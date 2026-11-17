@@ -1,7 +1,35 @@
 {
- "updated_at": "2026-11-17T08:08:15Z",
+ "updated_at": "2026-11-17T21:05:49Z",
  "source": "YouTube channel RSS feeds",
  "videos": [
+  {
+   "id": "cYX4KntqKOM",
+   "title": "8 Resume Red Flags to Fix!",
+   "published": "2026-11-17T17:00:11Z",
+   "channelId": "UC0ArlFuFYMpEewyRBzdLHiw",
+   "short": true
+  },
+  {
+   "id": "S_zJ7hAFZtk",
+   "title": "Ads' Critical AWS Dispatcher RCE",
+   "published": "2026-11-17T16:15:38Z",
+   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
+   "short": true
+  },
+  {
+   "id": "L1wDoS3QXqY",
+   "title": "OpenAI Found 1,000 Linux kernel bugs",
+   "published": "2026-11-17T14:23:38Z",
+   "channelId": "UC6biysICWOJ-C3P4Tyeggzg",
+   "short": true
+  },
+  {
+   "id": "A8H06BYjEq4",
+   "title": "Black Hat USA 2026 | Threat Modeling LLMs: The PHANTOM-B model",
+   "published": "2026-11-17T14:00:03Z",
+   "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
+   "short": false
+  },
   {
    "id": "5HpphRnlzxk",
    "title": "Black Hat USA 2026 | LANJack: Turning Ads into IoT Recon Tools",
@@ -710,13 +738,6 @@
    "short": false
   },
   {
-   "id": "9svS9Cj40UU",
-   "title": "Great new features in CAIDO!",
-   "published": "2026-10-30T15:45:21Z",
-   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
-   "short": true
-  },
-  {
    "id": "06Qjai8RQKw",
    "title": "Is curl Getting Harder to Hack? Daniel Stenberg on AI vs. Decades of Hardening",
    "published": "2026-10-30T08:49:27Z",
@@ -960,13 +981,6 @@
    "published": "2026-10-19T20:20:19Z",
    "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
    "short": false
-  },
-  {
-   "id": "V8Uku6dk5d0",
-   "title": "Black Hat Stories | Chris Gaun, VP of Product Marketing at Island.io",
-   "published": "2026-10-19T17:04:56Z",
-   "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
-   "short": true
   },
   {
    "id": "N3RIC0_fO0g",
@@ -1256,25 +1270,11 @@
    "short": true
   },
   {
-   "id": "4PgkRlg0Z50",
-   "title": "Can Developers Switch to AppSec Roles?",
-   "published": "2026-09-29T16:00:10Z",
-   "channelId": "UC0ArlFuFYMpEewyRBzdLHiw",
-   "short": true
-  },
-  {
    "id": "BpOesb7yYJ4",
    "title": "Using Claude 5 to write an exploit against Discourse #shorts",
    "published": "2026-09-29T13:57:38Z",
    "channelId": "UClcE-kVhqyiHCcjYwcpfj9w",
    "short": true
-  },
-  {
-   "id": "9-2CSJC114k",
-   "title": "the change is finally coming",
-   "published": "2026-09-29T13:16:52Z",
-   "channelId": "UC6biysICWOJ-C3P4Tyeggzg",
-   "short": false
   },
   {
    "id": "xn5mIBaRzWw",
