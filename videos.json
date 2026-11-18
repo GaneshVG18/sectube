@@ -1,7 +1,35 @@
 {
- "updated_at": "2026-11-18T07:42:34Z",
+ "updated_at": "2026-11-18T20:43:46Z",
  "source": "YouTube channel RSS feeds",
  "videos": [
+  {
+   "id": "1RTj_-s9Nec",
+   "title": "Mark it as \"informational\" today but a critical will bite you in the future",
+   "published": "2026-11-18T16:15:13Z",
+   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
+   "short": true
+  },
+  {
+   "id": "J9PVAxAVC7Q",
+   "title": "Is This Bug Pattern Even Possible Anymore?",
+   "published": "2026-11-18T16:00:36Z",
+   "channelId": "UC6biysICWOJ-C3P4Tyeggzg",
+   "short": true
+  },
+  {
+   "id": "bERmUEJhWFM",
+   "title": "Black Hat USA 2026 | Can AI Do Novel Security Research? Meet the HTTP Terminator",
+   "published": "2026-11-18T15:15:36Z",
+   "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
+   "short": false
+  },
+  {
+   "id": "d0Gbgucbzb0",
+   "title": "What Even Is Reverse Engineering?",
+   "published": "2026-11-18T13:22:44Z",
+   "channelId": "UC6biysICWOJ-C3P4Tyeggzg",
+   "short": true
+  },
   {
    "id": "RVrBXty_9pI",
    "title": "#NahamCon2026: Virtual Hacking Conference | Day 1",
@@ -724,13 +752,6 @@
    "short": false
   },
   {
-   "id": "cHK_Aq0USlw",
-   "title": "Scariest Bugs of 2026 - Halloween Special (Ep.198)",
-   "published": "2026-10-31T10:00:36Z",
-   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
-   "short": false
-  },
-  {
    "id": "vSQHZLnV29M",
    "title": "AI in Offensive Security: Discovery, Validation, and Autonomy",
    "published": "2026-10-31T05:31:47Z",
@@ -983,13 +1004,6 @@
    "short": true
   },
   {
-   "id": "1PZ8fu1v14Q",
-   "title": "The AI Reality. The Human Response. | Black Hat Europe 2026, London",
-   "published": "2026-10-19T20:20:19Z",
-   "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
-   "short": false
-  },
-  {
    "id": "N3RIC0_fO0g",
    "title": "Self-efficacy in the age of AI",
    "published": "2026-10-19T15:10:03Z",
@@ -1186,13 +1200,6 @@
    "short": false
   },
   {
-   "id": "H9jby9JX1b0",
-   "title": "Massive corporate hack got worse",
-   "published": "2026-10-07T13:56:56Z",
-   "channelId": "UC6biysICWOJ-C3P4Tyeggzg",
-   "short": false
-  },
-  {
    "id": "qg4pksnIcJk",
    "title": "What Do Security Professionals Look for in Code?",
    "published": "2026-10-06T16:00:11Z",
@@ -1240,13 +1247,6 @@
    "published": "2026-10-02T10:00:27Z",
    "channelId": "UClcE-kVhqyiHCcjYwcpfj9w",
    "short": true
-  },
-  {
-   "id": "to9jid5ZY6c",
-   "title": "Massive corporate hack",
-   "published": "2026-10-01T14:27:43Z",
-   "channelId": "UC6biysICWOJ-C3P4Tyeggzg",
-   "short": false
   },
   {
    "id": "wLOv0ixcHCw",
