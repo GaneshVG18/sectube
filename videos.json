@@ -1,7 +1,49 @@
 {
- "updated_at": "2026-11-18T20:43:46Z",
+ "updated_at": "2026-11-19T20:48:15Z",
  "source": "YouTube channel RSS feeds",
  "videos": [
+  {
+   "id": "eoE8WQALJrc",
+   "title": "Minecraft Malware Lab",
+   "published": "2026-11-19T16:50:42Z",
+   "channelId": "UCVeW9qkBjo3zosnqUbG7CFw",
+   "short": true
+  },
+  {
+   "id": "ipEYB-rxOjk",
+   "title": "Getting SUED by a company you hacked really is a hacker horror story",
+   "published": "2026-11-19T16:00:13Z",
+   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
+   "short": true
+  },
+  {
+   "id": "ZjcyRr-f5Pc",
+   "title": "java situation is insane",
+   "published": "2026-11-19T15:46:15Z",
+   "channelId": "UC6biysICWOJ-C3P4Tyeggzg",
+   "short": false
+  },
+  {
+   "id": "aVA8L_6N1xc",
+   "title": "Are microVMs Better Than Docker Containers?",
+   "published": "2026-11-19T15:37:24Z",
+   "channelId": "UC6biysICWOJ-C3P4Tyeggzg",
+   "short": true
+  },
+  {
+   "id": "G-pFmwvADbY",
+   "title": "Black Hat USA 2026 | GPUBreach: Privilege Escalation Attacks on GPUs Using Rowhammer",
+   "published": "2026-11-19T15:00:06Z",
+   "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
+   "short": false
+  },
+  {
+   "id": "Tpu0xskSV-E",
+   "title": "The bomb inside your inbox w/ Gareth Heyes (Ep. 201)",
+   "published": "2026-11-19T11:00:07Z",
+   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
+   "short": false
+  },
   {
    "id": "1RTj_-s9Nec",
    "title": "Mark it as \"informational\" today but a critical will bite you in the future",
@@ -682,13 +724,6 @@
    "short": true
   },
   {
-   "id": "Yu1qqCF5beA",
-   "title": "Version Jumping in PHP",
-   "published": "2026-11-03T19:00:28Z",
-   "channelId": "UCVeW9qkBjo3zosnqUbG7CFw",
-   "short": true
-  },
-  {
    "id": "y_lw2P0393k",
    "title": "SecTor 2026 | Using Claude or Codex? We Can Hack Your App?",
    "published": "2026-11-03T18:06:32Z",
@@ -703,13 +738,6 @@
    "short": true
   },
   {
-   "id": "AcwbRaDV9HQ",
-   "title": "Threat modelling still requires HUMAN reasoning",
-   "published": "2026-11-03T14:30:10Z",
-   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
-   "short": true
-  },
-  {
    "id": "1HU_OsgzBQ0",
    "title": "Black Hat Europe 2026 | Welcome Video",
    "published": "2026-11-02T21:44:30Z",
@@ -721,13 +749,6 @@
    "title": "I recreated a real MCP vulnerability and tested it with @snyksec’s Evo to see if it finds it. 👀 #ad",
    "published": "2026-11-02T16:00:06Z",
    "channelId": "UCCZDt7MuC3Hzs6IH4xODLBw",
-   "short": true
-  },
-  {
-   "id": "XU_13sxT3WM",
-   "title": "Is running LOCAL AI for you?",
-   "published": "2026-11-02T15:30:30Z",
-   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
    "short": true
   },
   {
@@ -997,13 +1018,6 @@
    "short": true
   },
   {
-   "id": "NAPi2gWNZP4",
-   "title": "Black Hat Stories | First Time Exhibitor",
-   "published": "2026-10-20T14:00:32Z",
-   "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
-   "short": true
-  },
-  {
    "id": "N3RIC0_fO0g",
    "title": "Self-efficacy in the age of AI",
    "published": "2026-10-19T15:10:03Z",
@@ -1050,13 +1064,6 @@
    "title": "Purple Team Incident Adventure | TCM Community Live | Cybersecurity",
    "published": "2026-10-15T05:10:04Z",
    "channelId": "UC0ArlFuFYMpEewyRBzdLHiw",
-   "short": false
-  },
-  {
-   "id": "W5DT8jpcBCk",
-   "title": "Did AI Really Reverse Engineer Every Adobe App?",
-   "published": "2026-10-14T13:00:36Z",
-   "channelId": "UC6biysICWOJ-C3P4Tyeggzg",
    "short": false
   },
   {
@@ -1121,13 +1128,6 @@
    "published": "2026-10-09T19:28:17Z",
    "channelId": "UCQN2DsjnYH60SFBIA6IkNwg",
    "short": true
-  },
-  {
-   "id": "wIe3eDfGKUo",
-   "title": "Has AI Solved Reverse Engineering?",
-   "published": "2026-10-09T16:56:43Z",
-   "channelId": "UC6biysICWOJ-C3P4Tyeggzg",
-   "short": false
   },
   {
    "id": "uID6Ne48ENo",
