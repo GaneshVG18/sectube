@@ -1,7 +1,49 @@
 {
- "updated_at": "2026-11-19T20:48:15Z",
+ "updated_at": "2026-11-20T20:32:44Z",
  "source": "YouTube channel RSS feeds",
  "videos": [
+  {
+   "id": "8gAZuA67QA8",
+   "title": "CSE466 - Week 13 - Kernel Security",
+   "published": "2026-11-20T19:05:09Z",
+   "channelId": "UCBaWwFw7KmCN8YlfX4ERYKg",
+   "short": false
+  },
+  {
+   "id": "b5ioSYJOWcg",
+   "title": "OWASP Global Board Meeting - October 2026",
+   "published": "2026-11-20T19:05:05Z",
+   "channelId": "UCe8j61ABYDuPTdtjItD2veA",
+   "short": false
+  },
+  {
+   "id": "nQqu3TmnKvI",
+   "title": "How Are We Supposed to Secure AI Generated Code? Check out Evo by Snyk @Snyksec #ad #aisecurity",
+   "published": "2026-11-20T18:03:00Z",
+   "channelId": "UC6biysICWOJ-C3P4Tyeggzg",
+   "short": true
+  },
+  {
+   "id": "sFuzabpwL7o",
+   "title": "the nginx situation is crazy",
+   "published": "2026-11-20T17:19:19Z",
+   "channelId": "UC6biysICWOJ-C3P4Tyeggzg",
+   "short": false
+  },
+  {
+   "id": "a5_vjGkrJYY",
+   "title": "Black Hat USA 2026 | Breaking Multi-Tenancy Over and Over, and What We Can Learn From This",
+   "published": "2026-11-20T16:15:31Z",
+   "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
+   "short": false
+  },
+  {
+   "id": "28dM2Df2yu4",
+   "title": "We live for chains like this!",
+   "published": "2026-11-20T15:30:12Z",
+   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
+   "short": true
+  },
   {
    "id": "eoE8WQALJrc",
    "title": "Minecraft Malware Lab",
@@ -661,13 +703,6 @@
    "short": true
   },
   {
-   "id": "V-tBmoF_qY4",
-   "title": "Criminals don’t care about your scope",
-   "published": "2026-11-04T16:15:01Z",
-   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
-   "short": true
-  },
-  {
    "id": "CyuHd7wOAkM",
    "title": "Attacks Are Accelerating",
    "published": "2026-11-04T15:43:40Z",
@@ -948,13 +983,6 @@
    "short": false
   },
   {
-   "id": "M62XjvmqGUQ",
-   "title": "Jean Ramirez",
-   "published": "2026-10-24T21:59:18Z",
-   "channelId": "UCe8j61ABYDuPTdtjItD2veA",
-   "short": false
-  },
-  {
    "id": "c_ioEqX7NFE",
    "title": "HackTheBox - Checkpoint",
    "published": "2026-10-24T15:07:01Z",
@@ -1004,13 +1032,6 @@
    "short": true
   },
   {
-   "id": "Muk6elQ_qcs",
-   "title": "Black Hat Europe 2026 | Hear From Our Sponsors",
-   "published": "2026-10-20T19:07:00Z",
-   "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
-   "short": false
-  },
-  {
    "id": "Tx82oBkxWko",
    "title": "What Does a GRC Cybersecurity Professional Do?",
    "published": "2026-10-20T16:00:08Z",
@@ -1025,13 +1046,6 @@
    "short": false
   },
   {
-   "id": "JqljXzMrSGk",
-   "title": "the fridge situation is insane",
-   "published": "2026-10-19T14:43:24Z",
-   "channelId": "UC6biysICWOJ-C3P4Tyeggzg",
-   "short": false
-  },
-  {
    "id": "QY-fWrU5Mp4",
    "title": "HackerOne Limited Me to 3 Reports After 12 Years",
    "published": "2026-10-19T12:45:04Z",
@@ -1043,13 +1057,6 @@
    "title": "HackTheBox - Eloquia",
    "published": "2026-10-17T15:00:22Z",
    "channelId": "UCa6eh7gCkpPo5XXUDfygQQA",
-   "short": false
-  },
-  {
-   "id": "qFEuYUfauNY",
-   "title": "I Tested The Viral Reverse Engineering Repo",
-   "published": "2026-10-16T16:52:23Z",
-   "channelId": "UC6biysICWOJ-C3P4Tyeggzg",
    "short": false
   },
   {
@@ -1700,13 +1707,6 @@
    "id": "Aer1pkbee-Y",
    "title": "pwn.talk — 011 — Advent of PWN!",
    "published": "2025-11-06T20:12:21Z",
-   "channelId": "UCBaWwFw7KmCN8YlfX4ERYKg",
-   "short": false
-  },
-  {
-   "id": "KSQMdIPQ2Ik",
-   "title": "pwn.talk — 010 — Contributing to pwn.college",
-   "published": "2025-11-06T20:10:58Z",
    "channelId": "UCBaWwFw7KmCN8YlfX4ERYKg",
    "short": false
   },
