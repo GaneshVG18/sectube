@@ -1,7 +1,35 @@
 {
- "updated_at": "2026-11-21T07:25:32Z",
+ "updated_at": "2026-11-21T19:29:28Z",
  "source": "YouTube channel RSS feeds",
  "videos": [
+  {
+   "id": "nwoE89BB4c8",
+   "title": "#NahamCon2026: Virtual Hacking Conference | Day 2",
+   "published": "2026-11-21T17:03:50Z",
+   "channelId": "UCCZDt7MuC3Hzs6IH4xODLBw",
+   "short": false
+  },
+  {
+   "id": "Xh7JqRLyYc8",
+   "title": "Black Hat USA 2026 | Anatomy of a Takedown: Inside the Operation That Broke LockBit",
+   "published": "2026-11-21T16:00:15Z",
+   "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
+   "short": false
+  },
+  {
+   "id": "Oj-vfKqtoik",
+   "title": "Minecraft Security Sandbox",
+   "published": "2026-11-21T15:01:31Z",
+   "channelId": "UCVeW9qkBjo3zosnqUbG7CFw",
+   "short": true
+  },
+  {
+   "id": "w2A52-dhO9E",
+   "title": "HackTheBox - PingPong",
+   "published": "2026-11-21T15:00:18Z",
+   "channelId": "UCa6eh7gCkpPo5XXUDfygQQA",
+   "short": false
+  },
   {
    "id": "8gAZuA67QA8",
    "title": "CSE466 - Week 13 - Kernel Security",
@@ -710,13 +738,6 @@
    "short": true
   },
   {
-   "id": "AtGmZZrQHJo",
-   "title": "Microsoft Edge Did ANOTHER Awesome Thing",
-   "published": "2026-11-04T14:00:23Z",
-   "channelId": "UCVeW9qkBjo3zosnqUbG7CFw",
-   "short": false
-  },
-  {
    "id": "7SCMgzQzsx8",
    "title": "Understanding the Blast Radius of a Cryptographic Change",
    "published": "2026-11-04T03:14:37Z",
@@ -1018,13 +1039,6 @@
    "short": false
   },
   {
-   "id": "eO0FZm_xeSo",
-   "title": "Black Hat Stories | Island.io",
-   "published": "2026-10-21T14:45:28Z",
-   "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
-   "short": true
-  },
-  {
    "id": "Tx82oBkxWko",
    "title": "What Does a GRC Cybersecurity Professional Do?",
    "published": "2026-10-20T16:00:08Z",
@@ -1242,13 +1256,6 @@
    "short": false
   },
   {
-   "id": "u-4byGPXE20",
-   "title": "Facebook’s marketplace is just getting weirder especially with AI in the mix. #ai #meta #facebook",
-   "published": "2026-10-02T14:00:04Z",
-   "channelId": "UCCZDt7MuC3Hzs6IH4xODLBw",
-   "short": true
-  },
-  {
    "id": "U2Tlfmfu6pw",
    "title": "OpenAI has shifted threat models #shorts",
    "published": "2026-10-02T10:00:27Z",
@@ -1449,13 +1456,6 @@
    "title": "CyberLab Con 26 Track 1 (I'm live at 2PM UTC!)",
    "published": "2026-07-19T03:01:52Z",
    "channelId": "UCPiN9NPjIer8Do9gUFxKv7A",
-   "short": false
-  },
-  {
-   "id": "-SLJWkn1tzo",
-   "title": "HackTheBox Logging",
-   "published": "2026-07-18T15:00:18Z",
-   "channelId": "UCa6eh7gCkpPo5XXUDfygQQA",
    "short": false
   },
   {
