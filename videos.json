@@ -1,7 +1,14 @@
 {
- "updated_at": "2026-11-22T07:06:25Z",
+ "updated_at": "2026-11-22T19:50:58Z",
  "source": "YouTube channel RSS feeds",
  "videos": [
+  {
+   "id": "T2nC96cVpwQ",
+   "title": "Black Hat USA 2026 | Trusted Enough to Run: Breaking AI Agents in Official Workflows",
+   "published": "2026-11-22T16:45:07Z",
+   "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
+   "short": false
+  },
   {
    "id": "Xh7JqRLyYc8",
    "title": "Black Hat USA 2026 | Anatomy of a Takedown: Inside the Operation That Broke LockBit",
@@ -778,13 +785,6 @@
    "published": "2026-11-03T16:49:13Z",
    "channelId": "UCCZDt7MuC3Hzs6IH4xODLBw",
    "short": true
-  },
-  {
-   "id": "1HU_OsgzBQ0",
-   "title": "Black Hat Europe 2026 | Welcome Video",
-   "published": "2026-11-02T21:44:30Z",
-   "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
-   "short": false
   },
   {
    "id": "yKBeKerDM7Q",
