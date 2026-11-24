@@ -1,7 +1,49 @@
 {
- "updated_at": "2026-11-24T10:06:22Z",
+ "updated_at": "2026-11-24T22:36:50Z",
  "source": "YouTube channel RSS feeds",
  "videos": [
+  {
+   "id": "rfUO_MeTyv0",
+   "title": "OWASP Global Board of Directors - November 2026 Board Meeting",
+   "published": "2026-11-24T21:45:53Z",
+   "channelId": "UCe8j61ABYDuPTdtjItD2veA",
+   "short": false
+  },
+  {
+   "id": "e_KSkH2dceA",
+   "title": "October 26 Financial Repoprts",
+   "published": "2026-11-24T17:18:14Z",
+   "channelId": "UCe8j61ABYDuPTdtjItD2veA",
+   "short": false
+  },
+  {
+   "id": "MBL9H0IfHQI",
+   "title": "6 Cybersecurity Interview Mistakes to Avoid!",
+   "published": "2026-11-24T16:54:26Z",
+   "channelId": "UC0ArlFuFYMpEewyRBzdLHiw",
+   "short": true
+  },
+  {
+   "id": "HtlAZphgVG8",
+   "title": "Minecraft Security Chicken",
+   "published": "2026-11-24T16:52:49Z",
+   "channelId": "UCVeW9qkBjo3zosnqUbG7CFw",
+   "short": true
+  },
+  {
+   "id": "mXcoiOrCv0c",
+   "title": "I Turned a HostAPD Injection Into an Arbitrary File Read",
+   "published": "2026-11-24T16:30:16Z",
+   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
+   "short": true
+  },
+  {
+   "id": "3YsX4aAhmQU",
+   "title": "I Tried to Find a Missing Person Using Only His Vacation Photos",
+   "published": "2026-11-24T13:45:36Z",
+   "channelId": "UCCZDt7MuC3Hzs6IH4xODLBw",
+   "short": false
+  },
   {
    "id": "ynae-AO55ck",
    "title": "Keynote: The Agent Always Says Yes. How it feels to be a meat proxy | Nullcon Berlin 2026",
@@ -703,13 +745,6 @@
    "short": false
   },
   {
-   "id": "rQ9xnCmrbXU",
-   "title": "DeepSeek can find some great vulns too!",
-   "published": "2026-11-05T16:45:10Z",
-   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
-   "short": true
-  },
-  {
    "id": "MUjHP-M5_wY",
    "title": "DHCP 26 - All Cars Are Broadcasting - Die Public-Key-Infrastruktur der (Daten)Autobahnen",
    "published": "2026-11-05T16:31:13Z",
@@ -777,13 +812,6 @@
    "title": "Meta paid a $300,000 bounty for this",
    "published": "2026-11-04T18:31:37Z",
    "channelId": "UCCZDt7MuC3Hzs6IH4xODLBw",
-   "short": true
-  },
-  {
-   "id": "CyuHd7wOAkM",
-   "title": "Attacks Are Accelerating",
-   "published": "2026-11-04T15:43:40Z",
-   "channelId": "UCVeW9qkBjo3zosnqUbG7CFw",
    "short": true
   },
   {
@@ -1021,20 +1049,6 @@
    "id": "aKGhr6NX2G4",
    "title": "The AI Surge in Bug Bounty: Insights from Decathlon triage team",
    "published": "2026-10-24T22:34:09Z",
-   "channelId": "UCe8j61ABYDuPTdtjItD2veA",
-   "short": false
-  },
-  {
-   "id": "7MpyuesrS_w",
-   "title": "JWT : maîtrisez la sécurité des jetons stateless côté serveur",
-   "published": "2026-10-24T22:20:44Z",
-   "channelId": "UCe8j61ABYDuPTdtjItD2veA",
-   "short": false
-  },
-  {
-   "id": "c4re99VRgss",
-   "title": "260924 OWASP Matteo Dora",
-   "published": "2026-10-24T22:15:14Z",
    "channelId": "UCe8j61ABYDuPTdtjItD2veA",
    "short": false
   },
@@ -1298,13 +1312,6 @@
    "short": false
   },
   {
-   "id": "u-4byGPXE20",
-   "title": "Facebook’s marketplace is just getting weirder especially with AI in the mix. #ai #meta #facebook",
-   "published": "2026-10-02T14:00:04Z",
-   "channelId": "UCCZDt7MuC3Hzs6IH4xODLBw",
-   "short": true
-  },
-  {
    "id": "U2Tlfmfu6pw",
    "title": "OpenAI has shifted threat models #shorts",
    "published": "2026-10-02T10:00:27Z",
@@ -1317,13 +1324,6 @@
    "published": "2026-10-01T14:03:30Z",
    "channelId": "UClcE-kVhqyiHCcjYwcpfj9w",
    "short": true
-  },
-  {
-   "id": "E4Fl5GTxiFY",
-   "title": "Real Folks of Cyber | Marshall Livingston | DITL",
-   "published": "2026-10-01T06:01:21Z",
-   "channelId": "UC0ArlFuFYMpEewyRBzdLHiw",
-   "short": false
   },
   {
    "id": "XrKrCGSeNNo",
