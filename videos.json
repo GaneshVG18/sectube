@@ -1,7 +1,42 @@
 {
- "updated_at": "2026-11-24T00:04:24Z",
+ "updated_at": "2026-11-24T10:06:22Z",
  "source": "YouTube channel RSS feeds",
  "videos": [
+  {
+   "id": "ynae-AO55ck",
+   "title": "Keynote: The Agent Always Says Yes. How it feels to be a meat proxy | Nullcon Berlin 2026",
+   "published": "2026-11-24T09:14:54Z",
+   "channelId": "UCI85JnsJEiKnkGiGBkqvZXw",
+   "short": false
+  },
+  {
+   "id": "X-ppGXJBtDQ",
+   "title": "Talk: Taking Control of GRUB: Building a Linux UEFI Bootkit | Nullcon Berlin 2026",
+   "published": "2026-11-24T09:11:13Z",
+   "channelId": "UCI85JnsJEiKnkGiGBkqvZXw",
+   "short": false
+  },
+  {
+   "id": "G1-BPf8wvMQ",
+   "title": "Talk: Hypervisor? IDS? A silent Head Unit takeover with physical impact on | Nullcon Berlin 2026",
+   "published": "2026-11-24T09:07:45Z",
+   "channelId": "UCI85JnsJEiKnkGiGBkqvZXw",
+   "short": false
+  },
+  {
+   "id": "OUmoSTySnQ8",
+   "title": "Talk: Pay 2 Win: What Anti-Cheat Catches That Your EDR Doesn’t | Nullcon Berlin 2026",
+   "published": "2026-11-24T09:04:08Z",
+   "channelId": "UCI85JnsJEiKnkGiGBkqvZXw",
+   "short": false
+  },
+  {
+   "id": "vZjnUh-4dqA",
+   "title": "Talk: From Phone Farms to Cloud Phones: Industrialised Abuse at Mobile Scale | Nullcon Berlin 2026",
+   "published": "2026-11-24T08:55:39Z",
+   "channelId": "UCI85JnsJEiKnkGiGBkqvZXw",
+   "short": false
+  },
   {
    "id": "9-QQsKxuLpY",
    "title": "Stealthy hack to bypass ASLR protection",
@@ -1557,46 +1592,11 @@
    "short": false
   },
   {
-   "id": "rhMIsZl-1QA",
-   "title": "The Future Of Augmented Appsec Integrating Llm Reasoning Into Burp Workflows With Vista",
-   "published": "2026-05-26T14:11:31Z",
-   "channelId": "UCI85JnsJEiKnkGiGBkqvZXw",
-   "short": false
-  },
-  {
-   "id": "rUQiuFVvT9g",
-   "title": "The Machine With Many Faces Identity Impersonation In Spiffe Spire",
-   "published": "2026-05-26T14:10:54Z",
-   "channelId": "UCI85JnsJEiKnkGiGBkqvZXw",
-   "short": false
-  },
-  {
-   "id": "gjDw1V3KOPk",
-   "title": "The Meltdown Moment Cve 2025 21533 A Speculative Store Bypass In Oracle Virtualbox",
-   "published": "2026-05-26T14:10:04Z",
-   "channelId": "UCI85JnsJEiKnkGiGBkqvZXw",
-   "short": false
-  },
-  {
    "id": "jrGY_E7Ncr4",
    "title": "☔️🌅",
    "published": "2026-05-23T19:42:45Z",
    "channelId": "UCQN2DsjnYH60SFBIA6IkNwg",
    "short": true
-  },
-  {
-   "id": "JiGVMsyj_J0",
-   "title": "The Soap Effect Breaking Security Assumptions In Real World Systems",
-   "published": "2026-05-19T15:55:24Z",
-   "channelId": "UCI85JnsJEiKnkGiGBkqvZXw",
-   "short": false
-  },
-  {
-   "id": "go8poeCzenU",
-   "title": "Volatility Meets Ai Transforming Linux And Windows Memory Forensics For Modern Threats",
-   "published": "2026-05-19T15:54:16Z",
-   "channelId": "UCI85JnsJEiKnkGiGBkqvZXw",
-   "short": false
   },
   {
    "id": "OqJPklaKJos",
