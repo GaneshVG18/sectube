@@ -1,7 +1,35 @@
 {
- "updated_at": "2026-11-22T19:50:58Z",
+ "updated_at": "2026-11-24T00:04:24Z",
  "source": "YouTube channel RSS feeds",
  "videos": [
+  {
+   "id": "9-QQsKxuLpY",
+   "title": "Stealthy hack to bypass ASLR protection",
+   "published": "2026-11-23T16:45:31Z",
+   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
+   "short": true
+  },
+  {
+   "id": "a8X3SZR7qig",
+   "title": "Black Hat USA 2026 | Beam Me Up, Luke: A Review of Teleport Attack Scenarios",
+   "published": "2026-11-23T15:45:38Z",
+   "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
+   "short": false
+  },
+  {
+   "id": "p0ZlaR-K5Xc",
+   "title": "Reversing HEIF files, One Box at a Time // libheif",
+   "published": "2026-11-23T15:38:22Z",
+   "channelId": "UClcE-kVhqyiHCcjYwcpfj9w",
+   "short": false
+  },
+  {
+   "id": "GASiu5gnv0k",
+   "title": "Builders & Breakers | Securing AI Agents: Prompt Injection & Sandboxing with Donato Capitella",
+   "published": "2026-11-23T13:37:38Z",
+   "channelId": "UCQN2DsjnYH60SFBIA6IkNwg",
+   "short": false
+  },
   {
    "id": "T2nC96cVpwQ",
    "title": "Black Hat USA 2026 | Trusted Enough to Run: Breaking AI Agents in Official Workflows",
@@ -668,13 +696,6 @@
    "short": false
   },
   {
-   "id": "hPFMHj-xGls",
-   "title": "Hardware LHE Rehash (Ep. 199)",
-   "published": "2026-11-05T11:00:28Z",
-   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
-   "short": false
-  },
-  {
    "id": "CFoihHrELJ0",
    "title": "Introducing Burp AT at enterprise scale: deeper testing across your applications",
    "published": "2026-11-05T11:00:02Z",
@@ -773,13 +794,6 @@
    "short": true
   },
   {
-   "id": "y_lw2P0393k",
-   "title": "SecTor 2026 | Using Claude or Codex? We Can Hack Your App?",
-   "published": "2026-11-03T18:06:32Z",
-   "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
-   "short": false
-  },
-  {
    "id": "znEcvInY2Yk",
    "title": "OpenAI paid $5000 for this account takeover vulnerability that could also leak your private chats",
    "published": "2026-11-03T16:49:13Z",
@@ -830,7 +844,7 @@
   },
   {
    "id": "06Qjai8RQKw",
-   "title": "Is curl Getting Harder to Hack? Daniel Stenberg on AI vs. Decades of Hardening",
+   "title": "Builders & Breakers | No more AI SLOP reports - Daniel Stenberg on AI reports",
    "published": "2026-10-30T08:49:27Z",
    "channelId": "UCQN2DsjnYH60SFBIA6IkNwg",
    "short": false
@@ -1324,13 +1338,6 @@
    "published": "2026-09-26T15:00:08Z",
    "channelId": "UCa6eh7gCkpPo5XXUDfygQQA",
    "short": false
-  },
-  {
-   "id": "dPcLZE9RG28",
-   "title": "Hacking OpenAI shortly after the Hugging Face incident.",
-   "published": "2026-09-26T13:04:27Z",
-   "channelId": "UClcE-kVhqyiHCcjYwcpfj9w",
-   "short": true
   },
   {
    "id": "WWQRirWAKCE",
@@ -2029,13 +2036,6 @@
    "id": "uKXUhA2Oycc",
    "title": "What an experience! Getting a Christmas tree from our own piece of land. #movingupnorth!",
    "published": "2023-12-24T19:51:01Z",
-   "channelId": "UCQN2DsjnYH60SFBIA6IkNwg",
-   "short": false
-  },
-  {
-   "id": "h3-GuExi_Z0",
-   "title": "Had to much GLÖGG and lost my camera during - 13371122 - Intigriti + Visma",
-   "published": "2023-12-18T09:22:51Z",
    "channelId": "UCQN2DsjnYH60SFBIA6IkNwg",
    "short": false
   },
