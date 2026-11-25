@@ -1,7 +1,28 @@
 {
- "updated_at": "2026-11-24T22:36:50Z",
+ "updated_at": "2026-11-25T21:50:17Z",
  "source": "YouTube channel RSS feeds",
  "videos": [
+  {
+   "id": "DgUdPQr4AfQ",
+   "title": "Black Hat USA 2026 | Detection Engineering Beyond the Inbox",
+   "published": "2026-11-25T20:17:36Z",
+   "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
+   "short": false
+  },
+  {
+   "id": "htKWOg1Sqtw",
+   "title": "Real Folks of Cyber | Cyber with Nelia | DITL",
+   "published": "2026-11-25T17:00:11Z",
+   "channelId": "UC0ArlFuFYMpEewyRBzdLHiw",
+   "short": false
+  },
+  {
+   "id": "tKS6SBbFW0I",
+   "title": "This prompt unlocks Cyber GPT Pro Max",
+   "published": "2026-11-25T16:15:38Z",
+   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
+   "short": true
+  },
   {
    "id": "rfUO_MeTyv0",
    "title": "OWASP Global Board of Directors - November 2026 Board Meeting",
@@ -696,13 +717,6 @@
    "short": true
   },
   {
-   "id": "44yMRi9dwEU",
-   "title": "This is how gr3pme leverages smaller AI models to hack more efficiently",
-   "published": "2026-11-06T16:30:08Z",
-   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
-   "short": true
-  },
-  {
    "id": "ErB1SRcksDc",
    "title": "SSH situation is insane",
    "published": "2026-11-06T14:09:43Z",
@@ -841,13 +855,6 @@
    "published": "2026-11-04T00:10:53Z",
    "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
    "short": false
-  },
-  {
-   "id": "G01Xd9ogFOQ",
-   "title": "Black Hat Podcasts: RE:BRIEF Trailer",
-   "published": "2026-11-03T22:08:27Z",
-   "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
-   "short": true
   },
   {
    "id": "6zG9mziUg84",
@@ -1295,13 +1302,6 @@
    "title": "HackTheBox - Reactor",
    "published": "2026-10-03T15:00:18Z",
    "channelId": "UCa6eh7gCkpPo5XXUDfygQQA",
-   "short": false
-  },
-  {
-   "id": "vB7-NI2xszs",
-   "title": "DEF CON CTF Walkthrough: Packet Analysis",
-   "published": "2026-10-02T16:00:38Z",
-   "channelId": "UC0ArlFuFYMpEewyRBzdLHiw",
    "short": false
   },
   {
