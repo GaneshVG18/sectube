@@ -1,7 +1,28 @@
 {
- "updated_at": "2026-11-26T08:37:14Z",
+ "updated_at": "2026-11-26T21:43:58Z",
  "source": "YouTube channel RSS feeds",
  "videos": [
+  {
+   "id": "gMDOzUcjMt0",
+   "title": "Black Hat USA 2026 | Hunting LANDFALL: From Overlooked Images to State-Linked Mobile Spyware",
+   "published": "2026-11-26T17:00:23Z",
+   "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
+   "short": false
+  },
+  {
+   "id": "4hzKNgyOYP0",
+   "title": "Sometimes we just need to brute force it irl",
+   "published": "2026-11-26T16:00:39Z",
+   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
+   "short": true
+  },
+  {
+   "id": "UEE0sOgX5WY",
+   "title": "Getting Started in Bug Bounty (Ep. 202)",
+   "published": "2026-11-26T11:00:08Z",
+   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
+   "short": false
+  },
   {
    "id": "htKWOg1Sqtw",
    "title": "Real Folks of Cyber | Cyber with Nelia | DITL",
@@ -528,13 +549,6 @@
    "short": true
   },
   {
-   "id": "PrcPQzp3kSQ",
-   "title": "Do you create these action protocols for you agents?",
-   "published": "2026-11-10T16:45:17Z",
-   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
-   "short": true
-  },
-  {
    "id": "O-YpYSHK34Q",
    "title": "Why Your Company Needs an AI Policy (Ask a CISO)",
    "published": "2026-11-10T16:00:34Z",
@@ -547,13 +561,6 @@
    "published": "2026-11-10T13:54:16Z",
    "channelId": "UCVeW9qkBjo3zosnqUbG7CFw",
    "short": false
-  },
-  {
-   "id": "ShrtUdoXj0I",
-   "title": "CSS injection can be a lot more useful than you think",
-   "published": "2026-11-09T16:45:00Z",
-   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
-   "short": true
   },
   {
    "id": "yydGYEnRKzg",
@@ -846,13 +853,6 @@
    "id": "QHb5UPJGmHY",
    "title": "Eliminating the Blind Spots Between Humans, Machines, and AI",
    "published": "2026-11-04T03:12:30Z",
-   "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
-   "short": false
-  },
-  {
-   "id": "J4EgJcmvVws",
-   "title": "AI, Resilience & Trust: Securing the Autonomous Enterprise",
-   "published": "2026-11-04T00:10:53Z",
    "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
    "short": false
   },
