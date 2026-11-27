@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-26T21:43:58Z",
+ "updated_at": "2026-11-27T08:48:53Z",
  "source": "YouTube channel RSS feeds",
  "videos": [
   {
@@ -137,7 +137,7 @@
   },
   {
    "id": "p0ZlaR-K5Xc",
-   "title": "Reversing HEIF files, One Box at a Time // libheif",
+   "title": "Reversing the HEIC iPhone Photo Format // libheif",
    "published": "2026-11-23T15:38:22Z",
    "channelId": "UClcE-kVhqyiHCcjYwcpfj9w",
    "short": false
