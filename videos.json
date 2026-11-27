@@ -1,7 +1,35 @@
 {
- "updated_at": "2026-11-27T08:48:53Z",
+ "updated_at": "2026-11-27T21:28:06Z",
  "source": "YouTube channel RSS feeds",
  "videos": [
+  {
+   "id": "miTbC0c4ZCI",
+   "title": "Vulnerability Disclosure: Validating AI Findings and Assessing CVE Scoring",
+   "published": "2026-11-27T18:38:26Z",
+   "channelId": "UCc8gr33-DyCZ6gAmqdcyzgA",
+   "short": false
+  },
+  {
+   "id": "7mwF_lMEB98",
+   "title": "Tips For Command Line Log Analysis",
+   "published": "2026-11-27T17:00:03Z",
+   "channelId": "UC0ArlFuFYMpEewyRBzdLHiw",
+   "short": false
+  },
+  {
+   "id": "ghkJ5aERzG4",
+   "title": "Have you ever found an RCESrf? 🏄‍♂️",
+   "published": "2026-11-27T16:00:00Z",
+   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
+   "short": true
+  },
+  {
+   "id": "4WAqCqWb-SY",
+   "title": "Black Hat USA 2026 | Beyond Seccomp: Breaking and Rebuilding Syscall Filtering for Microservices",
+   "published": "2026-11-27T15:30:39Z",
+   "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
+   "short": false
+  },
   {
    "id": "gMDOzUcjMt0",
    "title": "Black Hat USA 2026 | Hunting LANDFALL: From Overlooked Images to State-Linked Mobile Spyware",
@@ -542,13 +570,6 @@
    "short": false
   },
   {
-   "id": "rRFtMuEdmY8",
-   "title": "\"Make it sound like I wrote this!\"",
-   "published": "2026-11-11T15:15:01Z",
-   "channelId": "UC6zbKG1pqq2do-_oa9QFliA",
-   "short": true
-  },
-  {
    "id": "O-YpYSHK34Q",
    "title": "Why Your Company Needs an AI Policy (Ask a CISO)",
    "published": "2026-11-10T16:00:34Z",
@@ -846,13 +867,6 @@
    "id": "7SCMgzQzsx8",
    "title": "Understanding the Blast Radius of a Cryptographic Change",
    "published": "2026-11-04T03:14:37Z",
-   "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
-   "short": false
-  },
-  {
-   "id": "QHb5UPJGmHY",
-   "title": "Eliminating the Blind Spots Between Humans, Machines, and AI",
-   "published": "2026-11-04T03:12:30Z",
    "channelId": "UCJ6q9Ie29ajGqKApbLqfBOg",
    "short": false
   },
@@ -1277,13 +1291,6 @@
    "short": false
   },
   {
-   "id": "qg4pksnIcJk",
-   "title": "What Do Security Professionals Look for in Code?",
-   "published": "2026-10-06T16:00:11Z",
-   "channelId": "UC0ArlFuFYMpEewyRBzdLHiw",
-   "short": true
-  },
-  {
    "id": "uoYslOzW7Sk",
    "title": "I Gave Claude Access to My Hacking Traffic",
    "published": "2026-10-05T12:45:15Z",
@@ -1511,13 +1518,6 @@
    "id": "ayaINQn7K08",
    "title": "Human Expertise Still Matters AI Vulnerability Discovery Triage and Patching",
    "published": "2026-07-11T03:05:08Z",
-   "channelId": "UCc8gr33-DyCZ6gAmqdcyzgA",
-   "short": false
-  },
-  {
-   "id": "T0Cl6HXB1no",
-   "title": "Building the Kill Chain: From Initial Access to Kernel Research",
-   "published": "2026-07-02T19:08:13Z",
    "channelId": "UCc8gr33-DyCZ6gAmqdcyzgA",
    "short": false
   },
